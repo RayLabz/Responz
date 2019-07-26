@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Response (Java):jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Response__Java__jar</output-path>
+    <root id="archive" name="Response (Java).jar">
+      <element id="module-output" name="Response (Java)" />
+    </root>
+  </artifact>
+</component>
