@@ -23,3 +23,43 @@ body {
 main {
     flex: 1 0 auto;
 }
+
+.justify {
+    text-align: justify;
+}
+
+.dropdown-content {
+    top: 65px !important;
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+    color: #D32F2F !important;
+}
+
+a {
+    color: #D32F2F;
+}
+
+.code {
+    font-family: Consolas, sans-serif;
+}
+
+.rounded-tops {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.rounded-bottoms {
+    border-radius: 0 0 5px 5px;
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+    color: white !important;
+}
+
+.tabs .tab a {
+    color: #AAA !important;
+}
+
+.tabs .indicator {
+    background-color: white !important;
+}

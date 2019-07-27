@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+    <link rel="shortcut icon" type="image/png" href="images/response.png"/>
+    <title>Response - PaNickApps</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+
+<nav>
+    <div class="nav-wrapper red darken-2">
+        <ul class="right hide-on-med-and-down">
+            <li><a href="_index.html">Home</a></li>
+            <li><a href="documentation.html">Documentation</a></li>
+            <li><a href="guide.html">Guide</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main>
+
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+
+            <h3>Guide - Response library</h3>
+
+            <h4>Download and import</h4>
+
+            <div class="java">
+                <h5>Java</h5>
+
+                <p class="justify">To begin,
+                    <a href="https://github.com/panickapps/Response/raw/master/java/jars/Response%201.0.0.jar"
+                       class="red-text text-darken-2">download the Response library for Java</a>.</p>
+
+                <p class="justify">Import the downloaded .jar file into your project. If you are not sure how to do this, perform a Google search for the following term:</p>
+
+                <p class="justify">
+                    <span style="font-style: italic;">"How to import jar file in <b>*THE NAME OF YOUR IDE*"</b></span>,
+                    replaced by the name of the IDE you are using, for example "How to import jar file in Eclipse/Android Studio/IntelliJ" etc.
+                </p>
+            </div>
+
+            <!--TODO Link classes to documentation-->
+
+            <h5>Components of a response</h5>
+
+            <p class="justify">
+                All responses contain four internal components, inherited from a base class called <span class="code">Response</span>.
+                These are:
+            </p>
+
+            <ul class="browser-default">
+                <li><span class="code">status</span> - is either "ok" or "error" and is used to indicate the result of the request.</li>
+                <li><span class="code">title</span> - contains a title that very briefly describes the result of the request.</li>
+                <li><span class="code">message</span> - contains a message to the client describing the result in more detail.</li>
+                <li><span class="code">timestamp</span> - contains formatted date-time that indicates the time the request was processed.</li>
+                <li><span class="code grey-text">data</span> - (Optional) contains data returned related to the client's request.</li>
+            </ul>
+
+            <h5>Using pre-defined responses</h5>
+
+            <p class="justify">
+                The library offers two existing responses that extend the <span class="code">Response</span> base class
+                by implicitly specifying the status. These are the <span class="code">SuccessResponse</span>,
+                which indicates that the user's request has been executed successfully (status = ok) and
+                <span class="code">ErrorResponse</span>, which indicates that an error occured when trying the
+                execute the request (status = error).
+            </p>
+
+            <div class="row">
+                <div class="col s12 red darken-2 rounded-tops">
+                    <ul class="tabs red darken-2">
+                        <li class="tab col s3"><a href="#java">Java</a></li>
+                        <li class="tab col s3 disabled"><a href="#php">PHP</a></li>
+                        <li class="tab col s3 disabled"><a href="#js">JavaScript</a></li>
+                    </ul>
+                </div>
+                <div id="java" class="col s12 grey lighten-2 rounded-bottoms">Test 1</div>
+                <div id="php" class="col s12 grey lighten-2 rounded-bottoms">Test 2</div>
+                <div id="js" class="col s12 grey lighten-2 rounded-bottoms">Test 3</div>
+            </div>
+
+
+            <br/><br/>
+        </div>
+    </div>
+
+</main>
+
+<footer class="page-footer red darken-3">
+    <div class="container">
+        <div class="center light">Made by <a class="orange-text text-lighten-3" href="http://www.panickapps.com">PaNickApps</a></div>
+        <br/>
+    </div>
+</footer>
+
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="js/materialize.js"></script>
+<script src="js/init.js"></script>
+
+</body>
+</html>
