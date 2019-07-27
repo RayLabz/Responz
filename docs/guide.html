@@ -11,7 +11,7 @@
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
-<body>
+<body onload="loadLanguage();">
 
 <nav>
     <div class="nav-wrapper red darken-2">
@@ -30,7 +30,23 @@
 
             <h3>Guide - Response library</h3>
 
-            <h4>Download and import</h4>
+            <h4>Contents</h4>
+
+            <ol>
+                <li><a href="#download">Download and import</a></li>
+                <li><a href="#components">Components of a response</a></li>
+                <li><a href="#predef">Using pre-defined responses</a></li>
+                <li><a href="#encoding">Encoding responses to JSON format</a></li>
+                <li><a href="#morepredef">More pre-defined responses</a></li>
+                <li><a href="#data">Including data in responses</a></li>
+                <li><a href="#lists">Adding lists</a></li>
+                <li><a href="#custom">Creating custom responses</a></li>
+                <li><a href="#decoding">Decoding JSON text into Response objects</a></li>
+            </ol>
+
+            <hr/>
+
+            <h5 id="download">Download and import</h5>
 
             <div class="java">
                 <h5>Java</h5>
@@ -47,9 +63,26 @@
                 </p>
             </div>
 
+            <div class="php">
+                <h5>PHP</h5>
+
+                <!--TODO PHP Instructions-->
+                <p>PHP Instructions</p>
+
+            </div>
+
+            <div class="js">
+                <h5>JavaScript</h5>
+
+                <!--TODO JS Instructions-->
+                <p>JS Instructions</p>
+
+            </div>
+
             <!--TODO Link classes to documentation-->
 
-            <h5>Components of a response</h5>
+            <hr/>
+            <h5 id="components">Components of a response</h5>
 
             <p class="justify">
                 All responses contain four internal components, inherited from a base class called <span class="code">Response</span>.
@@ -61,32 +94,459 @@
                 <li><span class="code">title</span> - contains a title that very briefly describes the result of the request.</li>
                 <li><span class="code">message</span> - contains a message to the client describing the result in more detail.</li>
                 <li><span class="code">timestamp</span> - contains formatted date-time that indicates the time the request was processed.</li>
-                <li><span class="code grey-text">data</span> - (Optional) contains data returned related to the client's request.</li>
+                <li><span class="code">data</span> - (Optional) contains data returned related to the client's request.</li>
             </ul>
 
-            <h5>Using pre-defined responses</h5>
+            <!--------------------------------------------------------------------------------------------------------->
+            <hr/>
+
+            <h5 id="predef">Using pre-defined responses</h5>
 
             <p class="justify">
                 The library offers two existing responses that extend the <span class="code">Response</span> base class
                 by implicitly specifying the status. These are the <span class="code">SuccessResponse</span>,
                 which indicates that the user's request has been executed successfully (status = ok) and
                 <span class="code">ErrorResponse</span>, which indicates that an error occured when trying the
-                execute the request (status = error).
+                execute the request (status = error). We can instantiate these two types of responses by passing the title
+                and message in the constructor:
             </p>
 
             <div class="row">
                 <div class="col s12 red darken-2 rounded-tops">
                     <ul class="tabs red darken-2">
-                        <li class="tab col s3"><a href="#java">Java</a></li>
-                        <li class="tab col s3 disabled"><a href="#php">PHP</a></li>
-                        <li class="tab col s3 disabled"><a href="#js">JavaScript</a></li>
+                        <li class="tab col s3"><a href="#java-1">Java</a></li>
+                        <li class="tab col s3 disabled"><a href="#php-1">PHP</a></li>
+                        <li class="tab col s3 disabled"><a href="#js-1">JavaScript</a></li>
                     </ul>
                 </div>
-                <div id="java" class="col s12 grey lighten-2 rounded-bottoms">Test 1</div>
-                <div id="php" class="col s12 grey lighten-2 rounded-bottoms">Test 2</div>
-                <div id="js" class="col s12 grey lighten-2 rounded-bottoms">Test 3</div>
+                <div id="java-1" class="col s12 grey lighten-2 rounded-bottoms java">
+                    <pre class="prettyprint lang-java">
+//A generic response:
+Response response = new Response(ResponseStatus.OK, "My title", "My message");
+
+//A SuccessResponse:
+SuccessResponse successResponse = new SuccessResponse("Success", "This is a successful message.");
+
+//A new ErrorResponse:
+ErrorResponse errorResponse = new ErrorResponse("Error", "This is an error message.");</pre>
+                </div>
+                <div id="php-1" class="col s12 grey lighten-2 rounded-bottoms php">
+                    Test 2
+                </div>
+                <div id="js-1" class="col s12 grey lighten-2 rounded-bottoms js">
+                    Test 3
+                </div>
             </div>
 
+            <!--------------------------------------------------------------------------------------------------------->
+            <hr/>
+
+            <h5 id="encoding">Encoding responses to JSON format</h5>
+
+            <p class="justify">
+                You can encode a Response object into a JSON string using the <span class="code">toJSON()</span> method:
+            </p>
+
+            <div class="row">
+                <div class="col s12 red darken-2 rounded-tops">
+                    <ul class="tabs red darken-2">
+                        <li class="tab col s3"><a href="#java-2">Java</a></li>
+                        <li class="tab col s3 disabled"><a href="#php-2">PHP</a></li>
+                        <li class="tab col s3 disabled"><a href="#js-2">JavaScript</a></li>
+                    </ul>
+                </div>
+                <div id="java-2" class="col s12 grey lighten-2 rounded-bottoms java">
+                    <pre class="prettyprint lang-java">
+//Create response:
+SuccessResponse successResponse = new SuccessResponse("Success", "This is a successful message.");
+
+//Encode a response to a JSON string:
+String responseJSON = successResponse.toJSON();</pre>
+                </div>
+                <div id="php-2" class="col s12 grey lighten-2 rounded-bottoms php">
+                    Test 2
+                </div>
+                <div id="js-2" class="col s12 grey lighten-2 rounded-bottoms js">
+                    Test 3
+                </div>
+            </div>
+
+            <p>This should produce the following JSON text:</p>
+            <span class="code">{"status":"OK","title":"Success","message":"This is a successful message.","datetime":"2019-07-28 00:20:29"}</span>
+
+            <!--------------------------------------------------------------------------------------------------------->
+            <hr/>
+
+            <h5 id="morepredef">More pre-defined responses</h5>
+
+            <p class="justify">
+                There are some additional Response classes you can use. These are based on common responses that can be
+                found in a large variety of projects.
+            </p>
+
+            <ul class="browser-default">
+                <li>
+                    <span class="code">InvalidParameterResponse</span> - Commonly used when an invalid parameter is submitted in the request.
+                For example, an integer was expected, but a string was found.
+                </li>
+                <li>
+                    <span class="code">MissingParameterResponse</span> - Commonly used when a parameter was expected but not provided.
+                </li>
+                <li>
+                    <span class="code">SecurityResponse</span> - Commonly used when a user makes a request that requires authentication/authorization
+                    and is denied access.
+                </li>
+                <li>
+                    <span class="code">UnknownFailureResponse</span> - Commonly used when something has gone wrong on the server side. This
+                    is usually used in conjunction with exceptions or other fault-dealing mechanisms.
+                </li>
+            </ul>
+
+            <p class="justify">For more information about pre-defined responses, check out the <a href="documentation.html">Documentation</a>.</p>
+
+            <div class="row">
+                <div class="col s12 red darken-2 rounded-tops">
+                    <ul class="tabs red darken-2">
+                        <li class="tab col s3"><a href="#java-3">Java</a></li>
+                        <li class="tab col s3 disabled"><a href="#php-3">PHP</a></li>
+                        <li class="tab col s3 disabled"><a href="#js-3">JavaScript</a></li>
+                    </ul>
+                </div>
+                <div id="java-3" class="col s12 grey lighten-2 rounded-bottoms java">
+                    <pre class="prettyprint lang-java">
+InvalidParameterResponse invalidParameterResponse = new InvalidParameterResponse("myParam", "An integer, found string.");
+
+MissingParameterResponse missingParameterResponse = new MissingParameterResponse("myParam");
+
+SecurityResponse securityResponse = new SecurityResponse();
+
+UnknownFailureResponse unknownFailureResponse = new UnknownFailureResponse("A failure has occurred, please contact the administrator.");
+                    </pre>
+                </div>
+                <div id="php-3" class="col s12 grey lighten-2 rounded-bottoms php">
+                    Test 2
+                </div>
+                <div id="js-3" class="col s12 grey lighten-2 rounded-bottoms js">
+                    Test 3
+                </div>
+            </div>
+
+            <!--------------------------------------------------------------------------------------------------------->
+            <hr/>
+
+            <h5 id="data">Including data in responses</h5>
+
+            <p class="justify">
+                Each response has a <span class="code">data</span> member of type <span class="code">JsonObject</span>
+                which allows insertion of an arbitrary number of other objects. This member is initially null and <b>will
+            therefore not be printed in any encoded JSON text</b>.
+            </p>
+
+            <h6>Creating data objects:</h6>
+
+            <p class="justify">You can directly add raw data (Strings, Characters, Numbers and Booleans) using the <span class="code">addProperty()</span> method:</p>
+
+            <div class="row">
+                <div class="col s12 red darken-2 rounded-tops">
+                    <ul class="tabs red darken-2">
+                        <li class="tab col s3"><a href="#java-4">Java</a></li>
+                        <li class="tab col s3 disabled"><a href="#php-4">PHP</a></li>
+                        <li class="tab col s3 disabled"><a href="#js-4">JavaScript</a></li>
+                    </ul>
+                </div>
+                <div id="java-4" class="col s12 grey lighten-2 rounded-bottoms java">
+                    <pre class="prettyprint lang-java">
+//Create a data object:
+JsonObject data = new JsonObject();
+
+//You can enter key-value pairs for Strings, Characters, Numbers and Booleans using the addProperty method:
+data.addProperty("property1", 2);
+data.addProperty("property2", "hello");
+data.addProperty("property3", true);
+data.addProperty("property4", 3.5);
+                    </pre>
+                </div>
+                <div id="php-4" class="col s12 grey lighten-2 rounded-bottoms php">
+                    Test 2
+                </div>
+                <div id="js-4" class="col s12 grey lighten-2 rounded-bottoms js">
+                    Test 3
+                </div>
+            </div>
+
+            <p class="justify">You can also add your custom objects by converting them using GSON's
+                <span class="code">toJsonTree()</span> method:
+            </p>
+
+            <div class="row">
+                <div class="col s12 red darken-2 rounded-tops">
+                    <ul class="tabs red darken-2">
+                        <li class="tab col s3"><a href="#java-5">Java</a></li>
+                        <li class="tab col s3 disabled"><a href="#php-5">PHP</a></li>
+                        <li class="tab col s3 disabled"><a href="#js-5">JavaScript</a></li>
+                    </ul>
+                </div>
+                <div id="java-5" class="col s12 grey lighten-2 rounded-bottoms java">
+                    <pre class="prettyprint lang-java">
+//Example custom class:
+class Person {
+
+    private String firstname;
+    private String lastname;
+    private int age;
+
+    public Person(String firstname, String lastname, int age) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.age = age;
+    }
+
+    public String getFirstname() {
+        return firstname;
+    }
+
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
+    }
+
+    public String getLastname() {
+        return lastname;
+    }
+
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+}
+
+//Create a new object of the custom class:
+Person person = new Person("John", "Doe", 50);
+
+//Create an instance of Gson:
+final Gson gson = new Gson();
+
+//Use the toJsonTree method to convert the object to a JsonElement and add it to the response:
+data.add("person", gson.toJsonTree(person));
+                    </pre>
+                </div>
+                <div id="php-5" class="col s12 grey lighten-2 rounded-bottoms php">
+                    Test 2
+                </div>
+                <div id="js-5" class="col s12 grey lighten-2 rounded-bottoms js">
+                    Test 3
+                </div>
+            </div>
+
+
+            <p class="justify">You can then insert data into a response by providing it in the constructor:</p>
+
+            <div class="row">
+                <div class="col s12 red darken-2 rounded-tops">
+                    <ul class="tabs red darken-2">
+                        <li class="tab col s3"><a href="#java-6">Java</a></li>
+                        <li class="tab col s3 disabled"><a href="#php-6">PHP</a></li>
+                        <li class="tab col s3 disabled"><a href="#js-6">JavaScript</a></li>
+                    </ul>
+                </div>
+                <div id="java-6" class="col s12 grey lighten-2 rounded-bottoms java">
+                    <pre class="prettyprint lang-java">
+Response response = new Response(ResponseStatus.OK, "My title", "My message", data);
+                    </pre>
+                </div>
+                <div id="php-6" class="col s12 grey lighten-2 rounded-bottoms php">
+                    Test 2
+                </div>
+                <div id="js-6" class="col s12 grey lighten-2 rounded-bottoms js">
+                    Test 3
+                </div>
+            </div>
+
+            <p class="justify">
+                Alternatively, you can use the <span class="code">setData()</span> method after a response is initialized:
+            </p>
+
+            <div class="row">
+                <div class="col s12 red darken-2 rounded-tops">
+                    <ul class="tabs red darken-2">
+                        <li class="tab col s3"><a href="#java-7">Java</a></li>
+                        <li class="tab col s3 disabled"><a href="#php-7">PHP</a></li>
+                        <li class="tab col s3 disabled"><a href="#js-7">JavaScript</a></li>
+                    </ul>
+                </div>
+                <div id="java-7" class="col s12 grey lighten-2 rounded-bottoms java">
+                    <pre class="prettyprint lang-java">
+response.setData(data);
+                    </pre>
+                </div>
+                <div id="php-7" class="col s12 grey lighten-2 rounded-bottoms php">
+                    Test 2
+                </div>
+                <div id="js-7" class="col s12 grey lighten-2 rounded-bottoms js">
+                    Test 3
+                </div>
+            </div>
+
+            <!--------------------------------------------------------------------------------------------------------->
+            <hr/>
+
+            <h5 id="lists">Adding lists</h5>
+
+            <p class="justify">You can also add lists using the <span class="code">listToJsonArray()</span> method in
+                <span class="code">JsonUtil</span>:</p>
+
+            <div class="row">
+                <div class="col s12 red darken-2 rounded-tops">
+                    <ul class="tabs red darken-2">
+                        <li class="tab col s3"><a href="#java-8">Java</a></li>
+                        <li class="tab col s3 disabled"><a href="#php-8">PHP</a></li>
+                        <li class="tab col s3 disabled"><a href="#js-8">JavaScript</a></li>
+                    </ul>
+                </div>
+                <div id="java-8" class="col s12 grey lighten-2 rounded-bottoms java">
+                    <pre class="prettyprint lang-java">
+//Create an array list of numbers:
+ArrayList&lt;Integer&gt; numbers = new ArrayList<>();
+numbers.add(1);
+numbers.add(2);
+numbers.add(3);
+numbers.add(4);
+numbers.add(5);
+
+//Create the data object:
+JsonObject data = new JsonObject();
+
+//Convert the list using the listToJsonArray() method in JsonUtil and add it to the data object:
+data.add("numbers", JsonUtil.listToJsonArray(numbers));
+                    </pre>
+                </div>
+                <div id="php-8" class="col s12 grey lighten-2 rounded-bottoms php">
+                    Test 2
+                </div>
+                <div id="js-8" class="col s12 grey lighten-2 rounded-bottoms js">
+                    Test 3
+                </div>
+            </div>
+
+            <!--------------------------------------------------------------------------------------------------------->
+            <hr/>
+
+            <h5 id="custom">Creating custom responses</h5>
+
+            <p class="justify">You can create your own custom response by extending the <span class="code">Response</span>,
+                <span class="code">SuccessResponse</span> or <span class="code">ErrorResponse</span> classes:
+            </p>
+
+            <div class="row">
+                <div class="col s12 red darken-2 rounded-tops">
+                    <ul class="tabs red darken-2">
+                        <li class="tab col s3"><a href="#java-9">Java</a></li>
+                        <li class="tab col s3 disabled"><a href="#php-9">PHP</a></li>
+                        <li class="tab col s3 disabled"><a href="#js-9">JavaScript</a></li>
+                    </ul>
+                </div>
+                <div id="java-9" class="col s12 grey lighten-2 rounded-bottoms java">
+                    <pre class="prettyprint lang-java">
+public class NumbersFrom1To10Response extends Response {
+
+    public NumbersFrom1To10Response() {
+        super(ResponseStatus.OK, "Numbers fetched", "The numbers from 1-10 have been fetched.");
+        JsonObject data = new JsonObject();
+        ArrayList&lt;Integer&gt; numbers = new ArrayList<>();
+        for (int i = 1; i <= 10; i++) {
+            numbers.add(i);
+        }
+        data.add("numbers", JsonUtil.listToJsonArray(numbers));
+        setData(data);
+    }
+
+}
+
+                    </pre>
+                </div>
+                <div id="php-9" class="col s12 grey lighten-2 rounded-bottoms php">
+                    Test 2
+                </div>
+                <div id="js-9" class="col s12 grey lighten-2 rounded-bottoms js">
+                    Test 3
+                </div>
+            </div>
+
+            <!--------------------------------------------------------------------------------------------------------->
+            <hr/>
+
+            <h5 id="decoding">Decoding JSON text into Response objects</h5>
+
+            <p>You can decode JSON formatted text into a <span class="code">Response</span> object using GSON's
+                <span class="code">fromJson()</span> method:
+            </p>
+
+            <div class="row">
+                <div class="col s12 red darken-2 rounded-tops">
+                    <ul class="tabs red darken-2">
+                        <li class="tab col s3"><a href="#java-10">Java</a></li>
+                        <li class="tab col s3 disabled"><a href="#php-10">PHP</a></li>
+                        <li class="tab col s3 disabled"><a href="#js-10">JavaScript</a></li>
+                    </ul>
+                </div>
+                <div id="java-10" class="col s12 grey lighten-2 rounded-bottoms java">
+                    <pre class="prettyprint lang-java">
+final Gson gson = new Gson();
+final Response decodedResponse = gson.fromJson(jsonText, Response.class);
+                    </pre>
+                </div>
+                <div id="php-10" class="col s12 grey lighten-2 rounded-bottoms php">
+                    Test 2
+                </div>
+                <div id="js-10" class="col s12 grey lighten-2 rounded-bottoms js">
+                    Test 3
+                </div>
+            </div>
+
+            <p>You can then get the values of statuses, titles, messages and raw and custom data properties using:</p>
+
+            <div class="row">
+                <div class="col s12 red darken-2 rounded-tops">
+                    <ul class="tabs red darken-2">
+                        <li class="tab col s3"><a href="#java-11">Java</a></li>
+                        <li class="tab col s3 disabled"><a href="#php-11">PHP</a></li>
+                        <li class="tab col s3 disabled"><a href="#js-11">JavaScript</a></li>
+                    </ul>
+                </div>
+                <div id="java-11" class="col s12 grey lighten-2 rounded-bottoms java">
+                    <pre class="prettyprint lang-java">
+//Print the status, title and message:
+ResponseStatus responseStatus = decodedResponse.getStatus();
+String title = decodedResponse.getTitle();
+String message = decodedResponse.getMessage();
+
+//Get the value of raw values from the data object:
+int property1 = decodedResponse.getData().get("property1").getAsInt();
+String property2 = decodedResponse.getData().get("property2").getAsString();
+
+//Get the value of custom objects from the data object:
+Person person = gson.fromJson(decodedResponse.getData().get("person"), Person.class);
+                    </pre>
+                </div>
+                <div id="php-11" class="col s12 grey lighten-2 rounded-bottoms php">
+                    Test 2
+                </div>
+                <div id="js-11" class="col s12 grey lighten-2 rounded-bottoms js">
+                    Test 3
+                </div>
+            </div>
+
+            <!--------------------------------------------------------------------------------------------------------->
+            <hr/>
+
+            <p>For more information on the Response library, please visit the <a href="documentation.html">documentation</a>.</p>
 
             <br/><br/>
         </div>
@@ -106,6 +566,53 @@
 <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="js/materialize.js"></script>
 <script src="js/init.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+<script src="js/util.js"></script>
+
+<script>
+
+    const javaElements = document.getElementsByClassName("java");
+    const phpElements = document.getElementsByClassName("php");
+    const jsElements = document.getElementsByClassName("js");
+
+    function loadLanguage() {
+        var lang = fetchParameter("lang");
+        console.log(lang);
+
+        disableAll();
+
+        if (lang === "java") {
+            for (let i = 0; i < javaElements.length; i++) {
+                javaElements[i].style.display = "block";
+            }
+        }
+        else if (lang === "php") {
+            for (let i = 0; i < phpElements.length; i++) {
+                phpElements[i].style.display = "block";
+            }
+        }
+        else if (lang === "js") {
+            for (let i = 0; i < jsElements.length; i++) {
+                jsElements[i].style.display = "block";
+            }
+        }
+    }
+
+    function disableAll() {
+        for (let i = 0; i < javaElements.length; i++) {
+            javaElements[i].style.display = "none";
+        }
+
+        for (let i = 0; i < phpElements.length; i++) {
+            phpElements[i].style.display = "none";
+        }
+
+        for (let i = 0; i < jsElements.length; i++) {
+            jsElements[i].style.display = "none";
+        }
+    }
+
+</script>
 
 </body>
 </html>

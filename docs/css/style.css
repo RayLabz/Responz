@@ -63,3 +63,16 @@ a {
 .tabs .indicator {
     background-color: white !important;
 }
+
+pre.prettyprint {
+    border: none !important;
+    overflow: auto;
+}
+
+h6 {
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+}

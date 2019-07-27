@@ -2,15 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba26418d-7442-46c0-ba5e-4697eb4118ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/documentation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/guide.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/response.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/response.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/java/lib/Response (Java).jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/java/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/java/src/NumbersFrom1To10Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examples/java/src/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../java/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/init.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/init.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/documentation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/guide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/artifacts/Response__Java__jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/artifacts/Response__Java__jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/artifacts/Response__Java__jar/Response (Java).jar" beforeDir="false" afterPath="$PROJECT_DIR$/../java/out/artifacts/Response__Java__jar/Response (Java).jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/out/production/Response (Java)/com/panickapps/response/InvalidParameterResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../java/out/production/Response (Java)/com/panickapps/response/InvalidParameterResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/InvalidParameterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/InvalidParameterResponse.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,17 +33,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="566">
-              <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+            <state relative-caret-position="449">
+              <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+            <state relative-caret-position="398">
+              <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/documentation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -44,19 +60,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1314">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="510">
+              <caret line="81" column="62" selection-start-line="81" selection-start-column="62" selection-end-line="81" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/guide.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="86" column="58" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="58" />
+            <state relative-caret-position="119">
+              <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
               <folding>
-                <element signature="n#style#0;n#span#0;n#p#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#16670#16674#0" expanded="true" />
+                <element signature="e#16681#16685#0" expanded="true" />
+                <element signature="e#18797#18801#0" expanded="true" />
+                <element signature="e#18808#18812#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,12 +87,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>red</find>
+      <find>yield</find>
+      <find>encode a response</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -83,14 +105,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/java/reference.html" />
-        <option value="$PROJECT_DIR$/documentation.html" />
         <option value="$PROJECT_DIR$/guides/php.html" />
         <option value="$PROJECT_DIR$/guides/js.html" />
         <option value="$PROJECT_DIR$/guides/java.html" />
         <option value="$PROJECT_DIR$/js/init.js" />
-        <option value="$PROJECT_DIR$/guide.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/documentation.html" />
+        <option value="$PROJECT_DIR$/_index.html" />
+        <option value="$PROJECT_DIR$/js/util.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/guide.html" />
       </list>
     </option>
   </component>
@@ -106,7 +130,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,6 +151,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,11 +169,11 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Users\hfnov\Software Development\Projects\Response\docs" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Users\hfnov\Software Development\Projects\Response\docs\images" />
+      <recent name="D:\Users\hfnov\Software Development\Projects\Response\docs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Users\hfnov\Software Development\Projects\Response\docs" />
     </key>
   </component>
@@ -176,12 +200,13 @@
       <option name="presentableId" value="Default" />
       <updated>1564155383486</updated>
       <workItem from="1564155385894" duration="744000" />
-      <workItem from="1564228671123" duration="6631000" />
+      <workItem from="1564228671123" duration="6687000" />
+      <workItem from="1564258289710" duration="9435000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7375000" />
+    <option name="totallyTimeSpent" value="16866000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -198,9 +223,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -210,34 +235,9 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/java/reference.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guides/js.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guides/php.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="7" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/documentation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/java/reference.html" />
+    <entry file="file://$PROJECT_DIR$/guides/js.html" />
+    <entry file="file://$PROJECT_DIR$/guides/php.html" />
     <entry file="file://$PROJECT_DIR$/js/materialize.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -254,34 +254,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1314">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="86" column="58" selection-start-line="86" selection-start-column="58" selection-end-line="86" selection-end-column="58" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#p#2;n#div#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="52" column="1" lean-forward="true" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        <state relative-caret-position="449">
+          <caret line="76" column="24" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="81" column="62" selection-start-line="81" selection-start-column="62" selection-end-line="81" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
+        <state relative-caret-position="398">
+          <caret line="62" column="34" selection-start-line="62" selection-start-column="34" selection-end-line="62" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/documentation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+          <folding>
+            <element signature="e#16670#16674#0" expanded="true" />
+            <element signature="e#16681#16685#0" expanded="true" />
+            <element signature="e#18797#18801#0" expanded="true" />
+            <element signature="e#18808#18812#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
