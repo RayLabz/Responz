@@ -3,6 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/Response__Java__jar</output-path>
     <root id="archive" name="Response (Java).jar">
       <element id="module-output" name="Response (Java)" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/gson-2.8.5.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
