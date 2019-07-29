@@ -1,195 +1,174 @@
 <?php
 
-namespace Response {
+require_once("EasyJSON\EasyJSON.php");
+use EasyJSON\JsonSerializable as JsonSerializable;
 
-    interface JsonSerializable
-    {
+class ResponseStatus {
 
-        public function toJSON();
+    const OK = "ok";
+    const ERROR = "error";
 
+}
+
+class Response implements JsonSerializable {
+
+    const STATUS_TAG = "status";
+    const TITLE_TAG = "title";
+    const MESSAGE_TAG = "message";
+    const DATETIME_TAG = "datetime";
+    const DATA_TAG = "data";
+
+    private $status;
+    private $title;
+    private $message;
+    private $date;
+    private $data;
+
+    /**
+     * Response constructor
+     * @param $status
+     * @param $title
+     * @param $message
+     */
+    public function __construct($status, $title, $message, $data) {
+        $this->status = $status;
+        $this->title = $title;
+        $this->message = $message;
+        $this->date = date("Y-m-d H:i:s");
+        $this->data = $data;
     }
 
-    class ResponseStatus
-    {
-
-        const OK = "ok";
-        const ERROR = "error";
-
+    /**
+     * @return mixed
+     */
+    public function getStatus() {
+        return $this->status;
     }
 
-    interface JsonObject {
-
-        public function toJsonObject();
-
+    /**
+     * @param mixed $status
+     */
+    public function setStatus($status) {
+        $this->status = $status;
     }
 
-    class Response implements JsonSerializable
-    {
-
-        const STATUS_TAG = "status";
-        const TITLE_TAG = "title";
-        const MESSAGE_TAG = "message";
-        const DATETIME_TAG = "datetime";
-        const DATA_TAG = "data";
-
-        private $status;
-        private $title;
-        private $message;
-        private $date;
-        private $data;
-
-        /**
-         * Response constructor
-         * @param $status
-         * @param $title
-         * @param $message
-         */
-        private function __construct($status, $title, $message)
-        {
-            $this->status = $status;
-            $this->title = $title;
-            $this->message = $message;
-            $this->date = date("Y-m-d H:i:s");
-        }
-
-        /**
-         * @param $status
-         * @param $title
-         * @param $message
-         * @return Response
-         */
-        public static function withoutData($status, $title, $message) {
-            return new self($status, $title, $message);
-        }
-
-        /**
-         * @param $status
-         * @param $title
-         * @param $message
-         * @param $data
-         * @return Response
-         */
-        public static function withData($status, $title, $message, $data) {
-            $object = new self($status, $title, $message);
-            $object->setData($data);
-            return $object;
-        }
-
-        /**
-         * @return mixed
-         */
-        public function getStatus(): ResponseStatus
-        {
-            return $this->status;
-        }
-
-        /**
-         * @param mixed $status
-         */
-        public function setStatus($status)
-        {
-            $this->status = $status;
-        }
-
-        /**
-         * @return mixed
-         */
-        public function getTitle(): string
-        {
-            return $this->title;
-        }
-
-        /**
-         * @param mixed $title
-         */
-        public function setTitle($title)
-        {
-            $this->title = $title;
-        }
-
-        /**
-         * @return mixed
-         */
-        public function getMessage(): string
-        {
-            return $this->message;
-        }
-
-        /**
-         * @param mixed $message
-         */
-        public function setMessage($message)
-        {
-            $this->message = $message;
-        }
-
-        /**
-         * @return mixed
-         */
-        public function getData()
-        {
-            return $this->data;
-        }
-
-        /**
-         * @param mixed $data
-         */
-        public function setData($data)
-        {
-            $this->data = $data;
-        }
-
-        /**
-         * @return false|string
-         */
-        public function toJSON()
-        {
-            $object[self::STATUS_TAG] = $this->status;
-            $object[self::TITLE_TAG] = $this->title;
-            $object[self::MESSAGE_TAG] = $this->message;
-            $object[self::DATETIME_TAG] = $this->date;
-            if ($this->data != null) {
-                $object[self::DATA_TAG] = $this->data;
-            }
-            return json_encode($object);
-        }
-
+    /**
+     * @return mixed
+     */
+    public function getTitle() {
+        return $this->title;
     }
 
-    class SuccessResponse extends Response {
-
-        //TODO
-
+    /**
+     * @param mixed $title
+     */
+    public function setTitle($title) {
+        $this->title = $title;
     }
 
-    class ErrorResponse extends Response {
-
-        //TODO
-
+    /**
+     * @return mixed
+     */
+    public function getMessage() {
+        return $this->message;
     }
 
-    class InvalidParameterResposne extends ErrorResponse {
-
-        //TODO
-
+    /**
+     * @param mixed $message
+     */
+    public function setMessage($message) {
+        $this->message = $message;
     }
 
-    class MissingParameterResponse extends ErrorResponse {
-
-        //TODO
-
+    /**
+     * @return false|string
+     */
+    public function getDate() {
+        return $this->date;
     }
 
-    class SecurityResponse extends ErrorResponse {
-
-        //TODO
-
+    /**
+     * @param false|string $date
+     */
+    public function setDate($date) {
+        $this->date = $date;
     }
 
-    class UnknownFailureResponse extends ErrorResponse {
+    /**
+     * @return mixed
+     */
+    public function getData() {
+        return $this->data;
+    }
 
-        //TODO
+    /**
+     * @param mixed $data
+     */
+    public function setData($data) {
+        $this->data = $data;
+    }
 
+    /**
+     * @return false|string
+     */
+    public function toJSON() {
+        $object[self::STATUS_TAG] = $this->status;
+        $object[self::TITLE_TAG] = $this->title;
+        $object[self::MESSAGE_TAG] = $this->message;
+        $object[self::DATETIME_TAG] = $this->date;
+        if ($this->data != null) {
+            $object[self::DATA_TAG] = $this->data;
+        }
+        return json_encode($object);
     }
 
 }
+
+class SuccessResponse extends Response {
+
+    public function __construct($title, $message, $data) {
+        parent::__construct(ResponseStatus::OK, $title, $message, $data);
+    }
+
+}
+
+class ErrorResponse extends Response {
+
+    public function __construct($title, $message, $data) {
+        parent::__construct(ResponseStatus::ERROR, $title, $message, $data);
+    }
+
+}
+
+class InvalidParameterResponse extends ErrorResponse {
+
+    public function __construct($paramName, $data) {
+        parent::__construct("Invalid parameter", "Invalid parameter '" . $paramName . "'.", $data);
+    }
+
+}
+
+class MissingParameterResponse extends ErrorResponse {
+
+    public function __construct($paramName, $data) {
+        parent::__construct("Missing parameter", "Parameter '" . $paramName . "' is missing.", $data);
+    }
+
+}
+
+class SecurityResponse extends ErrorResponse {
+
+    public function __construct($data) {
+        parent::__construct("Access denied", "Access to this service was denied. Please log in or use a properly authorized account.", $data);
+    }
+
+}
+
+class UnknownFailureResponse extends ErrorResponse {
+
+    public function __construct($message, $data) {
+        parent::__construct("Unknown failure", $message, $data);
+    }
+
+}
+
