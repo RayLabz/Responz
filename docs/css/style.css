@@ -42,6 +42,7 @@ a {
 
 .code {
     font-family: Consolas, sans-serif;
+    word-break: break-all;
 }
 
 .rounded-tops {
