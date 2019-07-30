@@ -65,19 +65,55 @@ echo $responseWithCustomObject->toJSON() . PHP_EOL . PHP_EOL;
 
 //Adding lists:
 
-//TODO
+$dataObject4["persons"] = array(); //Create a new data object as an array;
+
+//Create 5 new people and add them in the array:
+for ($i = 0; $i < 5; $i++) {
+    $person = new Person("Firstname " . $i, "Lastname " . $i, $i + 30);
+    array_push($dataObject4["persons"], $person->toJsonObject());
+}
+
+$responseWithCustomObject->setData($dataObject4); //Set the dataObject4 (the one including the array) as the data of the existing response:
+echo $responseWithCustomObject->toJSON() . PHP_EOL . PHP_EOL;
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 //Creating custom responses:
 
-//TODO
+class CustomResponse extends SuccessResponse { //This is custom response that returns "Hello World!" as a message:
+
+    const MESSAGE = "Hello world!";
+
+    public function __construct($data) {
+        parent::__construct("Hello World!", "Custom response says Hello World!", $data);
+    }
+
+}
+
+//Using the custom response:
+$customResponse = new CustomResponse(null);
+echo $customResponse->toJSON() . PHP_EOL . PHP_EOL;
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 //Decoding JSON text into Response objects:
 
-//TODO
+//You can easily decode JSON text using PHP's utility function -> json_decode and dereferencing the associative array.
+
+$customResponse->setData($dataObject1); //Contains "myIntValue" etc...
+$jsonText = $customResponse->toJSON(); //this contains the serialized/encoded JSON text
+
+//Convert to an associative array using json_decode:
+$object = json_decode($jsonText);
+
+echo "Status -> " . $object->status . PHP_EOL;
+echo "Title -> " . $object->title . PHP_EOL;
+echo "Message -> " . $object->message . PHP_EOL;
+echo "Date/Time -> " . $object->datetime . PHP_EOL;
+
+//Decode the data:
+$data = $object->data;
+echo "Data[myIntValue] -> " . $data->myIntValue . PHP_EOL;
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 

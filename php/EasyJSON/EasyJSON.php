@@ -1,15 +1,21 @@
 <?php
 
+/**
+ * Created by PaNickApps - 2019
+ * Visit http://www.panickapps.com
+ *
+ * EasyJSON - A simple JSON object library for PHP
+ * Easy conversion and serialization of PHP objects to JSON.
+ * Repository: https://github.com/panickapps/EasyJSON
+ * Guide:
+ *
+ * You may view, modify but NOT sell any of the contents in this file.
+ */
+
 namespace EasyJSON {
 
     use ReflectionClass;
     use ReflectionProperty;
-
-    interface JsonSerializable {
-
-        public function toJSON();
-
-    }
 
     class JsonObject {
 
@@ -22,13 +28,16 @@ namespace EasyJSON {
                     $property->setAccessible(true);
                     $propertyName = $property->getName();
                     $propertyValue = $property->getValue($this);
+                    if ($propertyValue == null) {
+                        return $jsonObject;
+                    }
                     if ($propertyValue instanceof JsonObject) {
                         $nestedObject = $propertyValue->toJsonObject();
                         $jsonObject[$propertyName] = $nestedObject;
                     }
                     else if (is_array($propertyValue)) {
                         $outputArray = array();
-                        foreach ($propertyValue as $arrayItem) { //arrayItem => Component
+                        foreach ($propertyValue as $arrayItem) {
                             if ($arrayItem instanceof JsonObject) {
                                 $outputArrayObject = $arrayItem->toJsonObject();
                                 array_push($outputArray, $outputArrayObject);
@@ -37,7 +46,7 @@ namespace EasyJSON {
                                 array_push($outputArray, $arrayItem);
                             }
                         }
-                        $jsonObject = $outputArray;
+                        $jsonObject[$propertyName] = $outputArray;
                     }
                     else {
                         $jsonObject[$propertyName] = $propertyValue;
@@ -48,6 +57,10 @@ namespace EasyJSON {
             } finally {
                 return $jsonObject;
             }
+        }
+
+        public function toJSON() {
+            return json_encode($this->toJsonObject());
         }
 
     }

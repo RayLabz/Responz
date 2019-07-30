@@ -1,7 +1,8 @@
 <?php
 
 require_once("EasyJSON\EasyJSON.php");
-use EasyJSON\JsonSerializable as JsonSerializable;
+
+use EasyJSON\JsonObject as JsonObject;
 
 class ResponseStatus {
 
@@ -10,7 +11,7 @@ class ResponseStatus {
 
 }
 
-class Response implements JsonSerializable {
+class Response extends JsonObject {
 
     const STATUS_TAG = "status";
     const TITLE_TAG = "title";
@@ -29,6 +30,7 @@ class Response implements JsonSerializable {
      * @param $status
      * @param $title
      * @param $message
+     * @param $data
      */
     public function __construct($status, $title, $message, $data) {
         $this->status = $status;
@@ -120,6 +122,10 @@ class Response implements JsonSerializable {
             $object[self::DATA_TAG] = $this->data;
         }
         return json_encode($object);
+    }
+
+    public static function decoded() {
+        return new Response(null, null, null, null);
     }
 
 }
