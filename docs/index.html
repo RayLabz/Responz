@@ -14,13 +14,37 @@
 </head>
 <body>
 
+<!-- Guides dropdown -->
+<ul id="guideDropdown" class="dropdown-content">
+    <li><a href="javaGuide.html">Java</a></li>
+    <li><a href="phpGuide.html">PHP</a></li>
+    <li><a href="jsGuide.html">JavaScript</a></li>
+</ul>
+
 <nav>
     <div class="nav-wrapper red darken-2">
         <ul class="right hide-on-med-and-down">
             <li><a href="index.html">Home</a></li>
             <li><a href="documentation.html">Documentation</a></li>
-            <li><a href="guide.html">Guide</a></li>
+            <li><a class="dropdown-trigger" href="#!" data-target="guideDropdown">Guide</a></li>
         </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+            <li>
+                <div class="center">
+                    <br/>
+                    <img class="responsive-img" src="images/response.png" width="100" />
+                    <p class="black-text" style="font-size: 20px; margin-block-start: 0px; margin-block-end: 0px; text-align: center;">Response</p>
+                </div>
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="documentation.html">Documentation</a></li>
+            <li class="divider"></li>
+            <li><a href="javaGuide.html">Java</a></li>
+            <li><a href="phpGuide.html">PHP</a></li>
+            <li><a href="jsGuide.html">JavaScript</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
 </nav>
 
@@ -80,7 +104,7 @@
                 <li>GSON Library</li>
             </ul>
 
-            <a class="btn red darken-2" href="guide.html?lang=java">Visit the Java guide</a>
+            <a class="btn red darken-2" href="javaGuide.html?lang=java">Visit the Java guide</a>
             <br/><br/>
 
             <h5>PHP (in development)</h5>
@@ -97,7 +121,7 @@
 
             <h4>Guide</h4>
 
-            <p>Visit our <a href="guide.html">guide</a> for quick start guidance in using the Response library.</p>
+            <p>Visit our <a href="javaGuide.html">guide</a> for quick start guidance in using the Response library.</p>
 
             <hr/>
 

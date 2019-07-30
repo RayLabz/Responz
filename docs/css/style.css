@@ -66,8 +66,9 @@ a {
 }
 
 pre.prettyprint {
-    border: none !important;
     overflow: auto;
+    background-color: #EEE;
+    border-radius: 5px;
 }
 
 h6 {
