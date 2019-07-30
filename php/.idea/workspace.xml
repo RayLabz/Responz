@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="057677d6-4db0-4431-9c2f-6c73d29bcb0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../docs/phpGuide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/.idea/docs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/.idea/Response (Docs).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javaGuide.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Response (PHP).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Person.php" beforeDir="false" afterPath="$PROJECT_DIR$/Example/Person.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example.php" beforeDir="false" afterPath="$PROJECT_DIR$/Example/example.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javaGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javaGuide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -187,18 +178,18 @@
       <workItem from="1564428518714" duration="12505000" />
       <workItem from="1564495228465" duration="1965000" />
       <workItem from="1564518867867" duration="5000" />
-      <workItem from="1564519891585" duration="730000" />
+      <workItem from="1564519891585" duration="771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19731000" />
+    <option name="totallyTimeSpent" value="19772000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12473348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12473348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -211,7 +202,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31568018" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31568018" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
