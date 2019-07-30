@@ -4,11 +4,20 @@
 require_once("Response/Response.php");
 
 //Creating a response without data:
+
+//A generic response:
 $response1 = new Response(ResponseStatus::OK, "Response 1", "This is my first response", null);
+
+//A successful response:
+$successResponse = new SuccessResponse("Success", "This is a success response.", null);
+
+//An error response:
+$errorResponse = new ErrorResponse("Error", "This is an error response.", null);
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
 //Encoding the response to JSON-formatted text:
+$jsonText = $response1->toJSON();
 echo $response1->toJSON() . PHP_EOL . PHP_EOL;
 
 /*--------------------------------------------------------------------------------------------------------------------*/
@@ -16,6 +25,15 @@ echo $response1->toJSON() . PHP_EOL . PHP_EOL;
 //Using pre-defined response classes:
 $successResponse = new SuccessResponse("Success response", "Success response message", null);
 echo $successResponse->toJSON() . PHP_EOL . PHP_EOL;
+
+$invalidParameterResponse = new InvalidParameterResponse("myParam", "An integer, found string.", null);
+
+$missingParameterResponse = new MissingParameterResponse("myParam", null);
+
+$securityResponse = new SecurityResponse(null);
+
+$unknownFailureResponse = new UnknownFailureResponse("A failure has occurred, please contact the administrator.", null);
+
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 

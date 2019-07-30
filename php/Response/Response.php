@@ -148,8 +148,8 @@ class ErrorResponse extends Response {
 
 class InvalidParameterResponse extends ErrorResponse {
 
-    public function __construct($paramName, $data) {
-        parent::__construct("Invalid parameter", "Invalid parameter '" . $paramName . "'.", $data);
+    public function __construct($paramName, $message, $data) {
+        parent::__construct("Invalid parameter", "Invalid parameter '" . $paramName . "' - " . $message, $data);
     }
 
 }
