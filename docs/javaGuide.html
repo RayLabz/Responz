@@ -73,10 +73,8 @@
 
             <h5 id="download">Download and import</h5>
 
-            <h5>Java</h5>
-
             <p class="justify">To begin,
-                <a href="https://github.com/panickapps/Response/raw/master/java/jars/Response%201.0.0.jar"
+                <a href="https://github.com/panickapps/Response/raw/master/java/Download/Response.jar"
                    class="red-text text-darken-2">download the Response library for Java</a>.</p>
 
             <p class="justify">Import the downloaded .jar file into your project. If you are not sure how to do this, perform a Google search for the following term:</p>
@@ -114,8 +112,8 @@
                 by implicitly specifying the status. These are the <span class="code">SuccessResponse</span>,
                 which indicates that the user's request has been executed successfully (status = ok) and
                 <span class="code">ErrorResponse</span>, which indicates that an error occured when trying the
-                execute the request (status = error). We can instantiate these two types of responses by passing the title
-                and message in the constructor:
+                execute the request (status = error). The following example shows how to instantiate a simple response, a
+                Success response and an Error response.
             </p>
 
             <pre class="prettyprint lang-java">
@@ -125,7 +123,7 @@ Response response = new Response(ResponseStatus.OK, "My title", "My message");
 //A SuccessResponse:
 SuccessResponse successResponse = new SuccessResponse("Success", "This is a successful message.");
 
-//A new ErrorResponse:
+//An ErrorResponse:
 ErrorResponse errorResponse = new ErrorResponse("Error", "This is an error message.");</pre>
 
             <!--------------------------------------------------------------------------------------------------------->

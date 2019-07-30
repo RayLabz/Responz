@@ -64,6 +64,7 @@
                 <li><a href="#encoding">Encoding responses to JSON format</a></li>
                 <li><a href="#morepredef">More pre-defined responses</a></li>
                 <li><a href="#data">Including data in responses</a></li>
+                <li><a href="#classes">Using custom classes in responses</a></li>
                 <li><a href="#lists">Adding lists</a></li>
                 <li><a href="#custom">Creating custom responses</a></li>
                 <li><a href="#decoding">Decoding JSON text into Response objects</a></li>
@@ -73,18 +74,16 @@
 
             <h5 id="download">Download and import</h5>
 
-            <h5>Java</h5>
-
             <p class="justify">To begin,
-                <a href="https://github.com/panickapps/Response/raw/master/java/jars/Response%201.0.0.jar"
+                <a href="https://github.com/panickapps/Response/raw/master/php/Download/Response.zip"
                    class="red-text text-darken-2">download the Response library for PHP</a>.</p>
 
-            <p class="justify">Import the downloaded .jar file into your project. If you are not sure how to do this, perform a Google search for the following term:</p>
-
             <p class="justify">
-                <span style="font-style: italic;">"How to import jar file in <b>*THE NAME OF YOUR IDE*"</b></span>,
-                replaced by the name of the IDE you are using, for example "How to import jar file in Eclipse/Android Studio/IntelliJ" etc.
+                Extract the folder 'Response' from the downloaded ZIP file to the root of your code directory.
+                You can then import the Response library in your code using:
             </p>
+
+            <pre class="prettyprint php">require_once("EasyJSON\EasyJSON.php");</pre>
 
             <!--TODO Link classes to documentation-->
 
@@ -114,19 +113,18 @@
                 by implicitly specifying the status. These are the <span class="code">SuccessResponse</span>,
                 which indicates that the user's request has been executed successfully (status = ok) and
                 <span class="code">ErrorResponse</span>, which indicates that an error occured when trying the
-                execute the request (status = error). We can instantiate these two types of responses by passing the title
-                and message in the constructor:
+                execute the request (status = error). The following example shows how to instantiate a simple response, a
+                Success response and an Error response.
             </p>
 
-            <pre class="prettyprint lang-java">
-//A generic response:
-Response response = new Response(ResponseStatus.OK, "My title", "My message");
+            <pre class="prettyprint php">
+$response1 = new Response(ResponseStatus::OK, "Response 1", "This is my first response", null);
 
-//A SuccessResponse:
-SuccessResponse successResponse = new SuccessResponse("Success", "This is a successful message.");
+//A successful response:
+$successResponse = new SuccessResponse("Success", "This is a success response.", null);
 
-//A new ErrorResponse:
-ErrorResponse errorResponse = new ErrorResponse("Error", "This is an error message.");</pre>
+//An error response:
+$errorResponse = new ErrorResponse("Error", "This is an error response.", null);</pre>
 
             <!--------------------------------------------------------------------------------------------------------->
             <hr/>
@@ -137,15 +135,10 @@ ErrorResponse errorResponse = new ErrorResponse("Error", "This is an error messa
                 You can encode a Response object into a JSON string using the <span class="code">toJSON()</span> method:
             </p>
 
-            <pre class="prettyprint lang-java">
-//Create response:
-SuccessResponse successResponse = new SuccessResponse("Success", "This is a successful message.");
-
-//Encode a response to a JSON string:
-String responseJSON = successResponse.toJSON();</pre>
+            <pre class="prettyprint php">$jsonText = $response1->toJSON();</pre>
 
             <p>This should produce the following JSON text:</p>
-            <span class="code">{"status":"OK","title":"Success","message":"This is a successful message.","datetime":"2019-07-28 00:20:29"}</span>
+            <span class="code">{"status":"OK","title":"Response 1","message":"This is my first response","datetime":"2019-07-28 00:20:29"}</span>
 
             <!--------------------------------------------------------------------------------------------------------->
             <hr/>
@@ -177,14 +170,14 @@ String responseJSON = successResponse.toJSON();</pre>
 
             <p class="justify">For more information about pre-defined responses, check out the <a href="documentation.html">Documentation</a>.</p>
 
-            <pre class="prettyprint lang-java">
-InvalidParameterResponse invalidParameterResponse = new InvalidParameterResponse("myParam", "An integer, found string.");
+            <pre class="prettyprint php">
+$invalidParameterResponse = new InvalidParameterResponse("myParam", "An integer, found string.", null);
 
-MissingParameterResponse missingParameterResponse = new MissingParameterResponse("myParam");
+$missingParameterResponse = new MissingParameterResponse("myParam", null);
 
-SecurityResponse securityResponse = new SecurityResponse();
+$securityResponse = new SecurityResponse(null);
 
-UnknownFailureResponse unknownFailureResponse = new UnknownFailureResponse("A failure has occurred, please contact the administrator.");</pre>
+$unknownFailureResponse = new UnknownFailureResponse("A failure has occurred, please contact the administrator.", null);</pre>
 
             <!--------------------------------------------------------------------------------------------------------->
             <hr/>
@@ -192,113 +185,141 @@ UnknownFailureResponse unknownFailureResponse = new UnknownFailureResponse("A fa
             <h5 id="data">Including data in responses</h5>
 
             <p class="justify">
-                Each response has a <span class="code">data</span> member of type <span class="code">JsonObject</span>
-                which allows insertion of an arbitrary number of other objects. This member is initially null and <b>will
-            therefore not be printed in any encoded JSON text</b>.
+                Each response has a <span class="code">data</span> member which allows insertion of an arbitrary number of other objects.
+                This member is initially null and <b>will therefore not be printed in any encoded JSON text</b>.
             </p>
 
             <h6>Creating data objects:</h6>
 
-            <p class="justify">You can directly add raw data (Strings, Characters, Numbers and Booleans) using the <span class="code">addProperty()</span> method:</p>
+            <p class="justify">You can add raw data (Strings, Characters, Numbers and Booleans) using the array subscript operator:</p>
 
-            <pre class="prettyprint lang-java">
-//Create a data object:
-JsonObject data = new JsonObject();
+            <pre class="prettyprint php">
+$dataObject1["myIntValue"] = 10;
+$dataObject1["myStringValue"] = "Hello!";
+            </pre>
 
-//You can enter key-value pairs for Strings, Characters, Numbers and Booleans using the addProperty method:
-data.addProperty("property1", 2);
-data.addProperty("property2", "hello");
-data.addProperty("property3", true);
-data.addProperty("property4", 3.5);</pre>
+            <p>The array subscript operator also allows you to nest objects inside the data object (or any other object):</p>
 
-            <p class="justify">You can also add your custom objects by converting them using GSON's
-                <span class="code">toJsonTree()</span> method:
+            <pre class="prettyprint php">
+$nestedObject["nestedIntValue"] = -5;
+$nestedObject["nestedBooleanValue"] = true;
+//Nesting an object inside the data object etc.:
+$dataObject1["myNestedObject"] = $nestedObject;</pre>
+
+            <p>To set the data of the response in the constructor use:</p>
+
+            <pre class="prettyprint php">
+                $responseWithData = new SuccessResponse("Data response", "This is a response containing data.", <mark>$dataObject1</mark>);</pre>
+
+            <p>Alternatively, you can set the data of a response after initialization using the <span class="code">setData()</span> method:</p>
+
+            <pre class="prettyprint php">
+                $responseWithData->setData($dataObject1);</pre>
+
+            <h5 id="classes">Using custom classes in responses</h5>
+
+            <p class="justify">You can also define your own classes, which need to extend EasyJSON's JsonObject class:</p>
+
+            <pre class="prettyprint php">
+use EasyJSON\JsonObject as JsonObject;
+
+//Custom class example:
+class Person extends JsonObject { //All used classes should extend the JsonObject class
+
+    private $firstName;
+    private $lastName;
+    private $age;
+
+    /**
+     * Person constructor.
+     * @param $firstName
+     * @param $lastName
+     * @param $age
+     */
+    public function __construct($firstName, $lastName, $age) {
+        $this->firstName = $firstName;
+        $this->lastName = $lastName;
+        $this->age = $age;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFirstName() {
+        return $this->firstName;
+    }
+
+    /**
+     * @param mixed $firstName
+     */
+    public function setFirstName($firstName) {
+        $this->firstName = $firstName;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getLastName() {
+        return $this->lastName;
+    }
+
+    /**
+     * @param mixed $lastName
+     */
+    public function setLastName($lastName) {
+        $this->lastName = $lastName;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAge() {
+        return $this->age;
+    }
+
+    /**
+     * @param mixed $age
+     */
+    public function setAge($age) {
+        $this->age = $age;
+    }
+
+}</pre>
+
+
+            <p>If your class is on a different file, you need to import it using:</p>
+
+            <pre class="prettyprint php">require_once("Person.php"); //Import your custom class</pre>
+
+            <p>
+                To include an instance of your class in a response, create an object and then use the <span class="code">toJsonObject()</span>
+                method when assigning it to a data object:
             </p>
 
-            <pre class="prettyprint lang-java">
-//Example custom class:
-class Person {
-
-    private String firstname;
-    private String lastname;
-    private int age;
-
-    public Person(String firstname, String lastname, int age) {
-        this.firstname = firstname;
-        this.lastname = lastname;
-        this.age = age;
-    }
-
-    public String getFirstname() {
-        return firstname;
-    }
-
-    public void setFirstname(String firstname) {
-        this.firstname = firstname;
-    }
-
-    public String getLastname() {
-        return lastname;
-    }
-
-    public void setLastname(String lastname) {
-        this.lastname = lastname;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-}
-
-//Create a new object of the custom class:
-Person person = new Person("John", "Doe", 50);
-
-//Create an instance of Gson:
-final Gson gson = new Gson();
-
-//Use the toJsonTree method to convert the object to a JsonElement and add it to the response:
-data.add("person", gson.toJsonTree(person));</pre>
-
-
-            <p class="justify">You can then insert data into a response by providing it in the constructor:</p>
-
-            <pre class="prettyprint lang-java">
-Response response = new Response(ResponseStatus.OK, "My title", "My message", data);</pre>
-
-            <p class="justify">
-                Alternatively, you can use the <span class="code">setData()</span> method after a response is initialized:
-            </p>
-
-            <pre class="prettyprint lang-java">
-response.setData(data);</pre>
+            <pre class="prettyprint php">
+require_once("Person.php"); //Import your custom class
+$person = new Person("John", "Doe", 50); //Instantiate a custom class object
+$dataObject3["person"] = $person->toJsonObject();
+$responseWithCustomObject = new SuccessResponse("Custom object response", "This is a response containing a custom object.", $dataObject3);</pre>
 
             <!--------------------------------------------------------------------------------------------------------->
             <hr/>
 
             <h5 id="lists">Adding lists</h5>
 
-            <p class="justify">You can also add lists using the <span class="code">listToJsonArray()</span> method in
-                <span class="code">JsonUtil</span>:</p>
+            <p class="justify">You can also add lists by defining a data object as an array and putting items in the array
+            using the <span class="code">array_push()</span> method:</p>
 
             <pre class="prettyprint lang-java">
-//Create an array list of numbers:
-ArrayList&lt;Integer&gt; numbers = new ArrayList<>();
-numbers.add(1);
-numbers.add(2);
-numbers.add(3);
-numbers.add(4);
-numbers.add(5);
+$dataObject4["persons"] = array(); //Create a new data object as an array;
 
-//Create the data object:
-JsonObject data = new JsonObject();
+//Create 5 new people and add them in the array:
+for ($i = 0; $i < 5; $i++) {
+    $person = new Person("Firstname " . $i, "Lastname " . $i, $i + 30);
+    array_push($dataObject4["persons"], $person->toJsonObject());
+}
 
-//Convert the list using the listToJsonArray() method in JsonUtil and add it to the data object:
-data.add("numbers", JsonUtil.listToJsonArray(numbers));</pre>
+$responseWithCustomObject->setData($dataObject4); //Set the dataObject4 (the one including the array) as the data of the existing response:</pre>
 
             <!--------------------------------------------------------------------------------------------------------->
             <hr/>
@@ -310,48 +331,42 @@ data.add("numbers", JsonUtil.listToJsonArray(numbers));</pre>
             </p>
 
             <pre class="prettyprint lang-java">
-public class NumbersFrom1To10Response extends Response {
+class CustomResponse extends SuccessResponse { //This is custom response that returns "Hello World!" as a message:
 
-    public NumbersFrom1To10Response() {
-        super(ResponseStatus.OK, "Numbers fetched", "The numbers from 1-10 have been fetched.");
-        JsonObject data = new JsonObject();
-        ArrayList&lt;Integer&gt; numbers = new ArrayList<>();
-        for (int i = 1; i <= 10; i++) {
-            numbers.add(i);
-        }
-        data.add("numbers", JsonUtil.listToJsonArray(numbers));
-        setData(data);
+    const MESSAGE = "Hello world!";
+
+    public function __construct($data) {
+        parent::__construct("Hello World!", "Custom response says Hello World!", $data);
     }
 
-}</pre>
+}
+
+//Using the custom response:
+$customResponse = new CustomResponse(null);</pre>
 
             <!--------------------------------------------------------------------------------------------------------->
             <hr/>
 
-            <h5 id="decoding">Decoding JSON text into Response objects</h5>
+            <h5 id="decoding">Decoding JSON text</h5>
 
-            <p>You can decode JSON formatted text into a <span class="code">Response</span> object using GSON's
-                <span class="code">fromJson()</span> method:
+            <p>You can decode JSON formatted text using PHP's native <span class="code">json_decode</span> method:
             </p>
 
-            <pre class="prettyprint lang-java">
-final Gson gson = new Gson();
-final Response decodedResponse = gson.fromJson(jsonText, Response.class);</pre>
+            <pre class="prettyprint php">
+$jsonText = $customResponse->toJSON(); //this contains the serialized/encoded JSON text
+$object = json_decode($jsonText);</pre>
 
-            <p>You can then get the values of statuses, titles, messages and raw and custom data properties using:</p>
+            <p>You can then get the values of statuses, titles, messages, date-time and data properties using:</p>
 
-            <pre class="prettyprint lang-java">
-//Print the status, title and message:
-ResponseStatus responseStatus = decodedResponse.getStatus();
-String title = decodedResponse.getTitle();
-String message = decodedResponse.getMessage();
+            <pre class="prettyprint php">
+echo "Status -> " . $object->status . PHP_EOL;
+echo "Title -> " . $object->title . PHP_EOL;
+echo "Message -> " . $object->message . PHP_EOL;
+echo "Date/Time -> " . $object->datetime . PHP_EOL;
 
-//Get the value of raw values from the data object:
-int property1 = decodedResponse.getData().get("property1").getAsInt();
-String property2 = decodedResponse.getData().get("property2").getAsString();
-
-//Get the value of custom objects from the data object:
-Person person = gson.fromJson(decodedResponse.getData().get("person"), Person.class);</pre>
+//Decode the data:
+$data = $object->data;
+echo "Data[myIntValue] -> " . $data->myIntValue . PHP_EOL;</pre>
 
             <!--------------------------------------------------------------------------------------------------------->
             <hr/>
