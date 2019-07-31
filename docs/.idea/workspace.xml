@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba26418d-7442-46c0-ba5e-4697eb4118ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../js/src/Response/Response.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/documentation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javaGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaGuide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsGuide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/phpGuide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/InvalidParameterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/InvalidParameterResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/JsonSerializable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/JsonSerializable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/JsonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/MissingParameterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/MissingParameterResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/ResponseDateTimeFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/ResponseDateTimeFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/ResponseStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/ResponseStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/SecurityResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/SecurityResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/SuccessResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/SuccessResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/UnknownFailureResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/UnknownFailureResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../js/src/Response/Response.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/../js/src/Response/Response.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../php/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../php/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../php/Response/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/../php/Response/Response.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/documentation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+            <state relative-caret-position="229">
+              <caret line="51" selection-start-line="50" selection-start-column="6" selection-end-line="51" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -50,11 +30,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
-              <caret line="150" column="15" selection-start-line="150" selection-start-column="15" selection-end-line="150" selection-end-column="15" />
+            <state relative-caret-position="464">
+              <caret line="71" column="77" selection-start-line="71" selection-start-column="77" selection-end-line="71" selection-end-column="77" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -65,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javaGuide.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
+            <state relative-caret-position="935">
               <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -77,7 +57,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phpGuide.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
+            <state relative-caret-position="1955">
               <caret line="115" column="21" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -89,14 +69,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsGuide.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
+            <state relative-caret-position="629">
               <caret line="102" column="35" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#4315#4319#0" expanded="true" />
                 <element signature="e#4462#4466#0" expanded="true" />
-                <element signature="e#4351#4355#0" expanded="true" />
-                <element signature="e#4362#4366#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -147,9 +124,9 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/phpGuide.html" />
         <option value="$PROJECT_DIR$/javaGuide.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/jsGuide.html" />
         <option value="$PROJECT_DIR$/documentation.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -165,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,7 +169,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -251,12 +228,13 @@
       <workItem from="1564518433441" duration="4000" />
       <workItem from="1564519908332" duration="4595000" />
       <workItem from="1564556023893" duration="2681000" />
-      <workItem from="1564577906083" duration="6259000" />
+      <workItem from="1564577906083" duration="6433000" />
+      <workItem from="1564586432528" duration="33000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32083000" />
+    <option name="totallyTimeSpent" value="32290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -273,7 +251,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -311,17 +289,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/documentation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpGuide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="115" column="21" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
+        <state relative-caret-position="229">
+          <caret line="51" selection-start-line="50" selection-start-column="6" selection-end-line="51" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -330,7 +301,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaGuide.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
+        <state relative-caret-position="935">
           <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -338,34 +309,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/phpGuide.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="150" column="15" selection-start-line="150" selection-start-column="15" selection-end-line="150" selection-end-column="15" />
+        <state relative-caret-position="1955">
+          <caret line="115" column="21" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jsGuide.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
+        <state relative-caret-position="629">
           <caret line="102" column="35" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4315#4319#0" expanded="true" />
             <element signature="e#4462#4466#0" expanded="true" />
-            <element signature="e#4351#4355#0" expanded="true" />
-            <element signature="e#4362#4366#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/documentation.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
+        <state relative-caret-position="464">
+          <caret line="71" column="77" selection-start-line="71" selection-start-column="77" selection-end-line="71" selection-end-column="77" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
