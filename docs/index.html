@@ -96,25 +96,38 @@
 
             <h5>Java</h5>
             <p class="justify">
-                The Response library is now available in Java. You can use this with any Java project, including plain Java (SE),
+                The Response library is available in Java. You can use this with any Java project, including plain Java (SE),
                 Java EE, Android SDK, Google Cloud SDK and more. The Java version uses the
                 <a href="https://github.com/google/gson">GSON library</a> to serialize and de-serialize responses automatically.
+                The Java version is destined for use both in server and client environments.
                 <b>GSON is built-in to the Response library, so you do not need to download and import it separately.</b>
             </p>
 
             <p>Prerequisites:</p>
             <ul class="browser-default">
                 <li>Java 8+</li>
-                <li>GSON Library</li>
+                <li>GSON Library (included)</li>
             </ul>
 
             <a class="btn red darken-2" href="javaGuide.html">View the Java guide</a>
             <br/><br/>
 
-            <h5>PHP (in development)</h5>
+            <h5>PHP</h5>
             <p>
-                A version of the Response library is under development for PHP.
+                A version of the Response library is also available in PHP, mainly for the server-side.
+                The library for PHP uses the <a href="http://panickapps.github.io/EasyJSON/">EasyJSON library</a>
+                and is mainly purposed for serializing PHP objects to JSON objects and formatted text.
+                You can also de-serialize JSON text using PHP's native method, <span class="code">json_decode()</span>.
             </p>
+
+            <p>Prerequisites:</p>
+            <ul class="browser-default">
+                <li>PHP 7.0+</li>
+                <li>EasyJSON library (included)</li>
+            </ul>
+
+            <a class="btn red darken-2" href="phpGuide.html">View the PHP guide</a>
+            <br/><br/>
 
             <h5>JavaScript (in development)</h5>
             <p>

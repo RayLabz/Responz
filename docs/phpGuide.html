@@ -58,6 +58,7 @@
             <h4>Contents</h4>
 
             <ol>
+                <li><a href="#prerequisites">Prerequisites</a></li>
                 <li><a href="#download">Download and import</a></li>
                 <li><a href="#components">Components of a response</a></li>
                 <li><a href="#predef">Using pre-defined responses</a></li>
@@ -72,6 +73,13 @@
 
             <hr/>
 
+            <h5 id="prerequisites">Prerequisites</h5>
+
+            <ul class="browser-default">
+                <li>PHP 7+</li>
+                <li>EasyJSON (included)</li>
+            </ul>
+
             <h5 id="download">Download and import</h5>
 
             <p class="justify">To begin,
@@ -83,7 +91,7 @@
                 You can then import the Response library in your code using:
             </p>
 
-            <pre class="prettyprint php">require_once("EasyJSON\EasyJSON.php");</pre>
+            <pre class="prettyprint php">require_once("Response\Response.php");</pre>
 
             <!--TODO Link classes to documentation-->
 
@@ -195,8 +203,7 @@ $unknownFailureResponse = new UnknownFailureResponse("A failure has occurred, pl
 
             <pre class="prettyprint php">
 $dataObject1["myIntValue"] = 10;
-$dataObject1["myStringValue"] = "Hello!";
-            </pre>
+$dataObject1["myStringValue"] = "Hello!";</pre>
 
             <p>The array subscript operator also allows you to nest objects inside the data object (or any other object):</p>
 
@@ -209,12 +216,12 @@ $dataObject1["myNestedObject"] = $nestedObject;</pre>
             <p>To set the data of the response in the constructor use:</p>
 
             <pre class="prettyprint php">
-                $responseWithData = new SuccessResponse("Data response", "This is a response containing data.", <mark>$dataObject1</mark>);</pre>
+$responseWithData = new SuccessResponse("Data response", "This is a response containing data.", <mark>$dataObject1</mark>);</pre>
 
             <p>Alternatively, you can set the data of a response after initialization using the <span class="code">setData()</span> method:</p>
 
             <pre class="prettyprint php">
-                $responseWithData->setData($dataObject1);</pre>
+$responseWithData->setData($dataObject1);</pre>
 
             <h5 id="classes">Using custom classes in responses</h5>
 
