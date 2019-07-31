@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba26418d-7442-46c0-ba5e-4697eb4118ad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/workspace.xml" afterDir="false" />
@@ -33,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="71" column="77" selection-start-line="71" selection-start-column="77" selection-end-line="71" selection-end-column="77" />
+            <state relative-caret-position="481">
+              <caret line="72" column="90" selection-start-line="72" selection-start-column="90" selection-end-line="72" selection-end-column="90" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -229,18 +228,18 @@
       <workItem from="1564519908332" duration="4595000" />
       <workItem from="1564556023893" duration="2681000" />
       <workItem from="1564577906083" duration="6433000" />
-      <workItem from="1564586432528" duration="33000" />
+      <workItem from="1564586432528" duration="144000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32290000" />
+    <option name="totallyTimeSpent" value="32401000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24920969" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24920969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -251,7 +250,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" weight="0.32827735" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -339,8 +338,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="71" column="77" selection-start-line="71" selection-start-column="77" selection-end-line="71" selection-end-column="77" />
+        <state relative-caret-position="481">
+          <caret line="72" column="90" selection-start-line="72" selection-start-column="90" selection-end-line="72" selection-end-column="90" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
