@@ -3,10 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="057677d6-4db0-4431-9c2f-6c73d29bcb0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../docs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docs/javaGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javaGuide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsGuide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/phpGuide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example/example.php" beforeDir="false" afterPath="$PROJECT_DIR$/Example/example.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/ErrorResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/InvalidParameterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/InvalidParameterResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/JsonSerializable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/JsonSerializable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/JsonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/MissingParameterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/MissingParameterResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/ResponseDateTimeFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/ResponseDateTimeFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/ResponseStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/ResponseStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/SecurityResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/SecurityResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/SuccessResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/SuccessResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/UnknownFailureResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/UnknownFailureResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Response/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/Response/Response.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,20 +33,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Response/Response.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1033">
-              <caret line="151" column="103" selection-start-line="151" selection-start-column="103" selection-end-line="151" selection-end-column="103" />
+            <state relative-caret-position="313">
+              <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Example/example.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="121" selection-start-line="121" selection-end-line="121" selection-end-column="87" />
+            <state relative-caret-position="2023">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
             </state>
           </provider>
         </entry>
@@ -38,7 +54,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Example/Person.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
+            <state relative-caret-position="1105">
               <caret line="65" column="1" lean-forward="true" selection-start-line="2" selection-end-line="65" selection-end-column="1" />
             </state>
           </provider>
@@ -72,8 +88,8 @@
         <option value="$PROJECT_DIR$/EasyJSON/EasyJSON.php" />
         <option value="$PROJECT_DIR$/JSONMapper/JsonMapper.php" />
         <option value="$PROJECT_DIR$/example.php" />
-        <option value="$PROJECT_DIR$/Response/Response.php" />
         <option value="$PROJECT_DIR$/Example/example.php" />
+        <option value="$PROJECT_DIR$/Response/Response.php" />
       </list>
     </option>
   </component>
@@ -82,10 +98,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -107,6 +123,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,7 +145,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -144,7 +160,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.PHP" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -184,18 +200,20 @@
       <workItem from="1564428518714" duration="12505000" />
       <workItem from="1564495228465" duration="1965000" />
       <workItem from="1564518867867" duration="5000" />
-      <workItem from="1564519891585" duration="2858000" />
+      <workItem from="1564519891585" duration="3543000" />
+      <workItem from="1564582543583" duration="220000" />
+      <workItem from="1564582778528" duration="114000" />
+      <workItem from="1564583388019" duration="1001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21859000" />
+    <option name="totallyTimeSpent" value="23879000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12473348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12793177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -208,7 +226,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31568018" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -241,22 +259,22 @@
     <entry file="file://$PROJECT_DIR$/JSONMapper/JsonMapper.php" />
     <entry file="file://$PROJECT_DIR$/Response/Response.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1033">
-          <caret line="151" column="103" selection-start-line="151" selection-start-column="103" selection-end-line="151" selection-end-column="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Example/Person.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="65" column="1" lean-forward="true" selection-start-line="2" selection-end-line="65" selection-end-column="1" />
+        <state relative-caret-position="313">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Example/example.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="121" selection-start-line="121" selection-end-line="121" selection-end-column="87" />
+        <state relative-caret-position="2023">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Example/Person.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="1" lean-forward="true" selection-start-line="2" selection-end-line="65" selection-end-column="1" />
         </state>
       </provider>
     </entry>

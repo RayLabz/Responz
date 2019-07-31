@@ -8,6 +8,9 @@ import com.google.gson.reflect.TypeToken;
 
 import java.util.List;
 
+/**
+ * A utility class that allows easier conversion between Java and JSON objects.
+ */
 public class JsonUtil {
 
     /**

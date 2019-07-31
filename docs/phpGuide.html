@@ -110,7 +110,10 @@
                 <li><span class="code">datetime</span> - contains formatted date-time that indicates the time the request was processed.
                 Format: YYYY-MM-DD HH:mm:SS
                 </li>
-                <li><span class="code">data</span> - (Optional) contains data returned related to the client's request.</li>
+                <li>
+                    <span class="code">data</span> - (Optional) contains data returned related to the client's request.
+                    The data object will be omitted from any serialized JSON if it is not defined.
+                </li>
             </ul>
 
             <!--------------------------------------------------------------------------------------------------------->
@@ -319,7 +322,7 @@ $responseWithCustomObject = new SuccessResponse("Custom object response", "This 
             <p class="justify">You can also add lists by defining a data object as an array and putting items in the array
             using the <span class="code">array_push()</span> method:</p>
 
-            <pre class="prettyprint lang-java">
+            <pre class="prettyprint php">
 $dataObject4["persons"] = array(); //Create a new data object as an array;
 
 //Create 5 new people and add them in the array:
@@ -339,7 +342,7 @@ $responseWithCustomObject->setData($dataObject4); //Set the dataObject4 (the one
                 <span class="code">SuccessResponse</span> or <span class="code">ErrorResponse</span> classes:
             </p>
 
-            <pre class="prettyprint lang-java">
+            <pre class="prettyprint php">
 class CustomResponse extends SuccessResponse { //This is custom response that returns "Hello World!" as a message:
 
     const MESSAGE = "Hello world!";

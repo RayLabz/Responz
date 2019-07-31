@@ -48,339 +48,340 @@
     </div>
 </nav>
 
-<h5>Under development</h5>
+<main>
+
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+
+            <h3>JavaScript Guide</h3>
+
+            <h4>Contents</h4>
+
+            <ol>
+                <li><a href="#prerequisites">Prerequisites</a></li>
+                <li><a href="#download">Download and import</a></li>
+                <li><a href="#components">Components of a response</a></li>
+                <li><a href="#predef">Using pre-defined responses</a></li>
+                <li><a href="#encoding">Encoding responses to JSON format</a></li>
+                <li><a href="#morepredef">More pre-defined responses</a></li>
+                <li><a href="#data">Including data in responses</a></li>
+                <li><a href="#classes">Using custom classes in responses</a></li>
+                <li><a href="#lists">Adding lists</a></li>
+                <li><a href="#custom">Creating custom responses</a></li>
+                <li><a href="#decoding">Decoding JSON text into Response objects</a></li>
+            </ol>
+
+            <hr/>
+
+            <h5 id="prerequisites">Prerequisites</h5>
+
+            <ul class="browser-default">
+                <li>JavaScript ECMA5+</li>
+                <li>A modern browser or JavaScript compiler</li>
+            </ul>
+
+            <h5 id="download">Download and import</h5>
+
+            <p class="justify">To begin,
+                <a href="https://github.com/panickapps/Response/raw/master/js/Download/Response.zip"
+                   class="red-text text-darken-2">download the Response library for JavaScript</a>.</p>
+
+            <p class="justify">
+                Extract the folder 'Response' from the downloaded ZIP file inside your JavaScript file directory.
+                The folder contains two types of files:</p>
+
+            <ul class="browser-default">
+                <li>Response.js - This is a JavaScript file that can be imported in web pages (HTML). This is used mostly on
+                the client-side.</li>
+                <li>Response.mjs - This is a JavaScript <b>module</b> meant for use as an import within other JS scripts.
+                This can be used on the server-side.</li>
+            </ul>
+
+            <p>You can import the Response library as a JavaScript file within HTML using:</p>
+
+            <pre class="prettyprint html">
+&lt;script src="js/Response.js"&gt;&lt;/script&gt;</pre>
+
+            <p>
+                However, the Response library is not of much use on the client-side. Alternatively, you can import the
+                Response library as a module in your own JavaScript code (which can be hosted on the server-side) using:
+            </p>
+
+            <pre class="prettyprint js">import {
+    RESPONSE_OK,
+    RESPONSE_ERROR,
+    Response,
+    ErrorResponse,
+    SuccessResponse,
+    MissingParameterResponse,
+    InvalidParameterResponse,
+    SecurityResponse,
+    UnknownFailureResponse
+} from "../src/Response/Response.mjs";</pre>
+
+            <p>
+                Note: You may remove or add new imports as needed but each class and variable should be imported separately.
+                Also be careful to import the correct file of the two.
+            </p>
+
+            <!--TODO Link classes to documentation-->
+
+            <hr/>
+            <h5 id="components">Components of a response</h5>
+
+            <p class="justify">
+                All responses contain four internal components, inherited from a base class called <span class="code">Response</span>.
+                These are:
+            </p>
+
+            <ul class="browser-default">
+                <li><span class="code">status</span> - is either "ok" or "error" and is used to indicate the result of the request.</li>
+                <li><span class="code">title</span> - contains a title that very briefly describes the result of the request.</li>
+                <li><span class="code">message</span> - contains a message to the client describing the result in more detail.</li>
+                <li><span class="code">datetime</span> - contains formatted date-time that indicates the time the request was processed.
+                    Format: YYYY-MM-DD HH:mm:SS
+                </li>
+                <li>
+                    <span class="code">data</span> - (Optional) contains data returned related to the client's request.
+                    The data object will be omitted from any serialized JSON if it is not defined.
+                </li>
+            </ul>
+
+            <!--------------------------------------------------------------------------------------------------------->
+            <hr/>
 
-<!--<main>-->
+            <h5 id="predef">Using pre-defined responses</h5>
 
-<!--    <div class="section no-pad-bot" id="index-banner">-->
-<!--        <div class="container">-->
+            <p class="justify">
+                The library offers two existing responses that extend the <span class="code">Response</span> base class
+                by implicitly specifying the status. These are the <span class="code">SuccessResponse</span>,
+                which indicates that the user's request has been executed successfully (status = ok) and
+                <span class="code">ErrorResponse</span>, which indicates that an error occured when trying the
+                execute the request (status = error). The following example shows how to instantiate a simple response, a
+                Success response and an Error response.
+            </p>
 
-<!--            <h3>PHP Guide</h3>-->
+            <pre class="prettyprint js">//A generic response:
+const response = new Response(RESPONSE_OK, "My title", "My message", null);
 
-<!--            <h4>Contents</h4>-->
+//A successful response:
+const successResponse = new SuccessResponse("Success", "This is a successful response.", null);
 
-<!--            <ol>-->
-<!--                <li><a href="#download">Download and import</a></li>-->
-<!--                <li><a href="#components">Components of a response</a></li>-->
-<!--                <li><a href="#predef">Using pre-defined responses</a></li>-->
-<!--                <li><a href="#encoding">Encoding responses to JSON format</a></li>-->
-<!--                <li><a href="#morepredef">More pre-defined responses</a></li>-->
-<!--                <li><a href="#data">Including data in responses</a></li>-->
-<!--                <li><a href="#lists">Adding lists</a></li>-->
-<!--                <li><a href="#custom">Creating custom responses</a></li>-->
-<!--                <li><a href="#decoding">Decoding JSON text into Response objects</a></li>-->
-<!--            </ol>-->
-
-<!--            <hr/>-->
+//An error response:
+const errorResponse = new ErrorResponse("Error", "This is an error response.", null);</pre>
 
-<!--            <h5 id="download">Download and import</h5>-->
+            <!--------------------------------------------------------------------------------------------------------->
+            <hr/>
 
-<!--            <h5>Java</h5>-->
+            <h5 id="encoding">Encoding responses to JSON format</h5>
 
-<!--            <p class="justify">To begin,-->
-<!--                <a href="https://github.com/panickapps/Response/raw/master/php/Download/Response.zip"-->
-<!--                   class="red-text text-darken-2">download the Response library for PHP</a>.</p>-->
+            <p class="justify">
+                You can encode a Response object into a JSON string using the <span class="code">toJSON()</span> method:
+            </p>
 
-<!--            <p class="justify">-->
-<!--                Extract the folder 'Response' from the downloaded ZIP file to the root of your code directory.-->
-<!--                You can then import the Response library in your code using:-->
-<!--            </p>-->
+            <pre class="prettyprint js">const json = response.toJSON();</pre>
 
-<!--            <pre class="prettyprint php">require_once("EasyJSON\EasyJSON.php");</pre>-->
+            <p>This should produce the following JSON text:</p>
+            <span class="code">{"status":"OK","title":"My title","message":"My message","datetime":"2019-07-28 00:20:29"}</span>
 
-<!--            &lt;!&ndash;TODO Link classes to documentation&ndash;&gt;-->
+            <!--------------------------------------------------------------------------------------------------------->
+            <hr/>
 
-<!--            <hr/>-->
-<!--            <h5 id="components">Components of a response</h5>-->
+            <h5 id="morepredef">More pre-defined responses</h5>
 
-<!--            <p class="justify">-->
-<!--                All responses contain four internal components, inherited from a base class called <span class="code">Response</span>.-->
-<!--                These are:-->
-<!--            </p>-->
+            <p class="justify">
+                There are some additional Response classes you can use. These are based on common responses that can be
+                found in a large variety of projects.
+            </p>
 
-<!--            <ul class="browser-default">-->
-<!--                <li><span class="code">status</span> - is either "ok" or "error" and is used to indicate the result of the request.</li>-->
-<!--                <li><span class="code">title</span> - contains a title that very briefly describes the result of the request.</li>-->
-<!--                <li><span class="code">message</span> - contains a message to the client describing the result in more detail.</li>-->
-<!--                <li><span class="code">datetime</span> - contains formatted date-time that indicates the time the request was processed.</li>-->
-<!--                <li><span class="code">data</span> - (Optional) contains data returned related to the client's request.</li>-->
-<!--            </ul>-->
+            <ul class="browser-default">
+                <li>
+                    <span class="code">InvalidParameterResponse</span> - Commonly used when an invalid parameter is submitted in the request.
+                    For example, an integer was expected, but a string was found.
+                </li>
+                <li>
+                    <span class="code">MissingParameterResponse</span> - Commonly used when a parameter was expected but not provided.
+                </li>
+                <li>
+                    <span class="code">SecurityResponse</span> - Commonly used when a user makes a request that requires authentication/authorization
+                    and is denied access.
+                </li>
+                <li>
+                    <span class="code">UnknownFailureResponse</span> - Commonly used when something has gone wrong on the server side. This
+                    is usually used in conjunction with exceptions or other fault-dealing mechanisms.
+                </li>
+            </ul>
 
-<!--            &lt;!&ndash;-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
-<!--            <hr/>-->
+            <p class="justify">For more information about pre-defined responses, check out the <a href="documentation.html">Documentation</a>.</p>
 
-<!--            <h5 id="predef">Using pre-defined responses</h5>-->
+            <pre class="prettyprint js">const invalidParameterResponse = new InvalidParameterResponse("myParam", "an integer, found string.", null);
 
-<!--            <p class="justify">-->
-<!--                The library offers two existing responses that extend the <span class="code">Response</span> base class-->
-<!--                by implicitly specifying the status. These are the <span class="code">SuccessResponse</span>,-->
-<!--                which indicates that the user's request has been executed successfully (status = ok) and-->
-<!--                <span class="code">ErrorResponse</span>, which indicates that an error occured when trying the-->
-<!--                execute the request (status = error). The following example shows how to instantiate a simple response, a-->
-<!--                Success response and an Error response.-->
-<!--            </p>-->
+const missingResponse = new MissingParameterResponse("myParam", null);
 
-<!--            <pre class="prettyprint php">-->
-<!--$response1 = new Response(ResponseStatus::OK, "Response 1", "This is my first response", null);-->
+const securityResponse = new SecurityResponse(null);
 
-<!--//A successful response:-->
-<!--$successResponse = new SuccessResponse("Success", "This is a success response.", null);-->
+const unknownFailureResponse = new UnknownFailureResponse("A failure has occurred, please contact the administrator.", null);</pre>
 
-<!--//An error response:-->
-<!--$errorResponse = new ErrorResponse("Error", "This is an error response.", null);</pre>-->
+            <!--------------------------------------------------------------------------------------------------------->
+            <hr/>
 
-<!--            &lt;!&ndash;-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
-<!--            <hr/>-->
+            <h5 id="data">Including data in responses</h5>
 
-<!--            <h5 id="encoding">Encoding responses to JSON format</h5>-->
+            <p class="justify">
+                Each response has a <span class="code">data</span> member which allows insertion of an arbitrary number of other objects.
+                This member is initially null and <b>will therefore not be printed in any encoded JSON text</b>.
+            </p>
 
-<!--            <p class="justify">-->
-<!--                You can encode a Response object into a JSON string using the <span class="code">toJSON()</span> method:-->
-<!--            </p>-->
+            <h6>Creating data objects:</h6>
 
-<!--            <pre class="prettyprint php">$jsonText = $response1->toJSON();</pre>-->
+            <p class="justify">You can add raw data (Strings, Characters, Numbers and Booleans) by creating a new object and
+                passing your data as parameters:</p>
 
-<!--            <p>This should produce the following JSON text:</p>-->
-<!--            <span class="code">{"status":"OK","title":"Response 1","message":"This is my first response","datetime":"2019-07-28 00:20:29"}</span>-->
+            <pre class="prettyprint js">//Create a data object that contains the data:
+let data = {
+    myInt: 3,
+    myString: "hello",
+    myBoolean: true
+};</pre>
 
-<!--            &lt;!&ndash;-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
-<!--            <hr/>-->
+            <p>You can also nest an object inside another object:</p>
 
-<!--            <h5 id="morepredef">More pre-defined responses</h5>-->
+            <pre class="prettyprint js">//Create an inner object:
+let innerObject = {
+    myInnerInt: 4,
+    myInnerBoolean: false
+};
 
-<!--            <p class="justify">-->
-<!--                There are some additional Response classes you can use. These are based on common responses that can be-->
-<!--                found in a large variety of projects.-->
-<!--            </p>-->
+//Set the inner object as a property of the outter object (in this case 'data'):
+data.myInnerObject = innerObject;</pre>
 
-<!--            <ul class="browser-default">-->
-<!--                <li>-->
-<!--                    <span class="code">InvalidParameterResponse</span> - Commonly used when an invalid parameter is submitted in the request.-->
-<!--                    For example, an integer was expected, but a string was found.-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <span class="code">MissingParameterResponse</span> - Commonly used when a parameter was expected but not provided.-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <span class="code">SecurityResponse</span> - Commonly used when a user makes a request that requires authentication/authorization-->
-<!--                    and is denied access.-->
-<!--                </li>-->
-<!--                <li>-->
-<!--                    <span class="code">UnknownFailureResponse</span> - Commonly used when something has gone wrong on the server side. This-->
-<!--                    is usually used in conjunction with exceptions or other fault-dealing mechanisms.-->
-<!--                </li>-->
-<!--            </ul>-->
-
-<!--            <p class="justify">For more information about pre-defined responses, check out the <a href="documentation.html">Documentation</a>.</p>-->
-
-<!--            <pre class="prettyprint php">-->
-<!--$invalidParameterResponse = new InvalidParameterResponse("myParam", "An integer, found string.", null);-->
-
-<!--$missingParameterResponse = new MissingParameterResponse("myParam", null);-->
-
-<!--$securityResponse = new SecurityResponse(null);-->
-
-<!--$unknownFailureResponse = new UnknownFailureResponse("A failure has occurred, please contact the administrator.", null);</pre>-->
-
-<!--            &lt;!&ndash;-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
-<!--            <hr/>-->
-
-<!--            <h5 id="data">Including data in responses</h5>-->
-
-<!--            <p class="justify">-->
-<!--                Each response has a <span class="code">data</span> member which allows insertion of an arbitrary number of other objects.-->
-<!--                This member is initially null and <b>will therefore not be printed in any encoded JSON text</b>.-->
-<!--            </p>-->
-
-<!--            <h6>Creating data objects:</h6>-->
-
-<!--            <p class="justify">You can add raw data (Strings, Characters, Numbers and Booleans) using the array subscript operator:</p>-->
-
-<!--            <pre class="prettyprint php">-->
-<!--$dataObject1["myIntValue"] = 10;-->
-<!--$dataObject1["myStringValue"] = "Hello!";-->
-<!--            </pre>-->
-
-<!--            <p>The array subscript operator also allows you to nest objects inside the data object (or any other object):</p>-->
-
-<!--            <pre class="prettyprint php">-->
-<!--$nestedObject["nestedIntValue"] = -5;-->
-<!--$nestedObject["nestedBooleanValue"] = true;-->
-<!--//Nesting an object inside the data object etc.:-->
-<!--$dataObject1["myNestedObject"] = $nestedObject;</pre>-->
-
-<!--            <p>To set the data of the response in the constructor use:</p>-->
-
-<!--            <pre class="prettyprint php">-->
-<!--                $responseWithData = new SuccessResponse("Data response", "This is a response containing data.", <mark>$dataObject1</mark>);</pre>-->
-
-<!--            <p>Alternatively, you can set the data of a response after initialization using the <span class="code">setData()</span> method:</p>-->
-
-<!--            <pre class="prettyprint php">-->
-<!--                $responseWithData->setData($dataObject1);</pre>-->
-
-<!--            <h5 id="classes"></h5>-->
-
-<!--            <p class="justify">You can also define your own classes, which need to extend EasyJSON's JsonObject class:</p>-->
-
-<!--            <pre class="prettyprint php">-->
-<!--use EasyJSON\JsonObject as JsonObject;-->
-
-<!--//Custom class example:-->
-<!--class Person extends JsonObject { //All used classes should extend the JsonObject class-->
-
-<!--    private $firstName;-->
-<!--    private $lastName;-->
-<!--    private $age;-->
-
-<!--    /**-->
-<!--     * Person constructor.-->
-<!--     * @param $firstName-->
-<!--     * @param $lastName-->
-<!--     * @param $age-->
-<!--     */-->
-<!--    public function __construct($firstName, $lastName, $age) {-->
-<!--        $this->firstName = $firstName;-->
-<!--        $this->lastName = $lastName;-->
-<!--        $this->age = $age;-->
-<!--    }-->
+            <p>To set the data of the response in the constructor use:</p>
 
-<!--    /**-->
-<!--     * @return mixed-->
-<!--     */-->
-<!--    public function getFirstName() {-->
-<!--        return $this->firstName;-->
-<!--    }-->
+            <pre class="prettyprint js">
+//Create a new response and pass the data object in the constructor:
+let myResponse = new Response(RESPONSE_OK, "My response title", "My response message.", <mark>data</mark>);</pre>
 
-<!--    /**-->
-<!--     * @param mixed $firstName-->
-<!--     */-->
-<!--    public function setFirstName($firstName) {-->
-<!--        $this->firstName = $firstName;-->
-<!--    }-->
+            <p>Alternatively, you can set the data of a response after initialization by assigning your data object as
+                the <span class="code">data</span> property of your response:</p>
 
-<!--    /**-->
-<!--     * @return mixed-->
-<!--     */-->
-<!--    public function getLastName() {-->
-<!--        return $this->lastName;-->
-<!--    }-->
+            <pre class="prettyprint js">let newData = {
+    newInteger: 94,
+    newString: "abcdef"
+};
 
-<!--    /**-->
-<!--     * @param mixed $lastName-->
-<!--     */-->
-<!--    public function setLastName($lastName) {-->
-<!--        $this->lastName = $lastName;-->
-<!--    }-->
+//Assign the new data as the data of the response:
+myResponse.data = newData;</pre>
 
-<!--    /**-->
-<!--     * @return mixed-->
-<!--     */-->
-<!--    public function getAge() {-->
-<!--        return $this->age;-->
-<!--    }-->
+            <h5 id="classes">Using custom classes in responses</h5>
 
-<!--    /**-->
-<!--     * @param mixed $age-->
-<!--     */-->
-<!--    public function setAge($age) {-->
-<!--        $this->age = $age;-->
-<!--    }-->
+            <p class="justify">You can also define your own classes:</p>
 
-<!--}</pre>-->
+            <pre class="prettyprint js">//Create the new class:
+class Person {
+    constructor(firstname, lastname, age) {
+        this.firstname = firstname;
+        this.lastname = lastname;
+        this.age = age;
+    }
+}</pre>
 
 
-<!--            <p>If your class is on a different file, you need to import it using:</p>-->
+            <p>Note: If your class is on a different file, you need to import it as well.</p>
 
-<!--            <pre class="prettyprint php">require_once("Person.php"); //Import your custom class</pre>-->
+            <p>
+                To include an instance of your class in a response, create an object of the class and assign it to a data object as a property:
+            </p>
 
-<!--            <p>-->
-<!--                To include an instance of your class in a response, create an object and then use the <span class="code">toJsonObject()</span>-->
-<!--                method when assigning it to a data object:-->
-<!--            </p>-->
+            <pre class="prettyprint js">//Create an instance of the class:
+let myPerson = new Person("John", "Doe", 50);
 
-<!--            <pre class="prettyprint php">-->
-<!--require_once("Person.php"); //Import your custom class-->
-<!--$person = new Person("John", "Doe", 50); //Instantiate a custom class object-->
-<!--$dataObject3["person"] = $person->toJsonObject();-->
-<!--$responseWithCustomObject = new SuccessResponse("Custom object response", "This is a response containing a custom object.", $dataObject3);</pre>-->
+//Define a new data object and assign the custom object as a property of the data:
+let customObjectData = {
+    person: myPerson
+};
 
-<!--            &lt;!&ndash;-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
-<!--            <hr/>-->
+//Assign the data object as the data property of the response:
+myResponse.data = customObjectData;</pre>
 
-<!--            <h5 id="lists">Adding lists</h5>-->
+            <!--------------------------------------------------------------------------------------------------------->
+            <hr/>
 
-<!--            <p class="justify">You can also add lists by defining a data object as an array and putting items in the array-->
-<!--                using the <span class="code">array_push()</span> method:</p>-->
+            <h5 id="lists">Adding lists</h5>
 
-<!--            <pre class="prettyprint lang-java">-->
-<!--$dataObject4["persons"] = array(); //Create a new data object as an array;-->
+            <p class="justify">You can also add lists by defining an array, putting items inside it and assigning the array
+                as a property of a data object:</p>
 
-<!--//Create 5 new people and add them in the array:-->
-<!--for ($i = 0; $i < 5; $i++) {-->
-<!--    $person = new Person("Firstname " . $i, "Lastname " . $i, $i + 30);-->
-<!--    array_push($dataObject4["persons"], $person->toJsonObject());-->
-<!--}-->
+            <pre class="prettyprint js">//Create a new array:
+let peopleArray = [];
 
-<!--$responseWithCustomObject->setData($dataObject4); //Set the dataObject4 (the one including the array) as the data of the existing response:</pre>-->
+//Add some people:
+for (let i = 0; i < 5; i++) {
+    let newPerson = new Person("Firstname " + i, "Lastname " + i, 30 + i);
+    peopleArray.push(newPerson);
+}
 
-<!--            &lt;!&ndash;-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
-<!--            <hr/>-->
+//Create a data object and assign the array as a property of the data object:
+let peopleObjectData = {
+    people: peopleArray
+};
 
-<!--            <h5 id="custom">Creating custom responses</h5>-->
+//Assign the data object as the data property of the response:
+myResponse.data = peopleObjectData;</pre>
 
-<!--            <p class="justify">You can create your own custom response by extending the <span class="code">Response</span>,-->
-<!--                <span class="code">SuccessResponse</span> or <span class="code">ErrorResponse</span> classes:-->
-<!--            </p>-->
+            <!--------------------------------------------------------------------------------------------------------->
+            <hr/>
 
-<!--            <pre class="prettyprint lang-java">-->
-<!--class CustomResponse extends SuccessResponse { //This is custom response that returns "Hello World!" as a message:-->
+            <h5 id="custom">Creating custom responses</h5>
 
-<!--    const MESSAGE = "Hello world!";-->
+            <p class="justify">You can create your own custom response by extending the <span class="code">Response</span>,
+                <span class="code">SuccessResponse</span> or <span class="code">ErrorResponse</span> classes:
+            </p>
 
-<!--    public function __construct($data) {-->
-<!--        parent::__construct("Hello World!", "Custom response says Hello World!", $data);-->
-<!--    }-->
+            <pre class="prettyprint js">//Create a new response type by extending the Response, ErrorResponse or SuccessResponse classes:
+class MyCustomResponse extends SuccessResponse {
+    constructor(message) {
+        super("Custom title", message, null);
+    }
+}
 
-<!--}-->
+//Instantiate the new custom response:
+let customResponse = new MyCustomResponse("Hello World!");</pre>
 
-<!--//Using the custom response:-->
-<!--$customResponse = new CustomResponse(null);</pre>-->
+            <!--------------------------------------------------------------------------------------------------------->
+            <hr/>
 
-<!--            &lt;!&ndash;-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
-<!--            <hr/>-->
+            <h5 id="decoding">Decoding JSON text</h5>
 
-<!--            <h5 id="decoding">Decoding JSON text</h5>-->
+            <p>You can decode JSON formatted text using JavaScript's native <span class="code">JSON.parse()</span> method:</p>
 
-<!--            <p>You can decode JSON formatted text using PHP's native <span class="code">json_decode</span> method:-->
-<!--            </p>-->
+            <pre class="prettyprint js">//Let's instantiate a response just for an example:
+let responseObject = new Response(RESPONSE_OK, "This is a title", "This is a message.", {myNumber: 54, myBoolean: true});
 
-<!--            <pre class="prettyprint php">-->
-<!--$jsonText = $customResponse->toJSON(); //this contains the serialized/encoded JSON text-->
-<!--$object = json_decode($jsonText);</pre>-->
+//Serialize/Encode to JSON text:
+let responseJSON = responseObject.toJSON();
 
-<!--            <p>You can then get the values of statuses, titles, messages, date-time and data properties using:</p>-->
+//Parse using JavaScripts native JSON.parse() method:
+let decodedResponse = <mark>JSON.parse(responseJSON);</mark></pre>
 
-<!--            <pre class="prettyprint php">-->
-<!--echo "Status -> " . $object->status . PHP_EOL;-->
-<!--echo "Title -> " . $object->title . PHP_EOL;-->
-<!--echo "Message -> " . $object->message . PHP_EOL;-->
-<!--echo "Date/Time -> " . $object->datetime . PHP_EOL;-->
+            <p>You can then get the values of statuses, titles, messages, date-time and data properties using:</p>
 
-<!--//Decode the data:-->
-<!--$data = $object->data;-->
-<!--echo "Data[myIntValue] -> " . $data->myIntValue . PHP_EOL;</pre>-->
+            <pre class="prettyprint js">console.log("Status => " + decodedResponse.status);
+console.log("Title => " + decodedResponse.title);
+console.log("Message => " + decodedResponse.message);
+console.log("Date/Time => " + decodedResponse.datetime);
+console.log("Data[myNumber] => " + decodedResponse.data.myNumber);
+console.log("Data[myBoolean] => " + decodedResponse.data.myBoolean);</pre>
 
-<!--            &lt;!&ndash;-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
-<!--            <hr/>-->
+            <!--------------------------------------------------------------------------------------------------------->
+            <hr/>
 
-<!--            <p>For more information on the Response library, please visit the <a href="documentation.html">documentation</a>.</p>-->
+            <p>For more information on the Response library, please visit the <a href="documentation.html">documentation</a>.</p>
 
-<!--            <br/><br/>-->
-<!--        </div>-->
-<!--    </div>-->
+            <br/><br/>
+        </div>
+    </div>
 
-<!--</main>-->
+</main>
 
 <footer class="page-footer red darken-3">
     <div class="container">

@@ -1,0 +1,24 @@
+{
+  "coverage": "52.17%",
+  "expectCount": 23,
+  "actualCount": 12,
+  "files": {
+    "Response/Response.js": {
+      "expectCount": 23,
+      "actualCount": 12,
+      "undocumentLines": [
+        38,
+        40,
+        41,
+        42,
+        43,
+        70,
+        81,
+        92,
+        103,
+        114,
+        125
+      ]
+    }
+  }
+}

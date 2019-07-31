@@ -1,5 +1,8 @@
 package com.panickapps.response;
 
+/**
+ * Defines a response used when the user has tried to access an endpoint/resource without proper authorization or authentication.
+ */
 public class SecurityResponse extends ErrorResponse {
 
     public SecurityResponse() {

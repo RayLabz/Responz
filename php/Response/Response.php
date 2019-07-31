@@ -4,6 +4,9 @@ require_once("EasyJSON\EasyJSON.php");
 
 use EasyJSON\JsonObject as JsonObject;
 
+/**
+ * A class that defines the possible statuses of a response.
+ */
 class ResponseStatus {
 
     const OK = "ok";
@@ -11,6 +14,9 @@ class ResponseStatus {
 
 }
 
+/**
+ * Models an HTTP response and its attributes.
+ */
 class Response extends JsonObject {
 
     const STATUS_TAG = "status";
@@ -27,10 +33,10 @@ class Response extends JsonObject {
 
     /**
      * Response constructor
-     * @param $status
-     * @param $title
-     * @param $message
-     * @param $data
+     * @param $status ResponseStatus The status of the response.
+     * @param $title string The title of the response.
+     * @param $message string The message of the response.
+     * @param $data object The data of the response.
      */
     public function __construct($status, $title, $message, $data) {
         $this->status = $status;
@@ -41,76 +47,77 @@ class Response extends JsonObject {
     }
 
     /**
-     * @return mixed
+     * @return mixed The status of the response.
      */
     public function getStatus() {
         return $this->status;
     }
 
     /**
-     * @param mixed $status
+     * @param mixed $status The status of the response.
      */
     public function setStatus($status) {
         $this->status = $status;
     }
 
     /**
-     * @return mixed
+     * @return mixed The title of the response.
      */
     public function getTitle() {
         return $this->title;
     }
 
     /**
-     * @param mixed $title
+     * @param mixed $title The title of the response.
      */
     public function setTitle($title) {
         $this->title = $title;
     }
 
     /**
-     * @return mixed
+     * @return mixed  The message of the response.
      */
     public function getMessage() {
         return $this->message;
     }
 
     /**
-     * @param mixed $message
+     * @param mixed $message The message of the response.
      */
     public function setMessage($message) {
         $this->message = $message;
     }
 
     /**
-     * @return false|string
+     * @return false|string The date-time of the response.
      */
     public function getDate() {
         return $this->date;
     }
 
     /**
-     * @param false|string $date
+     * @param false|string $date The date-time of the response.
      */
     public function setDate($date) {
         $this->date = $date;
     }
 
     /**
-     * @return mixed
+     * @return mixed The data of the response.
      */
     public function getData() {
         return $this->data;
     }
 
     /**
-     * @param mixed $data
+     * @param mixed $data The data of the response.
      */
     public function setData($data) {
         $this->data = $data;
     }
 
     /**
+     * Defines how the Response is going to be converted to JSON text format.
      * @return false|string
      */
     public function toJSON() {
@@ -124,12 +131,11 @@ class Response extends JsonObject {
         return json_encode($object);
     }
 
-    public static function decoded() {
-        return new Response(null, null, null, null);
-    }
-
 }
 
+/**
+ * Defines a response that indicates a successful execution of the user's request.
+ */
 class SuccessResponse extends Response {
 
     public function __construct($title, $message, $data) {
@@ -138,6 +144,9 @@ class SuccessResponse extends Response {
 
 }
 
+/**
+ * Defines a response which indicates that an error has occurred while executing the user's request.
+ */
 class ErrorResponse extends Response {
 
     public function __construct($title, $message, $data) {
@@ -146,6 +155,9 @@ class ErrorResponse extends Response {
 
 }
 
+/**
+ * Defines a response that indicates that parameter in the request was not valid (invalid type, not in range, bad format, etc).
+ */
 class InvalidParameterResponse extends ErrorResponse {
 
     public function __construct($paramName, $message, $data) {
@@ -154,6 +166,9 @@ class InvalidParameterResponse extends ErrorResponse {
 
 }
 
+/**
+ * Defines a response that indicates that an expected parameter in the request was not found.
+ */
 class MissingParameterResponse extends ErrorResponse {
 
     public function __construct($paramName, $data) {
@@ -162,6 +177,9 @@ class MissingParameterResponse extends ErrorResponse {
 
 }
 
+/**
+ * Defines a response used when the user has tried to access an endpoint/resource without proper authorization or authentication.
+ */
 class SecurityResponse extends ErrorResponse {
 
     public function __construct($data) {
@@ -170,6 +188,9 @@ class SecurityResponse extends ErrorResponse {
 
 }
 
+/**
+ * Defines a response that indicates that an unexpected error has occurred on the server.
+ */
 class UnknownFailureResponse extends ErrorResponse {
 
     public function __construct($message, $data) {

@@ -1,0 +1,1055 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "Response/.external-ecmascript.js",
+    "static": true,
+    "longname": "Response/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "Response/Response.js",
+    "content": "/**\r\n * Defines a status for responses.\r\n * @type {string}\r\n */\r\nexport const RESPONSE_OK = \"ok\";\r\n\r\n/**\r\n * Defines a status for responses.\r\n * @type {string}\r\n */\r\nexport const RESPONSE_ERROR = \"error\";\r\n\r\n/**\r\n * Converts a number to its text representation with a number of trailing zeros.\r\n * @param size The number of trailing zeros.\r\n * @returns {string}\r\n */\r\nNumber.prototype.pad = function(size) {\r\n    let s = String(this);\r\n    while (s.length < (size || 2)) {s = \"0\" + s;}\r\n    return s;\r\n};\r\n\r\n/**\r\n * Models an HTTP response and its attributes.\r\n */\r\nexport class Response {\r\n\r\n    /**\r\n     * Creates a Response object.\r\n     * @param status The status of the response (ok/error)\r\n     * @param title The title of the response\r\n     * @param message The message sent by the response\r\n     * @param data The data requested by the client/sent by the response.\r\n     */\r\n    constructor(status, title, message, data) {\r\n        const currentDate = new Date();\r\n        this.datetime = currentDate.getFullYear() + \"-\" + (currentDate.getMonth() + 1).pad() + \"-\" + currentDate.getDate().pad()\r\n            + \" \" + currentDate.getHours().pad() + \":\" + currentDate.getMinutes().pad() + \":\" + currentDate.getSeconds().pad();\r\n        this.status = status;\r\n        this.title = title;\r\n        this.message = message;\r\n        this.data = data;\r\n    }\r\n\r\n    /**\r\n     * Defines the way the response class is going to be converted to JSON format.\r\n     * @returns {string}\r\n     */\r\n    toJSON() {\r\n        const out = {\r\n            \"status\": this.status,\r\n            \"title\": this.title,\r\n            \"message\": this.message,\r\n            \"datetime\": this.datetime\r\n        };\r\n        if (this.data != null) {\r\n            out.data = this.data;\r\n        }\r\n        return JSON.stringify(out);\r\n    }\r\n\r\n}\r\n\r\n/**\r\n * Defines a response that indicates a successful execution of the user's request.\r\n */\r\nexport class SuccessResponse extends Response {\r\n\r\n    constructor(title, message, data) {\r\n        super(RESPONSE_OK, title, message, data);\r\n    }\r\n\r\n}\r\n\r\n/**\r\n * Defines a response which indicates that an error has occurred while executing the user's request.\r\n */\r\nexport class ErrorResponse extends Response {\r\n\r\n    constructor(title, message, data) {\r\n        super(RESPONSE_ERROR, title, message, data);\r\n    }\r\n\r\n}\r\n\r\n/**\r\n * Defines a response that indicates that parameter in the request was not valid (invalid type, not in range, bad format, etc).\r\n */\r\nexport class InvalidParameterResponse extends Response {\r\n\r\n    constructor(paramName, message, data) {\r\n        super(RESPONSE_ERROR, \"Invalid parameter\", \"Invalid parameter '\" + paramName + \"' - \" + message, data);\r\n    }\r\n\r\n}\r\n\r\n/**\r\n * Defines a response that indicates that an expected parameter in the request was not found.\r\n */\r\nexport class MissingParameterResponse extends Response {\r\n\r\n    constructor(paramName, data) {\r\n        super(RESPONSE_ERROR, \"Missing parameter\", \"Parameter '\" + paramName + \"' is missing.\", data);\r\n    }\r\n\r\n}\r\n\r\n/**\r\n * Defines a response used when the user has tried to access an endpoint/resource without proper authorization or authentication.\r\n */\r\nexport class SecurityResponse extends Response {\r\n\r\n    constructor(data) {\r\n        super(RESPONSE_ERROR, \"Access denied\", \"Access to this service was denied. Please log in or use a properly authorized account.\", data);\r\n    }\r\n\r\n}\r\n\r\n/**\r\n * Defines a response that indicates that an unexpected error has occurred on the server.\r\n */\r\nexport class UnknownFailureResponse extends Response {\r\n\r\n    constructor(message, data) {\r\n        super(RESPONSE_ERROR, \"Unknown failure\", message, data);\r\n    }\r\n\r\n}",
+    "static": true,
+    "longname": "D:/Users/hfnov/Software Development/Projects/Response/js/src/Response/Response.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "RESPONSE_OK",
+    "memberof": "Response/Response.js",
+    "static": true,
+    "longname": "Response/Response.js~RESPONSE_OK",
+    "access": "public",
+    "export": true,
+    "importPath": "./Response/Response.js",
+    "importStyle": "{RESPONSE_OK}",
+    "description": "Defines a status for responses.",
+    "lineNumber": 5,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "RESPONSE_ERROR",
+    "memberof": "Response/Response.js",
+    "static": true,
+    "longname": "Response/Response.js~RESPONSE_ERROR",
+    "access": "public",
+    "export": true,
+    "importPath": "./Response/Response.js",
+    "importStyle": "{RESPONSE_ERROR}",
+    "description": "Defines a status for responses.",
+    "lineNumber": 11,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "pad",
+    "memberof": "Response/Response.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "Response/Response.js~pad",
+    "access": "public",
+    "export": false,
+    "importPath": "./Response/Response.js",
+    "importStyle": null,
+    "description": "Converts a number to its text representation with a number of trailing zeros.",
+    "lineNumber": 18,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string}"
+      }
+    ],
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "size",
+        "description": "The number of trailing zeros."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 52,
+    "kind": "class",
+    "name": "Response",
+    "memberof": "Response/Response.js",
+    "static": true,
+    "longname": "Response/Response.js~Response",
+    "access": "public",
+    "export": true,
+    "importPath": "./Response/Response.js",
+    "importStyle": "{Response}",
+    "description": "Models an HTTP response and its attributes.",
+    "lineNumber": 27,
+    "interface": false
+  },
+  {
+    "__docId__": 53,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "Response/Response.js~Response",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "Response/Response.js~Response#constructor",
+    "access": "public",
+    "description": "Creates a Response object.",
+    "lineNumber": 36,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "status",
+        "description": "The status of the response (ok/error)"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "title",
+        "description": "The title of the response"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": "The message sent by the response"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "data",
+        "description": "The data requested by the client/sent by the response."
+      }
+    ]
+  },
+  {
+    "__docId__": 54,
+    "kind": "member",
+    "name": "datetime",
+    "memberof": "Response/Response.js~Response",
+    "static": false,
+    "longname": "Response/Response.js~Response#datetime",
+    "access": "public",
+    "description": null,
+    "lineNumber": 38,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "member",
+    "name": "status",
+    "memberof": "Response/Response.js~Response",
+    "static": false,
+    "longname": "Response/Response.js~Response#status",
+    "access": "public",
+    "description": null,
+    "lineNumber": 40,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "member",
+    "name": "title",
+    "memberof": "Response/Response.js~Response",
+    "static": false,
+    "longname": "Response/Response.js~Response#title",
+    "access": "public",
+    "description": null,
+    "lineNumber": 41,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "member",
+    "name": "message",
+    "memberof": "Response/Response.js~Response",
+    "static": false,
+    "longname": "Response/Response.js~Response#message",
+    "access": "public",
+    "description": null,
+    "lineNumber": 42,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "member",
+    "name": "data",
+    "memberof": "Response/Response.js~Response",
+    "static": false,
+    "longname": "Response/Response.js~Response#data",
+    "access": "public",
+    "description": null,
+    "lineNumber": 43,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "method",
+    "name": "toJSON",
+    "memberof": "Response/Response.js~Response",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "Response/Response.js~Response#toJSON",
+    "access": "public",
+    "description": "Defines the way the response class is going to be converted to JSON format.",
+    "lineNumber": 50,
+    "unknown": [
+      {
+        "tagName": "@returns",
+        "tagValue": "{string}"
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": ""
+    },
+    "params": []
+  },
+  {
+    "__docId__": 60,
+    "kind": "class",
+    "name": "SuccessResponse",
+    "memberof": "Response/Response.js",
+    "static": true,
+    "longname": "Response/Response.js~SuccessResponse",
+    "access": "public",
+    "export": true,
+    "importPath": "./Response/Response.js",
+    "importStyle": "{SuccessResponse}",
+    "description": "Defines a response that indicates a successful execution of the user's request.",
+    "lineNumber": 68,
+    "interface": false,
+    "extends": [
+      "Response"
+    ]
+  },
+  {
+    "__docId__": 61,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "Response/Response.js~SuccessResponse",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "Response/Response.js~SuccessResponse#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 70,
+    "undocument": true
+  },
+  {
+    "__docId__": 62,
+    "kind": "class",
+    "name": "ErrorResponse",
+    "memberof": "Response/Response.js",
+    "static": true,
+    "longname": "Response/Response.js~ErrorResponse",
+    "access": "public",
+    "export": true,
+    "importPath": "./Response/Response.js",
+    "importStyle": "{ErrorResponse}",
+    "description": "Defines a response which indicates that an error has occurred while executing the user's request.",
+    "lineNumber": 79,
+    "interface": false,
+    "extends": [
+      "Response"
+    ]
+  },
+  {
+    "__docId__": 63,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "Response/Response.js~ErrorResponse",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "Response/Response.js~ErrorResponse#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 81,
+    "undocument": true
+  },
+  {
+    "__docId__": 64,
+    "kind": "class",
+    "name": "InvalidParameterResponse",
+    "memberof": "Response/Response.js",
+    "static": true,
+    "longname": "Response/Response.js~InvalidParameterResponse",
+    "access": "public",
+    "export": true,
+    "importPath": "./Response/Response.js",
+    "importStyle": "{InvalidParameterResponse}",
+    "description": "Defines a response that indicates that parameter in the request was not valid (invalid type, not in range, bad format, etc).",
+    "lineNumber": 90,
+    "interface": false,
+    "extends": [
+      "Response"
+    ]
+  },
+  {
+    "__docId__": 65,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "Response/Response.js~InvalidParameterResponse",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "Response/Response.js~InvalidParameterResponse#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 92,
+    "undocument": true
+  },
+  {
+    "__docId__": 66,
+    "kind": "class",
+    "name": "MissingParameterResponse",
+    "memberof": "Response/Response.js",
+    "static": true,
+    "longname": "Response/Response.js~MissingParameterResponse",
+    "access": "public",
+    "export": true,
+    "importPath": "./Response/Response.js",
+    "importStyle": "{MissingParameterResponse}",
+    "description": "Defines a response that indicates that an expected parameter in the request was not found.",
+    "lineNumber": 101,
+    "interface": false,
+    "extends": [
+      "Response"
+    ]
+  },
+  {
+    "__docId__": 67,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "Response/Response.js~MissingParameterResponse",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "Response/Response.js~MissingParameterResponse#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 103,
+    "undocument": true
+  },
+  {
+    "__docId__": 68,
+    "kind": "class",
+    "name": "SecurityResponse",
+    "memberof": "Response/Response.js",
+    "static": true,
+    "longname": "Response/Response.js~SecurityResponse",
+    "access": "public",
+    "export": true,
+    "importPath": "./Response/Response.js",
+    "importStyle": "{SecurityResponse}",
+    "description": "Defines a response used when the user has tried to access an endpoint/resource without proper authorization or authentication.",
+    "lineNumber": 112,
+    "interface": false,
+    "extends": [
+      "Response"
+    ]
+  },
+  {
+    "__docId__": 69,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "Response/Response.js~SecurityResponse",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "Response/Response.js~SecurityResponse#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 114,
+    "undocument": true
+  },
+  {
+    "__docId__": 70,
+    "kind": "class",
+    "name": "UnknownFailureResponse",
+    "memberof": "Response/Response.js",
+    "static": true,
+    "longname": "Response/Response.js~UnknownFailureResponse",
+    "access": "public",
+    "export": true,
+    "importPath": "./Response/Response.js",
+    "importStyle": "{UnknownFailureResponse}",
+    "description": "Defines a response that indicates that an unexpected error has occurred on the server.",
+    "lineNumber": 123,
+    "interface": false,
+    "extends": [
+      "Response"
+    ]
+  },
+  {
+    "__docId__": 71,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "Response/Response.js~UnknownFailureResponse",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "Response/Response.js~UnknownFailureResponse#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 125,
+    "undocument": true
+  },
+  {
+    "kind": "index",
+    "content": "",
+    "longname": "D:\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "",
+    "longname": "",
+    "name": "",
+    "static": true,
+    "access": "public"
+  }
+]
