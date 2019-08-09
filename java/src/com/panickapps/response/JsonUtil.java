@@ -9,6 +9,18 @@ import com.google.gson.reflect.TypeToken;
 import java.util.List;
 
 /**
+ * Created by PaNickApps - 2019
+ * Visit http://www.panickapps.com
+ *
+ * Response - A simple HTTP response modeling library.
+ * Provides a simple model for creating HTTP responses.
+ * Repository: https://github.com/panickapps/Response
+ * Guide: https://panickapps.github.io/Response/
+ *
+ * Apache 2.0 License
+ */
+
+/**
  * A utility class that allows easier conversion between Java and JSON objects.
  */
 public class JsonUtil {
