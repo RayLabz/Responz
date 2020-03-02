@@ -1,422 +1,422 @@
 window.esdocSearchIndex = [
   [
-    "./response/response.js~errorresponse",
-    "class/Response/Response.js~ErrorResponse.html",
-    "<span>ErrorResponse</span> <span class=\"search-result-import-path\">./Response/Response.js</span>",
+    "./responz/response.js~errorresponse",
+    "class/Responz/Response.js~ErrorResponse.html",
+    "<span>ErrorResponse</span> <span class=\"search-result-import-path\">./Responz/Response.js</span>",
     "class"
   ],
   [
-    "./response/response.js~invalidparameterresponse",
-    "class/Response/Response.js~InvalidParameterResponse.html",
-    "<span>InvalidParameterResponse</span> <span class=\"search-result-import-path\">./Response/Response.js</span>",
+    "./responz/response.js~invalidparameterresponse",
+    "class/Responz/Response.js~InvalidParameterResponse.html",
+    "<span>InvalidParameterResponse</span> <span class=\"search-result-import-path\">./Responz/Response.js</span>",
     "class"
   ],
   [
-    "./response/response.js~missingparameterresponse",
-    "class/Response/Response.js~MissingParameterResponse.html",
-    "<span>MissingParameterResponse</span> <span class=\"search-result-import-path\">./Response/Response.js</span>",
+    "./responz/response.js~missingparameterresponse",
+    "class/Responz/Response.js~MissingParameterResponse.html",
+    "<span>MissingParameterResponse</span> <span class=\"search-result-import-path\">./Responz/Response.js</span>",
     "class"
   ],
   [
-    "./response/response.js~response_error",
+    "./responz/response.js~response_error",
     "variable/index.html#static-variable-RESPONSE_ERROR",
-    "<span>RESPONSE_ERROR</span> <span class=\"search-result-import-path\">./Response/Response.js</span>",
+    "<span>RESPONSE_ERROR</span> <span class=\"search-result-import-path\">./Responz/Response.js</span>",
     "variable"
   ],
   [
-    "./response/response.js~response_ok",
+    "./responz/response.js~response_ok",
     "variable/index.html#static-variable-RESPONSE_OK",
-    "<span>RESPONSE_OK</span> <span class=\"search-result-import-path\">./Response/Response.js</span>",
+    "<span>RESPONSE_OK</span> <span class=\"search-result-import-path\">./Responz/Response.js</span>",
     "variable"
   ],
   [
-    "./response/response.js~response",
-    "class/Response/Response.js~Response.html",
-    "<span>Response</span> <span class=\"search-result-import-path\">./Response/Response.js</span>",
+    "./responz/response.js~response",
+    "class/Responz/Response.js~Response.html",
+    "<span>Response</span> <span class=\"search-result-import-path\">./Responz/Response.js</span>",
     "class"
   ],
   [
-    "./response/response.js~securityresponse",
-    "class/Response/Response.js~SecurityResponse.html",
-    "<span>SecurityResponse</span> <span class=\"search-result-import-path\">./Response/Response.js</span>",
+    "./responz/response.js~securityresponse",
+    "class/Responz/Response.js~SecurityResponse.html",
+    "<span>SecurityResponse</span> <span class=\"search-result-import-path\">./Responz/Response.js</span>",
     "class"
   ],
   [
-    "./response/response.js~successresponse",
-    "class/Response/Response.js~SuccessResponse.html",
-    "<span>SuccessResponse</span> <span class=\"search-result-import-path\">./Response/Response.js</span>",
+    "./responz/response.js~successresponse",
+    "class/Responz/Response.js~SuccessResponse.html",
+    "<span>SuccessResponse</span> <span class=\"search-result-import-path\">./Responz/Response.js</span>",
     "class"
   ],
   [
-    "./response/response.js~unknownfailureresponse",
-    "class/Response/Response.js~UnknownFailureResponse.html",
-    "<span>UnknownFailureResponse</span> <span class=\"search-result-import-path\">./Response/Response.js</span>",
+    "./responz/response.js~unknownfailureresponse",
+    "class/Responz/Response.js~UnknownFailureResponse.html",
+    "<span>UnknownFailureResponse</span> <span class=\"search-result-import-path\">./Responz/Response.js</span>",
     "class"
   ],
   [
-    "response/.external-ecmascript.js~array",
+    "responz/.external-ecmascript.js~array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
-    "Response/.external-ecmascript.js~Array",
+    "Responz/.external-ecmascript.js~Array",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~arraybuffer",
+    "responz/.external-ecmascript.js~arraybuffer",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
-    "Response/.external-ecmascript.js~ArrayBuffer",
+    "Responz/.external-ecmascript.js~ArrayBuffer",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~boolean",
+    "responz/.external-ecmascript.js~boolean",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
-    "Response/.external-ecmascript.js~Boolean",
+    "Responz/.external-ecmascript.js~Boolean",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~dataview",
+    "responz/.external-ecmascript.js~dataview",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
-    "Response/.external-ecmascript.js~DataView",
+    "Responz/.external-ecmascript.js~DataView",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~date",
+    "responz/.external-ecmascript.js~date",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
-    "Response/.external-ecmascript.js~Date",
+    "Responz/.external-ecmascript.js~Date",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~error",
+    "responz/.external-ecmascript.js~error",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
-    "Response/.external-ecmascript.js~Error",
+    "Responz/.external-ecmascript.js~Error",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~evalerror",
+    "responz/.external-ecmascript.js~evalerror",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
-    "Response/.external-ecmascript.js~EvalError",
+    "Responz/.external-ecmascript.js~EvalError",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~float32array",
+    "responz/.external-ecmascript.js~float32array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
-    "Response/.external-ecmascript.js~Float32Array",
+    "Responz/.external-ecmascript.js~Float32Array",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~float64array",
+    "responz/.external-ecmascript.js~float64array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
-    "Response/.external-ecmascript.js~Float64Array",
+    "Responz/.external-ecmascript.js~Float64Array",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~function",
+    "responz/.external-ecmascript.js~function",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
-    "Response/.external-ecmascript.js~Function",
+    "Responz/.external-ecmascript.js~Function",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~generator",
+    "responz/.external-ecmascript.js~generator",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
-    "Response/.external-ecmascript.js~Generator",
+    "Responz/.external-ecmascript.js~Generator",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~generatorfunction",
+    "responz/.external-ecmascript.js~generatorfunction",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
-    "Response/.external-ecmascript.js~GeneratorFunction",
+    "Responz/.external-ecmascript.js~GeneratorFunction",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~infinity",
+    "responz/.external-ecmascript.js~infinity",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
-    "Response/.external-ecmascript.js~Infinity",
+    "Responz/.external-ecmascript.js~Infinity",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~int16array",
+    "responz/.external-ecmascript.js~int16array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
-    "Response/.external-ecmascript.js~Int16Array",
+    "Responz/.external-ecmascript.js~Int16Array",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~int32array",
+    "responz/.external-ecmascript.js~int32array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
-    "Response/.external-ecmascript.js~Int32Array",
+    "Responz/.external-ecmascript.js~Int32Array",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~int8array",
+    "responz/.external-ecmascript.js~int8array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
-    "Response/.external-ecmascript.js~Int8Array",
+    "Responz/.external-ecmascript.js~Int8Array",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~internalerror",
+    "responz/.external-ecmascript.js~internalerror",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
-    "Response/.external-ecmascript.js~InternalError",
+    "Responz/.external-ecmascript.js~InternalError",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~json",
+    "responz/.external-ecmascript.js~json",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
-    "Response/.external-ecmascript.js~JSON",
+    "Responz/.external-ecmascript.js~JSON",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~map",
+    "responz/.external-ecmascript.js~map",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
-    "Response/.external-ecmascript.js~Map",
+    "Responz/.external-ecmascript.js~Map",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~nan",
+    "responz/.external-ecmascript.js~nan",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
-    "Response/.external-ecmascript.js~NaN",
+    "Responz/.external-ecmascript.js~NaN",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~number",
+    "responz/.external-ecmascript.js~number",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
-    "Response/.external-ecmascript.js~Number",
+    "Responz/.external-ecmascript.js~Number",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~object",
+    "responz/.external-ecmascript.js~object",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
-    "Response/.external-ecmascript.js~Object",
+    "Responz/.external-ecmascript.js~Object",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~promise",
+    "responz/.external-ecmascript.js~promise",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
-    "Response/.external-ecmascript.js~Promise",
+    "Responz/.external-ecmascript.js~Promise",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~proxy",
+    "responz/.external-ecmascript.js~proxy",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
-    "Response/.external-ecmascript.js~Proxy",
+    "Responz/.external-ecmascript.js~Proxy",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~rangeerror",
+    "responz/.external-ecmascript.js~rangeerror",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
-    "Response/.external-ecmascript.js~RangeError",
+    "Responz/.external-ecmascript.js~RangeError",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~referenceerror",
+    "responz/.external-ecmascript.js~referenceerror",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
-    "Response/.external-ecmascript.js~ReferenceError",
+    "Responz/.external-ecmascript.js~ReferenceError",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~reflect",
+    "responz/.external-ecmascript.js~reflect",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
-    "Response/.external-ecmascript.js~Reflect",
+    "Responz/.external-ecmascript.js~Reflect",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~regexp",
+    "responz/.external-ecmascript.js~regexp",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
-    "Response/.external-ecmascript.js~RegExp",
+    "Responz/.external-ecmascript.js~RegExp",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~set",
+    "responz/.external-ecmascript.js~set",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
-    "Response/.external-ecmascript.js~Set",
+    "Responz/.external-ecmascript.js~Set",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~string",
+    "responz/.external-ecmascript.js~string",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
-    "Response/.external-ecmascript.js~String",
+    "Responz/.external-ecmascript.js~String",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~symbol",
+    "responz/.external-ecmascript.js~symbol",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
-    "Response/.external-ecmascript.js~Symbol",
+    "Responz/.external-ecmascript.js~Symbol",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~syntaxerror",
+    "responz/.external-ecmascript.js~syntaxerror",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
-    "Response/.external-ecmascript.js~SyntaxError",
+    "Responz/.external-ecmascript.js~SyntaxError",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~typeerror",
+    "responz/.external-ecmascript.js~typeerror",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
-    "Response/.external-ecmascript.js~TypeError",
+    "Responz/.external-ecmascript.js~TypeError",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~urierror",
+    "responz/.external-ecmascript.js~urierror",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
-    "Response/.external-ecmascript.js~URIError",
+    "Responz/.external-ecmascript.js~URIError",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~uint16array",
+    "responz/.external-ecmascript.js~uint16array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
-    "Response/.external-ecmascript.js~Uint16Array",
+    "Responz/.external-ecmascript.js~Uint16Array",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~uint32array",
+    "responz/.external-ecmascript.js~uint32array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
-    "Response/.external-ecmascript.js~Uint32Array",
+    "Responz/.external-ecmascript.js~Uint32Array",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~uint8array",
+    "responz/.external-ecmascript.js~uint8array",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
-    "Response/.external-ecmascript.js~Uint8Array",
+    "Responz/.external-ecmascript.js~Uint8Array",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~uint8clampedarray",
+    "responz/.external-ecmascript.js~uint8clampedarray",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
-    "Response/.external-ecmascript.js~Uint8ClampedArray",
+    "Responz/.external-ecmascript.js~Uint8ClampedArray",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~weakmap",
+    "responz/.external-ecmascript.js~weakmap",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
-    "Response/.external-ecmascript.js~WeakMap",
+    "Responz/.external-ecmascript.js~WeakMap",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~weakset",
+    "responz/.external-ecmascript.js~weakset",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
-    "Response/.external-ecmascript.js~WeakSet",
+    "Responz/.external-ecmascript.js~WeakSet",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~boolean",
+    "responz/.external-ecmascript.js~boolean",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
-    "Response/.external-ecmascript.js~boolean",
+    "Responz/.external-ecmascript.js~boolean",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~function",
+    "responz/.external-ecmascript.js~function",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
-    "Response/.external-ecmascript.js~function",
+    "Responz/.external-ecmascript.js~function",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~null",
+    "responz/.external-ecmascript.js~null",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
-    "Response/.external-ecmascript.js~null",
+    "Responz/.external-ecmascript.js~null",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~number",
+    "responz/.external-ecmascript.js~number",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
-    "Response/.external-ecmascript.js~number",
+    "Responz/.external-ecmascript.js~number",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~object",
+    "responz/.external-ecmascript.js~object",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
-    "Response/.external-ecmascript.js~object",
+    "Responz/.external-ecmascript.js~object",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~string",
+    "responz/.external-ecmascript.js~string",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
-    "Response/.external-ecmascript.js~string",
+    "Responz/.external-ecmascript.js~string",
     "external"
   ],
   [
-    "response/.external-ecmascript.js~undefined",
+    "responz/.external-ecmascript.js~undefined",
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
-    "Response/.external-ecmascript.js~undefined",
+    "Responz/.external-ecmascript.js~undefined",
     "external"
   ],
   [
-    "response/response.js",
-    "file/Response/Response.js.html",
-    "Response/Response.js",
+    "responz/response.js",
+    "file/Responz/Response.js.html",
+    "Responz/Response.js",
     "file"
   ],
   [
-    "response/response.js~errorresponse#constructor",
-    "class/Response/Response.js~ErrorResponse.html#instance-constructor-constructor",
-    "Response/Response.js~ErrorResponse#constructor",
+    "responz/response.js~errorresponse#constructor",
+    "class/Responz/Response.js~ErrorResponse.html#instance-constructor-constructor",
+    "Responz/Response.js~ErrorResponse#constructor",
     "method"
   ],
   [
-    "response/response.js~invalidparameterresponse#constructor",
-    "class/Response/Response.js~InvalidParameterResponse.html#instance-constructor-constructor",
-    "Response/Response.js~InvalidParameterResponse#constructor",
+    "responz/response.js~invalidparameterresponse#constructor",
+    "class/Responz/Response.js~InvalidParameterResponse.html#instance-constructor-constructor",
+    "Responz/Response.js~InvalidParameterResponse#constructor",
     "method"
   ],
   [
-    "response/response.js~missingparameterresponse#constructor",
-    "class/Response/Response.js~MissingParameterResponse.html#instance-constructor-constructor",
-    "Response/Response.js~MissingParameterResponse#constructor",
+    "responz/response.js~missingparameterresponse#constructor",
+    "class/Responz/Response.js~MissingParameterResponse.html#instance-constructor-constructor",
+    "Responz/Response.js~MissingParameterResponse#constructor",
     "method"
   ],
   [
-    "response/response.js~response#constructor",
-    "class/Response/Response.js~Response.html#instance-constructor-constructor",
-    "Response/Response.js~Response#constructor",
+    "responz/response.js~response#constructor",
+    "class/Responz/Response.js~Response.html#instance-constructor-constructor",
+    "Responz/Response.js~Response#constructor",
     "method"
   ],
   [
-    "response/response.js~response#data",
-    "class/Response/Response.js~Response.html#instance-member-data",
-    "Response/Response.js~Response#data",
+    "responz/response.js~response#data",
+    "class/Responz/Response.js~Response.html#instance-member-data",
+    "Responz/Response.js~Response#data",
     "member"
   ],
   [
-    "response/response.js~response#datetime",
-    "class/Response/Response.js~Response.html#instance-member-datetime",
-    "Response/Response.js~Response#datetime",
+    "responz/response.js~response#message",
+    "class/Responz/Response.js~Response.html#instance-member-message",
+    "Responz/Response.js~Response#message",
     "member"
   ],
   [
-    "response/response.js~response#message",
-    "class/Response/Response.js~Response.html#instance-member-message",
-    "Response/Response.js~Response#message",
+    "responz/response.js~response#status",
+    "class/Responz/Response.js~Response.html#instance-member-status",
+    "Responz/Response.js~Response#status",
     "member"
   ],
   [
-    "response/response.js~response#status",
-    "class/Response/Response.js~Response.html#instance-member-status",
-    "Response/Response.js~Response#status",
+    "responz/response.js~response#timestamp",
+    "class/Responz/Response.js~Response.html#instance-member-timestamp",
+    "Responz/Response.js~Response#timestamp",
     "member"
   ],
   [
-    "response/response.js~response#title",
-    "class/Response/Response.js~Response.html#instance-member-title",
-    "Response/Response.js~Response#title",
+    "responz/response.js~response#title",
+    "class/Responz/Response.js~Response.html#instance-member-title",
+    "Responz/Response.js~Response#title",
     "member"
   ],
   [
-    "response/response.js~response#tojson",
-    "class/Response/Response.js~Response.html#instance-method-toJSON",
-    "Response/Response.js~Response#toJSON",
+    "responz/response.js~response#tojson",
+    "class/Responz/Response.js~Response.html#instance-method-toJSON",
+    "Responz/Response.js~Response#toJSON",
     "method"
   ],
   [
-    "response/response.js~securityresponse#constructor",
-    "class/Response/Response.js~SecurityResponse.html#instance-constructor-constructor",
-    "Response/Response.js~SecurityResponse#constructor",
+    "responz/response.js~securityresponse#constructor",
+    "class/Responz/Response.js~SecurityResponse.html#instance-constructor-constructor",
+    "Responz/Response.js~SecurityResponse#constructor",
     "method"
   ],
   [
-    "response/response.js~successresponse#constructor",
-    "class/Response/Response.js~SuccessResponse.html#instance-constructor-constructor",
-    "Response/Response.js~SuccessResponse#constructor",
+    "responz/response.js~successresponse#constructor",
+    "class/Responz/Response.js~SuccessResponse.html#instance-constructor-constructor",
+    "Responz/Response.js~SuccessResponse#constructor",
     "method"
   ],
   [
-    "response/response.js~unknownfailureresponse#constructor",
-    "class/Response/Response.js~UnknownFailureResponse.html#instance-constructor-constructor",
-    "Response/Response.js~UnknownFailureResponse#constructor",
+    "responz/response.js~unknownfailureresponse#constructor",
+    "class/Responz/Response.js~UnknownFailureResponse.html#instance-constructor-constructor",
+    "Responz/Response.js~UnknownFailureResponse#constructor",
     "method"
   ]
 ]

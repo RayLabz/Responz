@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
     <link rel="shortcut icon" type="image/png" href="images/response.png"/>
     <meta name="theme-color" content="#D32F2F" />
-    <title>Response - PaNickApps</title>
+    <title>Responz - RayLabz</title>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -34,7 +34,7 @@
                 <div class="center">
                     <br/>
                     <img class="responsive-img" src="images/response.png" width="100" />
-                    <p class="black-text" style="font-size: 20px; margin-block-start: 0px; margin-block-end: 0px; text-align: center;">Response</p>
+                    <p class="black-text" style="font-size: 20px; margin-block-start: 0px; margin-block-end: 0px; text-align: center;">Responz</p>
                 </div>
             </li>
             <li><a href="index.html">Home</a></li>
@@ -60,7 +60,7 @@
             <ol>
                 <li><a href="#prerequisites">Prerequisites</a></li>
                 <li><a href="#download">Download and import</a></li>
-                <li><a href="#components">Components of a response</a></li>
+                <li><a href="#components">Attributes of a response</a></li>
                 <li><a href="#predef">Using pre-defined responses</a></li>
                 <li><a href="#encoding">Encoding responses to JSON format</a></li>
                 <li><a href="#morepredef">More pre-defined responses</a></li>
@@ -77,29 +77,26 @@
 
             <ul class="browser-default">
                 <li>PHP 7+</li>
-                <li>EasyJSON (included)</li>
             </ul>
 
             <h5 id="download">Download and import</h5>
 
             <p class="justify">To begin,
-                <a href="https://github.com/panickapps/Response/raw/master/php/Download/Response.zip"
-                   class="red-text text-darken-2">download the Response library for PHP</a>.</p>
+                <a href="https://github.com/RayLabz/Responz/raw/master/php/Download/responz.zip"
+                   class="red-text text-darken-2">download the Responz library for PHP</a>.</p>
 
             <p class="justify">
-                Extract the folder 'Response' from the downloaded ZIP file to the root of your code directory.
-                You can then import the Response library in your code using:
+                Extract the folder 'Responz' from the downloaded ZIP file to the root of your code directory.
+                You can then import the Responz library in your code using:
             </p>
 
-            <pre class="prettyprint php">require_once("Response\Response.php");</pre>
-
-            <!--TODO Link classes to documentation-->
+            <pre class="prettyprint php">require_once("Responz\Responz.php");</pre>
 
             <hr/>
-            <h5 id="components">Components of a response</h5>
+            <h5 id="components">Attributes of a response</h5>
 
             <p class="justify">
-                All responses contain four internal components, inherited from a base class called <span class="code">Response</span>.
+                All responses contain four internal attributes, inherited from a base class called <span class="code">Response</span>.
                 These are:
             </p>
 
@@ -107,9 +104,7 @@
                 <li><span class="code">status</span> - is either "ok" or "error" and is used to indicate the result of the request.</li>
                 <li><span class="code">title</span> - contains a title that very briefly describes the result of the request.</li>
                 <li><span class="code">message</span> - contains a message to the client describing the result in more detail.</li>
-                <li><span class="code">datetime</span> - contains formatted date-time that indicates the time the request was processed.
-                Format: YYYY-MM-DD HH:mm:SS
-                </li>
+                <li><span class="code">timestamp</span> - timestamp that indicates the time the request was processed.</li>
                 <li>
                     <span class="code">data</span> - (Optional) contains data returned related to the client's request.
                     The data object will be omitted from any serialized JSON if it is not defined.
@@ -383,7 +378,7 @@ echo "Data[myIntValue] -> " . $data->myIntValue . PHP_EOL;</pre>
             <!--------------------------------------------------------------------------------------------------------->
             <hr/>
 
-            <p>For more information on the Response library, please visit the <a href="documentation.html">documentation</a>.</p>
+<!--            <p>For more information on the Response library, please visit the <a href="documentation.html">documentation</a>.</p>-->
 
             <br/><br/>
         </div>
@@ -393,7 +388,7 @@ echo "Data[myIntValue] -> " . $data->myIntValue . PHP_EOL;</pre>
 
 <footer class="page-footer red darken-3">
     <div class="container">
-        <div class="center light">Made by <a class="orange-text text-lighten-3" href="http://www.panickapps.com">PaNickApps</a></div>
+        <div class="center light">Made by <a class="orange-text text-lighten-3" href="http://www.RayLabz.com">RayLabz</a></div>
         <br/>
     </div>
 </footer>

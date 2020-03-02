@@ -1,0 +1,7 @@
+{
+  "source": "D:/Users/hfnov/Software Development/Projects/Responz/js/src/Responz",
+  "destination": "D:/Users/hfnov/Software Development/Projects/Responz/docs/jsdoc",
+  "plugins": [
+    {"name": "esdoc-standard-plugin"}
+  ]
+}

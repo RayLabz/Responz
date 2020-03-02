@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
     <link rel="shortcut icon" type="image/png" href="images/response.png"/>
     <meta name="theme-color" content="#D32F2F" />
-    <title>Response - PaNickApps</title>
+    <title>Responz - RayLabz</title>
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -34,7 +34,7 @@
                 <div class="center">
                     <br/>
                     <img class="responsive-img" src="images/response.png" width="100" />
-                    <p class="black-text" style="font-size: 20px; margin-block-start: 0px; margin-block-end: 0px; text-align: center;">Response</p>
+                    <p class="black-text" style="font-size: 20px; margin-block-start: 0px; margin-block-end: 0px; text-align: center;">Responz</p>
                 </div>
             </li>
             <li><a href="index.html">Home</a></li>
@@ -60,7 +60,7 @@
             <ol>
                 <li><a href="#prerequisites">Prerequisites</a></li>
                 <li><a href="#download">Download and import</a></li>
-                <li><a href="#components">Components of a response</a></li>
+                <li><a href="#components">Attributes of a response</a></li>
                 <li><a href="#predef">Using pre-defined responses</a></li>
                 <li><a href="#encoding">Encoding responses to JSON format</a></li>
                 <li><a href="#morepredef">More pre-defined responses</a></li>
@@ -76,38 +76,38 @@
 
             <ul class="browser-default">
                 <li>Java 8+</li>
-                <li>GSON library (included)</li>
             </ul>
 
-            <h5 id="download">Download and import</h5>
+            <h5 id="download">Download/import</h5>
 
-            <p class="justify">To begin,
-                <a href="https://github.com/panickapps/Response/raw/master/java/Download/Response.jar"
-                   class="red-text text-darken-2">download the Response library for Java</a>.</p>
+            <p class="justify">You can import Responz using Maven:</p>
 
-            <p class="justify">Import the downloaded .jar file into your project. If you are not sure how to do this, perform a Google search for the following term:</p>
+            <pre class="prettyprint lang-xml">com.raylabz:responz:1.0.0</pre>
 
-            <p class="justify">
-                <span style="font-style: italic;">"How to import jar file in <b>*THE NAME OF YOUR IDE*"</b></span>,
-                replaced by the name of the IDE you are using, for example "How to import jar file in Eclipse/Android Studio/IntelliJ" etc.
-            </p>
+            <p class="justify">Inside pom.xml:</p>
+            <pre class="prettyprint lang-xml">
+&lt;dependency&gt;
+    &lt;groupId&gt;com.raylabz&lt;/groupId&gt;
+    &lt;artifactId&gt;responz&lt;/artifactId&gt;
+    &lt;version&gt;1.0.0&lt;/version&gt;
+&lt;/dependency&gt;</pre>
 
-            <!--TODO Link classes to documentation-->
+            <p class="justify">Alternatively, download and import the Responz library for Java as a .jar file.</p>
+            <a href="https://github.com/RayLabz/Responz/raw/master/java/Download/Responz.jar" class="btn red white-text">Download .JAR</a>
 
             <hr/>
-            <h5 id="components">Components of a response</h5>
+            <h5 id="components">Attributes of a response</h5>
 
             <p class="justify">
-                All responses contain four internal components, inherited from a base class called <span class="code">Response</span>.
+                All responses contain four attributes, inherited from a base class called <span class="code">Response</span>.
                 These are:
             </p>
 
             <ul class="browser-default">
-                <li><span class="code">status</span> - is either "ok" or "error" and is used to indicate the result of the request.</li>
+                <li><span class="code">status</span> - is either "OK" or "ERROR" and is used to indicate the result of the request.</li>
                 <li><span class="code">title</span> - contains a title that very briefly describes the result of the request.</li>
                 <li><span class="code">message</span> - contains a message to the client describing the result in more detail.</li>
-                <li><span class="code">datetime</span> - contains formatted date-time that indicates the time the request was processed.
-                    Format: YYYY-MM-DD HH:mm:SS</li>
+                <li><span class="code">timestamp</span> - timestamp that indicates the time the request was processed.</li>
                 <li>
                     <span class="code">data</span> - (Optional) contains data returned related to the client's request.
                     The data object will be omitted from any serialized JSON if it is not defined.
@@ -123,7 +123,7 @@
                 The library offers two existing responses that extend the <span class="code">Response</span> base class
                 by implicitly specifying the status. These are the <span class="code">SuccessResponse</span>,
                 which indicates that the user's request has been executed successfully (status = ok) and
-                <span class="code">ErrorResponse</span>, which indicates that an error occured when trying the
+                <span class="code">ErrorResponse</span>, which indicates that an error occurred when trying the
                 execute the request (status = error). The following example shows how to instantiate a simple response, a
                 Success response and an Error response.
             </p>
@@ -366,7 +366,7 @@ Person person = gson.fromJson(decodedResponse.getData().get("person"), Person.cl
             <!--------------------------------------------------------------------------------------------------------->
             <hr/>
 
-            <p>For more information on the Response library, please visit the <a href="documentation.html">documentation</a>.</p>
+            <p>For more information on the Responz library, please visit the <a href="documentation.html">documentation</a>.</p>
 
             <br/><br/>
         </div>
@@ -376,7 +376,7 @@ Person person = gson.fromJson(decodedResponse.getData().get("person"), Person.cl
 
 <footer class="page-footer red darken-3">
     <div class="container">
-        <div class="center light">Made by <a class="orange-text text-lighten-3" href="http://www.panickapps.com">PaNickApps</a></div>
+        <div class="center light">Made by <a class="orange-text text-lighten-3" href="http://www.RayLabz.com">RayLabz</a></div>
         <br/>
     </div>
 </footer>

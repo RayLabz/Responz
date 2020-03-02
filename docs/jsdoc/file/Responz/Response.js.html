@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">Responz/Response.js</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+</head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/Responz/Response.js~ErrorResponse.html">ErrorResponse</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/Responz/Response.js~InvalidParameterResponse.html">InvalidParameterResponse</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/Responz/Response.js~MissingParameterResponse.html">MissingParameterResponse</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/Responz/Response.js~Response.html">Response</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/Responz/Response.js~SecurityResponse.html">SecurityResponse</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/Responz/Response.js~SuccessResponse.html">SuccessResponse</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/Responz/Response.js~UnknownFailureResponse.html">UnknownFailureResponse</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RESPONSE_ERROR">RESPONSE_ERROR</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-variable">V</span><span data-ice="name"><span><a href="variable/index.html#static-variable-RESPONSE_OK">RESPONSE_OK</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">Responz/Response.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">/**
+ * Created by RayLabz - 2019
+ * Visit http://www.RayLabz.com
+ *
+ * Responz - A simple HTTP response modeling library.
+ * Provides a simple model for creating HTTP responses.
+ * Repository: https://github.com/RayLabz/Responz
+ * Guide: https://RayLabz.github.io/Responz/
+ *
+ * Apache 2.0 License
+ */
+
+
+/**
+ * Defines a status for responses.
+ * @type {string}
+ */
+export const RESPONSE_OK = &quot;OK&quot;;
+
+/**
+ * Defines a status for responses.
+ * @type {string}
+ */
+export const RESPONSE_ERROR = &quot;ERROR&quot;;
+
+/**
+ * Converts a number to its text representation with a number of trailing zeros.
+ * @param size The number of trailing zeros.
+ * @returns {string}
+ */
+Number.prototype.pad = function(size) {
+    let s = String(this);
+    while (s.length &lt; (size || 2)) {s = &quot;0&quot; + s;}
+    return s;
+};
+
+/**
+ * Models an HTTP response and its attributes.
+ */
+export class Response {
+
+    /**
+     * Creates a Response object.
+     * @param status The status of the response (ok/error)
+     * @param title The title of the response
+     * @param message The message sent by the response
+     * @param data The data requested by the client/sent by the response.
+     */
+    constructor(status, title, message, data) {
+        this.timestamp = Date().now();
+        this.status = status;
+        this.title = title;
+        this.message = message;
+        this.data = data;
+    }
+
+    /**
+     * Defines the way the response class is going to be converted to JSON format.
+     * @returns {string}
+     */
+    toJSON() {
+        const out = {
+            &quot;status&quot;: this.status,
+            &quot;title&quot;: this.title,
+            &quot;message&quot;: this.message,
+            &quot;timestamp&quot;: this.timestamp
+        };
+        if (this.data != null) {
+            out.data = this.data;
+        }
+        return JSON.stringify(out);
+    }
+
+}
+
+/**
+ * Defines a response that indicates a successful execution of the user&apos;s request.
+ */
+export class SuccessResponse extends Response {
+
+    constructor(title, message, data) {
+        super(RESPONSE_OK, title, message, data);
+    }
+
+}
+
+/**
+ * Defines a response which indicates that an error has occurred while executing the user&apos;s request.
+ */
+export class ErrorResponse extends Response {
+
+    constructor(title, message, data) {
+        super(RESPONSE_ERROR, title, message, data);
+    }
+
+}
+
+/**
+ * Defines a response that indicates that parameter in the request was not valid (invalid type, not in range, bad format, etc).
+ */
+export class InvalidParameterResponse extends Response {
+
+    constructor(paramName, message, data) {
+        super(RESPONSE_ERROR, &quot;Invalid parameter&quot;, &quot;Invalid parameter &apos;&quot; + paramName + &quot;&apos; - &quot; + message, data);
+    }
+
+}
+
+/**
+ * Defines a response that indicates that an expected parameter in the request was not found.
+ */
+export class MissingParameterResponse extends Response {
+
+    constructor(paramName, data) {
+        super(RESPONSE_ERROR, &quot;Missing parameter&quot;, &quot;Parameter &apos;&quot; + paramName + &quot;&apos; is missing.&quot;, data);
+    }
+
+}
+
+/**
+ * Defines a response used when the user has tried to access an endpoint/resource without proper authorization or authentication.
+ */
+export class SecurityResponse extends Response {
+
+    constructor(data) {
+        super(RESPONSE_ERROR, &quot;Access denied&quot;, &quot;Access to this service was denied. Please log in or use a properly authorized account.&quot;, data);
+    }
+
+}
+
+/**
+ * Defines a response that indicates that an unexpected error has occurred on the server.
+ */
+export class UnknownFailureResponse extends Response {
+
+    constructor(message, data) {
+        super(RESPONSE_ERROR, &quot;Unknown failure&quot;, message, data);
+    }
+
+}</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

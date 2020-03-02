@@ -3,9 +3,160 @@
   <component name="ChangeListManager">
     <list default="true" id="ba26418d-7442-46c0-ba5e-4697eb4118ad" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/documentation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaGuide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/panickapps/response/ErrorResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/panickapps/response/InvalidParameterResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/panickapps/response/JsonSerializable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/panickapps/response/JsonUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/panickapps/response/MissingParameterResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/panickapps/response/Response.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/panickapps/response/ResponseDateTimeFormat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/panickapps/response/ResponseStatus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/panickapps/response/SecurityResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/panickapps/response/SuccessResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/panickapps/response/UnknownFailureResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/panickapps/response/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/panickapps/response/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/com/panickapps/response/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoc/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoc/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsGuide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/ast/source/.external-ecmascript.js.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/ast/source/.external-ecmascript.js.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/ast/source/Response.js.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/ast/source/Response.js.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/badge.svg" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/badge.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/class/Response/Response.js~ErrorResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/class/Response/Response.js~InvalidParameterResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/class/Response/Response.js~MissingParameterResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/class/Response/Response.js~Response.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/class/Response/Response.js~SecurityResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/class/Response/Response.js~SuccessResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/class/Response/Response.js~UnknownFailureResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/coverage.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/coverage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/css/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/css/github.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/css/identifiers.css" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/css/identifiers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/css/manual.css" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/css/manual.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/css/prettify-tomorrow.css" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/css/prettify-tomorrow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/css/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/css/source.css" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/css/source.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/css/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/css/test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/file/Response/Response.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/identifiers.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/identifiers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/image/badge.svg" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/image/badge.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/image/manual-badge.svg" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/image/manual-badge.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/script/inherited-summary.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/script/inherited-summary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/script/inner-link.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/script/inner-link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/script/manual.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/script/manual.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/script/patch-for-local.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/script/patch-for-local.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/script/prettify/Apache-License-2.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/script/prettify/Apache-License-2.0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/script/prettify/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/script/prettify/prettify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/script/pretty-print.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/script/pretty-print.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/script/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/script/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/script/search_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/script/search_index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/script/test-summary.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/script/test-summary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/source.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsdoc/variable/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsdoc/variable/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/phpGuide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/classes/EasyJSON.JsonObject.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/classes/ErrorResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/classes/InvalidParameterResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/classes/MissingParameterResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/classes/Response.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/classes/ResponseStatus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/classes/SecurityResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/classes/SuccessResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/classes/UnknownFailureResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/css/bootstrap-combined.no-icons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/css/jquery.iviewer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/css/phpdocumentor-clean-icons/Read Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/css/phpdocumentor-clean-icons/fonts/phpdocumentor-clean-icons.dev.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/css/phpdocumentor-clean-icons/fonts/phpdocumentor-clean-icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/css/phpdocumentor-clean-icons/fonts/phpdocumentor-clean-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/css/phpdocumentor-clean-icons/fonts/phpdocumentor-clean-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/css/phpdocumentor-clean-icons/fonts/phpdocumentor-clean-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/css/phpdocumentor-clean-icons/lte-ie7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/css/phpdocumentor-clean-icons/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/css/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/css/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/files/EasyJSON.EasyJSON.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/files/EasyJSON/EasyJSON.php.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/files/Response.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/files/Response.php.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/font/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/font/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/font/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/font/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/font/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/graphs/class.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/apple-touch-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/apple-touch-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/custom-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/hierarchy-item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/icon-class-13x13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/icon-class.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/icon-interface-13x13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/icon-interface.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/icon-trait-13x13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/icon-trait.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/iviewer/grab.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/iviewer/hand.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/iviewer/iviewer.rotate_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/iviewer/iviewer.rotate_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/iviewer/iviewer.zoom_fit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/iviewer/iviewer.zoom_in.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/iviewer/iviewer.zoom_out.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/images/iviewer/iviewer.zoom_zero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/js/html5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/js/jquery-1.11.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/js/jquery.dotdotdot-1.5.9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/js/jquery.dotdotdot-1.5.9.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/js/jquery.iviewer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/js/jquery.iviewer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/js/jquery.mousewheel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/js/jquery.smooth-scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/js/prism.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/js/ui/1.10.4/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/namespaces/EasyJSON.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/namespaces/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/phpdoc-cache-22/phpdoc-cache-file_41490c7e368e29f813beef0e771110ee.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/phpdoc-cache-2e/phpdoc-cache-settings.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/phpdoc-cache-8c/phpdoc-cache-file_a72d39d0c47d1eb7c8a73ec5a4587b0b.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/reports/deprecated.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/reports/errors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phpdoc/reports/markers.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media/response.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media/response.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../php/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../php/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -22,8 +173,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/documentation.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="51" selection-start-line="50" selection-start-column="6" selection-end-line="51" />
+            <state relative-caret-position="306">
+              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -34,8 +185,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="163" column="94" selection-start-line="163" selection-start-column="94" selection-end-line="163" selection-end-column="94" />
+            <state relative-caret-position="15">
+              <caret line="168" column="26" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -46,10 +197,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/javaGuide.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="935">
-              <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="31" />
+            <state relative-caret-position="102">
+              <caret line="368" column="50" selection-start-line="368" selection-start-column="50" selection-end-line="368" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#3536#3540#0" expanded="true" />
+                <element signature="e#3550#3554#0" expanded="true" />
+                <element signature="e#3554#3558#0" expanded="true" />
+                <element signature="e#3568#3572#0" expanded="true" />
+                <element signature="e#3577#3581#0" expanded="true" />
+                <element signature="e#3595#3599#0" expanded="true" />
+                <element signature="e#3590#3594#0" expanded="true" />
+                <element signature="e#3630#3634#0" expanded="true" />
+                <element signature="e#3629#3633#0" expanded="true" />
+                <element signature="e#3656#3660#0" expanded="true" />
+                <element signature="e#3648#3652#0" expanded="true" />
+                <element signature="e#3674#3678#0" expanded="true" />
+                <element signature="e#3665#3669#0" expanded="true" />
+                <element signature="e#3695#3699#0" expanded="true" />
+                <element signature="e#3679#3683#0" expanded="true" />
+                <element signature="e#3715#3719#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +225,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phpGuide.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1955">
-              <caret line="115" column="21" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
+            <state relative-caret-position="357">
+              <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -70,8 +237,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsGuide.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1734">
-              <caret line="102" column="35" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
+            <state relative-caret-position="42">
+              <caret line="373" column="50" selection-start-line="373" selection-start-column="50" selection-end-line="373" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="e#4462#4466#0" expanded="true" />
@@ -106,7 +273,18 @@
       <find>encode a response</find>
       <find>jar</find>
       <find>lang-java</find>
+      <find>panickapps</find>
+      <find>response.zip</find>
+      <find>response.jar</find>
     </findStrings>
+    <replaceStrings>
+      <replace>RayLabz</replace>
+      <replace>responz.zip</replace>
+      <replace>responz.jar</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>/</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -123,10 +301,10 @@
         <option value="$PROJECT_DIR$/js/util.js" />
         <option value="$PROJECT_DIR$/guide.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
-        <option value="$PROJECT_DIR$/phpGuide.html" />
-        <option value="$PROJECT_DIR$/javaGuide.html" />
-        <option value="$PROJECT_DIR$/jsGuide.html" />
         <option value="$PROJECT_DIR$/documentation.html" />
+        <option value="$PROJECT_DIR$/jsGuide.html" />
+        <option value="$PROJECT_DIR$/javaGuide.html" />
+        <option value="$PROJECT_DIR$/phpGuide.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -135,7 +313,7 @@
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -232,17 +410,18 @@
       <workItem from="1564577906083" duration="6433000" />
       <workItem from="1564586432528" duration="224000" />
       <workItem from="1565267407396" duration="61000" />
+      <workItem from="1583186165108" duration="2366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32542000" />
+    <option name="totallyTimeSpent" value="34908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24920969" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24920969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -253,7 +432,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.32827735" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49947312" visible="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.32827735" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -291,30 +470,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/documentation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="51" selection-start-line="50" selection-start-column="6" selection-end-line="51" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaGuide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/phpGuide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="115" column="21" selection-start-line="115" selection-start-column="21" selection-end-line="115" selection-end-column="21" />
+        <state relative-caret-position="306">
+          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
@@ -323,8 +489,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jsGuide.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1734">
-          <caret line="102" column="35" selection-start-line="102" selection-start-column="35" selection-end-line="102" selection-end-column="35" />
+        <state relative-caret-position="42">
+          <caret line="373" column="50" selection-start-line="373" selection-start-column="50" selection-end-line="373" selection-end-column="50" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="e#4462#4466#0" expanded="true" />
@@ -332,17 +498,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/javaGuide.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        <state relative-caret-position="102">
+          <caret line="368" column="50" selection-start-line="368" selection-start-column="50" selection-end-line="368" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#3536#3540#0" expanded="true" />
+            <element signature="e#3550#3554#0" expanded="true" />
+            <element signature="e#3554#3558#0" expanded="true" />
+            <element signature="e#3568#3572#0" expanded="true" />
+            <element signature="e#3577#3581#0" expanded="true" />
+            <element signature="e#3595#3599#0" expanded="true" />
+            <element signature="e#3590#3594#0" expanded="true" />
+            <element signature="e#3630#3634#0" expanded="true" />
+            <element signature="e#3629#3633#0" expanded="true" />
+            <element signature="e#3656#3660#0" expanded="true" />
+            <element signature="e#3648#3652#0" expanded="true" />
+            <element signature="e#3674#3678#0" expanded="true" />
+            <element signature="e#3665#3669#0" expanded="true" />
+            <element signature="e#3695#3699#0" expanded="true" />
+            <element signature="e#3679#3683#0" expanded="true" />
+            <element signature="e#3715#3719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phpGuide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="163" column="94" selection-start-line="163" selection-start-column="94" selection-end-line="163" selection-end-column="94" />
+        <state relative-caret-position="15">
+          <caret line="168" column="26" selection-start-line="168" selection-start-column="26" selection-end-line="168" selection-end-column="26" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
