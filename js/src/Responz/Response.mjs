@@ -1,26 +1,27 @@
 /**
- * Created by PaNickApps - 2019
- * Visit http://www.panickapps.com
+ * Created by RayLabz - 2019
+ * Visit http://www.RayLabz.com
  *
  * Responz - A simple HTTP response modeling library.
  * Provides a simple model for creating HTTP responses.
- * Repository: https://github.com/panickapps/Response
- * Guide: https://panickapps.github.io/Response/
+ * Repository: https://github.com/RayLabz/Responz
+ * Guide: https://RayLabz.github.io/Responz/
  *
  * Apache 2.0 License
  */
 
-/**
- * Defines a status for responses.
- * @type {string}
- */
-export const RESPONSE_OK = "ok";
 
 /**
  * Defines a status for responses.
  * @type {string}
  */
-export const RESPONSE_ERROR = "error";
+export const RESPONSE_OK = "OK";
+
+/**
+ * Defines a status for responses.
+ * @type {string}
+ */
+export const RESPONSE_ERROR = "ERROR";
 
 /**
  * Converts a number to its text representation with a number of trailing zeros.
@@ -39,16 +40,14 @@ Number.prototype.pad = function(size) {
 export class Response {
 
     /**
-     * Creates a Responz object.
+     * Creates a Response object.
      * @param status The status of the response (ok/error)
      * @param title The title of the response
      * @param message The message sent by the response
      * @param data The data requested by the client/sent by the response.
      */
     constructor(status, title, message, data) {
-        const currentDate = new Date();
-        this.timestamp = currentDate.getFullYear() + "-" + (currentDate.getMonth() + 1).pad() + "-" + currentDate.getDate().pad()
-            + " " + currentDate.getHours().pad() + ":" + currentDate.getMinutes().pad() + ":" + currentDate.getSeconds().pad();
+        this.timestamp = Date().now();
         this.status = status;
         this.title = title;
         this.message = message;
@@ -64,7 +63,7 @@ export class Response {
             "status": this.status,
             "title": this.title,
             "message": this.message,
-            "datetime": this.timestamp
+            "timestamp": this.timestamp
         };
         if (this.data != null) {
             out.data = this.data;

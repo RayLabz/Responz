@@ -2,11 +2,160 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="074d8f15-2b49-45dc-b199-133e05d6c619" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javaGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javaGuide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/com/panickapps/response/ErrorResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/com/panickapps/response/InvalidParameterResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/com/panickapps/response/JsonSerializable.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/com/panickapps/response/JsonUtil.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/com/panickapps/response/MissingParameterResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/com/panickapps/response/Response.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/com/panickapps/response/ResponseDateTimeFormat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/com/panickapps/response/ResponseStatus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/com/panickapps/response/SecurityResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/com/panickapps/response/SuccessResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/com/panickapps/response/UnknownFailureResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/com/panickapps/response/package-frame.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/com/panickapps/response/package-summary.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/com/panickapps/response/package-tree.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/package-list" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/package-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/javadoc/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javadoc/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsGuide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/ast/source/.external-ecmascript.js.json" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/ast/source/.external-ecmascript.js.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/ast/source/Response.js.json" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/ast/source/Response.js.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/badge.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/badge.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/class/Response/Response.js~ErrorResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/class/Response/Response.js~InvalidParameterResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/class/Response/Response.js~MissingParameterResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/class/Response/Response.js~Response.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/class/Response/Response.js~SecurityResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/class/Response/Response.js~SuccessResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/class/Response/Response.js~UnknownFailureResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/coverage.json" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/coverage.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/css/github.css" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/css/github.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/css/identifiers.css" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/css/identifiers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/css/manual.css" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/css/manual.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/css/prettify-tomorrow.css" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/css/prettify-tomorrow.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/css/search.css" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/css/search.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/css/source.css" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/css/source.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/css/test.css" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/css/test.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/file/Response/Response.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/identifiers.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/identifiers.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/image/badge.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/image/badge.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/image/manual-badge.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/image/manual-badge.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/index.json" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/index.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/script/inherited-summary.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/script/inherited-summary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/script/inner-link.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/script/inner-link.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/script/manual.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/script/manual.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/script/patch-for-local.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/script/patch-for-local.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/script/prettify/Apache-License-2.0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/script/prettify/Apache-License-2.0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/script/prettify/prettify.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/script/prettify/prettify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/script/pretty-print.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/script/pretty-print.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/script/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/script/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/script/search_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/script/search_index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/script/test-summary.js" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/script/test-summary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/source.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/source.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/jsdoc/variable/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsdoc/variable/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/phpGuide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/classes/EasyJSON.JsonObject.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/classes/ErrorResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/classes/InvalidParameterResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/classes/MissingParameterResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/classes/Response.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/classes/ResponseStatus.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/classes/SecurityResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/classes/SuccessResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/classes/UnknownFailureResponse.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/css/bootstrap-combined.no-icons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/css/jquery.iviewer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/css/phpdocumentor-clean-icons/Read Me.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/css/phpdocumentor-clean-icons/fonts/phpdocumentor-clean-icons.dev.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/css/phpdocumentor-clean-icons/fonts/phpdocumentor-clean-icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/css/phpdocumentor-clean-icons/fonts/phpdocumentor-clean-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/css/phpdocumentor-clean-icons/fonts/phpdocumentor-clean-icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/css/phpdocumentor-clean-icons/fonts/phpdocumentor-clean-icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/css/phpdocumentor-clean-icons/lte-ie7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/css/phpdocumentor-clean-icons/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/css/prism.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/css/template.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/files/EasyJSON.EasyJSON.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/files/EasyJSON/EasyJSON.php.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/files/Response.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/files/Response.php.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/font/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/font/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/font/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/font/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/font/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/graphs/class.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/apple-touch-icon-114x114.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/apple-touch-icon-72x72.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/apple-touch-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/custom-icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/hierarchy-item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/icon-class-13x13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/icon-class.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/icon-interface-13x13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/icon-interface.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/icon-trait-13x13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/icon-trait.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/iviewer/grab.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/iviewer/hand.cur" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/iviewer/iviewer.rotate_left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/iviewer/iviewer.rotate_right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/iviewer/iviewer.zoom_fit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/iviewer/iviewer.zoom_in.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/iviewer/iviewer.zoom_out.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/images/iviewer/iviewer.zoom_zero.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/js/html5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/js/jquery-1.11.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/js/jquery.dotdotdot-1.5.9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/js/jquery.dotdotdot-1.5.9.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/js/jquery.iviewer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/js/jquery.iviewer.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/js/jquery.mousewheel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/js/jquery.smooth-scroll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/js/prism.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/js/ui/1.10.4/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/namespaces/EasyJSON.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/namespaces/default.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/phpdoc-cache-22/phpdoc-cache-file_41490c7e368e29f813beef0e771110ee.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/phpdoc-cache-2e/phpdoc-cache-settings.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/phpdoc-cache-8c/phpdoc-cache-file_a72d39d0c47d1eb7c8a73ec5a4587b0b.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/reports/deprecated.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/reports/errors.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/phpdoc/reports/markers.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Example/Example.js" beforeDir="false" afterPath="$PROJECT_DIR$/Example/Example.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responz/Response.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Responz/Response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Responz/Response.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Responz/Response.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Responz/Response.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../media/response.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../media/response.png" beforeDir="false" />
@@ -23,20 +172,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Responz/Response.mjs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2057">
-              <caret line="121" column="3" selection-start-line="121" selection-start-column="3" selection-end-line="121" selection-end-column="3" />
+            <state relative-caret-position="1210">
+              <caret line="139" column="1" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Responz/Response.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Responz/Responz.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state relative-caret-position="221">
+              <caret line="13" column="3" lean-forward="true" selection-end-line="139" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -61,6 +210,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>panickapps</find>
+    </findStrings>
     <replaceStrings>
       <replace>RayLabz</replace>
     </replaceStrings>
@@ -78,6 +230,7 @@
         <option value="$PROJECT_DIR$/Example/Example.js" />
         <option value="$PROJECT_DIR$/src/Response/Response.mjs" />
         <option value="$PROJECT_DIR$/src/Responz/Response.js" />
+        <option value="$PROJECT_DIR$/src/Responz/Response.mjs" />
       </list>
     </option>
   </component>
@@ -93,6 +246,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,7 +274,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,12 +326,14 @@
       <workItem from="1564577925574" duration="3153000" />
       <workItem from="1564584254047" duration="744000" />
       <workItem from="1564585400711" duration="317000" />
-      <workItem from="1583184548046" duration="560000" />
+      <workItem from="1583184548046" duration="664000" />
+      <workItem from="1583186153544" duration="4000" />
+      <workItem from="1583188102047" duration="59000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8952000" />
+    <option name="totallyTimeSpent" value="9119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -196,7 +351,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31527627" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31527627" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -218,13 +373,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Responz/Response.mjs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="121" column="3" selection-start-line="121" selection-start-column="3" selection-end-line="121" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Example/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -234,8 +382,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Responz/Response.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        <state relative-caret-position="1326">
+          <caret line="78" column="20" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Responz/Responz.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="3" lean-forward="true" selection-end-line="139" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Responz/Response.mjs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="139" column="1" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
         </state>
       </provider>
     </entry>
