@@ -21,8 +21,8 @@ use EasyJSON\JsonObject as JsonObject;
  */
 class ResponseStatus {
 
-    const OK = "ok";
-    const ERROR = "error";
+    const OK = "OK";
+    const ERROR = "ERROR";
 
 }
 

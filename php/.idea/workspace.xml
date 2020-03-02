@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="057677d6-4db0-4431-9c2f-6c73d29bcb0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Response/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/Response/Response.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/.idea/Response (JS).iml" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/Responz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/Example/Example.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/Example/Example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/src/Response/Response.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/src/Responz/Response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/src/Response/Response.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/../js/src/Responz/Response.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media/response.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media/response.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Responz/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/Responz/Response.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,13 +24,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Response/Response.php">
+        <entry file="file://$PROJECT_DIR$/Responz/Response.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-              <folding>
-                <element signature="e#7#314#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="153">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -76,6 +84,7 @@
         <option value="$PROJECT_DIR$/example.php" />
         <option value="$PROJECT_DIR$/Example/example.php" />
         <option value="$PROJECT_DIR$/Response/Response.php" />
+        <option value="$PROJECT_DIR$/Responz/Response.php" />
       </list>
     </option>
   </component>
@@ -110,27 +119,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Response (PHP)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Response (PHP)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="Download" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Response (PHP)" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="Example" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -191,18 +180,19 @@
       <workItem from="1564582778528" duration="114000" />
       <workItem from="1564583388019" duration="1001000" />
       <workItem from="1565335004780" duration="38000" />
-      <workItem from="1583184340712" duration="32000" />
+      <workItem from="1583184340712" duration="160000" />
+      <workItem from="1583184614724" duration="8000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23949000" />
+    <option name="totallyTimeSpent" value="24085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13166311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -235,7 +225,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EasyJSON/Sample.php" />
-    <entry file="file://$PROJECT_DIR$/Response/EasyJSON/EasyJSON.php">
+    <entry file="file://$PROJECT_DIR$/Responz/EasyJSON/EasyJSON.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
@@ -246,13 +236,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSONMapper/JsonMapper.php" />
-    <entry file="file://$PROJECT_DIR$/Response/Response.php">
+    <entry file="file://$PROJECT_DIR$/Responz/Response.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding>
-            <element signature="e#7#314#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
