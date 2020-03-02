@@ -1,25 +1,25 @@
-# Response
+# Responz
 A library providing a simple model for HTTP responses in Java, PHP and JS.
 
-<img src="https://panickapps.github.io/Response/images/response.png" alt="Response" width=150 />
+<img src="https://raylabz.github.io/Responz/images/responz.png" alt="Responz" width=150 />
 
 <p class="justify">
-                Response is a server-side utility library that provides a simplistic model for HTTP responses. It allows software developers
+                Responz is a server-side utility library that provides a simplistic model for HTTP responses. It allows software developers
                 to quickly and easily instantiate various types of responses and convert them into JSON format. They can
                 then be sent as an HTTP response from a server to a client. The library only includes a model without any
                 communication functionality, so it can be used in multiple frameworks and platforms and in both
                 server-side and client-side implementations.
 </p>
 
-<a href="https://github.com/panickapps/Response/raw/master/java/Download/Response.jar" id="download-button-java"
+<a href="https://github.com/raylabz/Responz/raw/master/java/Download/Responz.jar" id="download-button-java"
    class="btn-large waves-effect waves-light red darken-2">Download for Java</a>
 <br class="hide-on-med-and-up" />
 <br class="hide-on-med-and-up" />
-<a href="https://github.com/panickapps/Response/raw/master/php/Download/Response.zip" id="download-button-php"
+<a href="https://github.com/raylabz/Responz/raw/master/php/Download/Responz.zip" id="download-button-php"
    class="btn-large waves-effect waves-light red darken-2">Download for PHP</a>
 <br class="hide-on-med-and-up" />
 <br class="hide-on-med-and-up" />
-<a href="https://github.com/panickapps/Response/raw/master/js/Download/Response.zip" id="download-button-js"
+<a href="https://github.com/raylabz/Responz/raw/master/js/Download/Responz.zip" id="download-button-js"
    class="btn-large waves-effect waves-light red darken-2">Download for JS</a>
 
 <hr/>
@@ -40,20 +40,19 @@ A library providing a simple model for HTTP responses in Java, PHP and JS.
 
 <h5>Java</h5>
 <p class="justify">
-    The Response library is available in Java. You can use this with any Java project, including plain Java (SE),
+    The Responz library is available in Java. You can use this with any Java project, including plain Java (SE),
     Java EE, Android SDK, Google Cloud SDK and more. The Java version uses the
     <a href="https://github.com/google/gson">GSON library</a> to serialize and de-serialize responses automatically.
     The Java version is destined for use both in server and client environments.
     <b>GSON is built-in to the Response library, so you do not need to download and import it separately.</b>
 </p>
 
-<a href="https://github.com/panickapps/Response/raw/master/java/Download/Response.jar" id="download-button-java"
+<a href="https://github.com/raylabz/Responz/raw/master/java/Download/Responz.jar" id="download-button-java"
    class="btn-large waves-effect waves-light red darken-2">Download for Java</a>
 
 <p>Prerequisites:</p>
 <ul class="browser-default">
     <li>Java 8+</li>
-    <li>GSON Library (included)</li>
 </ul>
 
 <a class="btn red darken-2" href="javaGuide.html">View the Java guide</a>
@@ -61,19 +60,18 @@ A library providing a simple model for HTTP responses in Java, PHP and JS.
 
 <h5>PHP</h5>
 <p>
-    A version of the Response library is also available in PHP, mainly for the server-side.
-    The library for PHP uses the <a href="http://panickapps.github.io/EasyJSON/">EasyJSON library</a>
+    A version of the Responz library is also available in PHP, mainly for the server-side.
+    The library for PHP uses the <a href="http://raylabz.github.io/EasyJSON/">EasyJSON library</a>
     and is mainly purposed for serializing PHP objects to JSON objects and formatted text.
     You can also de-serialize JSON text using PHP's native method, <span class="code">json_decode()</span>.
 </p>
 
-<a href="https://github.com/panickapps/Response/raw/master/php/Download/Response.zip" id="download-button-php"
+<a href="https://github.com/raylabz/Responz/raw/master/php/Download/Responz.zip" id="download-button-php"
    class="btn-large waves-effect waves-light red darken-2">Download for PHP</a>
 
 <p>Prerequisites:</p>
 <ul class="browser-default">
     <li>PHP 7.0+</li>
-    <li>EasyJSON library (included)</li>
 </ul>
 
 <a class="btn red darken-2" href="phpGuide.html">View the PHP guide</a>
@@ -81,11 +79,11 @@ A library providing a simple model for HTTP responses in Java, PHP and JS.
 
 <h5>JavaScript</h5>
 <p>
-    The JavaScript version of the Response library is destined for use on both server-side and client-side
+    The JavaScript version of the Responz library is destined for use on both server-side and client-side
     scripts. The library utilizes native JavaScript only, without any use of external libraries.
 </p>
 
-<a href="https://github.com/panickapps/Response/raw/master/js/Download/Response.zip" id="download-button-js"
+<a href="https://github.com/raylabz/Responz/raw/master/js/Download/Responz.zip" id="download-button-js"
    class="btn-large waves-effect waves-light red darken-2">Download for JS</a>
 
 <p>Prerequisites:</p>
@@ -109,6 +107,6 @@ A library providing a simple model for HTTP responses in Java, PHP and JS.
 
 <h4>License</h4>
 
-<p>The Response library is released under the <a href="https://github.com/panickapps/Response/blob/master/LICENSE">Apache 2.0 license.</a></p>
+<p>The Response library is released under the <a href="https://github.com/raylabz/Responz/blob/master/LICENSE">Apache 2.0 license.</a></p>
 
 <hr/>

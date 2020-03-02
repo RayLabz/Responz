@@ -7,43 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c607f86-d3e3-45c7-9a78-380a4ac83df8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Responz__Java__jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Response__Java__jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Download/Response.jar" beforeDir="false" afterPath="$PROJECT_DIR$/Download/Responz.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Response (Java).iml" beforeDir="false" afterPath="$PROJECT_DIR$/Responz (Java).iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Response__Java__jar/Response (Java).jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Response (Java)/com/panickapps/response/ErrorResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Response (Java)/com/panickapps/response/InvalidParameterResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Response (Java)/com/panickapps/response/JsonSerializable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Response (Java)/com/panickapps/response/JsonUtil$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Response (Java)/com/panickapps/response/JsonUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Response (Java)/com/panickapps/response/MissingParameterResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Response (Java)/com/panickapps/response/Response.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Response (Java)/com/panickapps/response/ResponseDateTimeFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Response (Java)/com/panickapps/response/ResponseStatus.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Response (Java)/com/panickapps/response/SecurityResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Response (Java)/com/panickapps/response/SuccessResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Response (Java)/com/panickapps/response/UnknownFailureResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raylabz/responz/ErrorResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raylabz/responz/InvalidParameterResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raylabz/responz/JsonSerializable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raylabz/responz/JsonUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raylabz/responz/MissingParameterResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raylabz/responz/Response.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raylabz/responz/ResponseDateTimeFormat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raylabz/responz/ResponseStatus.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raylabz/responz/SecurityResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raylabz/responz/SuccessResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raylabz/responz/UnknownFailureResponse.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../media/response.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../media/response.png" beforeDir="false" />
@@ -92,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/raylabz/responz/Response.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+            <state relative-caret-position="68">
+              <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -202,7 +166,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-688" />
     <option name="y" value="-21" />
     <option name="width" value="1937" />
@@ -337,15 +301,15 @@
       <workItem from="1564522485781" duration="599000" />
       <workItem from="1564581499523" duration="2868000" />
       <workItem from="1565334412465" duration="144000" />
-      <workItem from="1583185266082" duration="841000" />
+      <workItem from="1583185266082" duration="1941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7928000" />
+    <option name="totallyTimeSpent" value="9028000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26545843" />
@@ -357,13 +321,13 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.31527627" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.31527627" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -481,8 +445,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/raylabz/responz/Response.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+        <state relative-caret-position="68">
+          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
         </state>
       </provider>
     </entry>

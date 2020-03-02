@@ -155,8 +155,6 @@
       <change beforePath="$PROJECT_DIR$/../docs/phpdoc/reports/markers.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responz/Response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Responz/Response.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Responz/Response.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../media/response.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../media/response.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../php/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../php/.idea/workspace.xml" afterDir="false" />
@@ -175,8 +173,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Responz/Response.mjs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1210">
-              <caret line="139" column="1" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
+            <state relative-caret-position="360">
+              <caret line="89" column="45" lean-forward="true" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -328,18 +326,18 @@
       <workItem from="1564585400711" duration="317000" />
       <workItem from="1583184548046" duration="664000" />
       <workItem from="1583186153544" duration="4000" />
-      <workItem from="1583188102047" duration="59000" />
+      <workItem from="1583188102047" duration="165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9119000" />
+    <option name="totallyTimeSpent" value="9225000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11169652" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11169652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -351,7 +349,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31527627" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31527627" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -396,8 +394,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Responz/Response.mjs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="139" column="1" selection-start-line="139" selection-start-column="1" selection-end-line="139" selection-end-column="1" />
+        <state relative-caret-position="360">
+          <caret line="89" column="45" lean-forward="true" selection-start-line="89" selection-start-column="45" selection-end-line="89" selection-end-column="45" />
         </state>
       </provider>
     </entry>
