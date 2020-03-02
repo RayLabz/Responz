@@ -2,7 +2,7 @@
  * Created by PaNickApps - 2019
  * Visit http://www.panickapps.com
  *
- * Response - A simple HTTP response modeling library.
+ * Responz - A simple HTTP response modeling library.
  * Provides a simple model for creating HTTP responses.
  * Repository: https://github.com/panickapps/Response
  * Guide: https://panickapps.github.io/Response/
@@ -39,7 +39,7 @@ Number.prototype.pad = function(size) {
 export class Response {
 
     /**
-     * Creates a Response object.
+     * Creates a Responz object.
      * @param status The status of the response (ok/error)
      * @param title The title of the response
      * @param message The message sent by the response
@@ -47,7 +47,7 @@ export class Response {
      */
     constructor(status, title, message, data) {
         const currentDate = new Date();
-        this.datetime = currentDate.getFullYear() + "-" + (currentDate.getMonth() + 1).pad() + "-" + currentDate.getDate().pad()
+        this.timestamp = currentDate.getFullYear() + "-" + (currentDate.getMonth() + 1).pad() + "-" + currentDate.getDate().pad()
             + " " + currentDate.getHours().pad() + ":" + currentDate.getMinutes().pad() + ":" + currentDate.getSeconds().pad();
         this.status = status;
         this.title = title;
@@ -64,7 +64,7 @@ export class Response {
             "status": this.status,
             "title": this.title,
             "message": this.message,
-            "datetime": this.datetime
+            "datetime": this.timestamp
         };
         if (this.data != null) {
             out.data = this.data;

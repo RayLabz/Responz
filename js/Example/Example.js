@@ -1,4 +1,4 @@
-//Importing Response:
+//Importing Responz:
 import {
     RESPONSE_OK,
     RESPONSE_ERROR,
@@ -9,7 +9,7 @@ import {
     InvalidParameterResponse,
     SecurityResponse,
     UnknownFailureResponse
-} from "../src/Response/Response.mjs";
+} from "../src/Responz/Response.mjs";
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
@@ -137,7 +137,7 @@ console.log(myResponse.toJSON());
 
 //Creating custom responses:
 
-//Create a new response type by extending the Response, ErrorResponse or SuccessResponse classes:
+//Create a new response type by extending the Responz, ErrorResponse or SuccessResponse classes:
 class MyCustomResponse extends SuccessResponse {
     constructor(message) {
         super("Custom title", message, null);
@@ -165,7 +165,7 @@ let decodedResponse = JSON.parse(responseJSON);
 console.log("Status => " + decodedResponse.status);
 console.log("Title => " + decodedResponse.title);
 console.log("Message => " + decodedResponse.message);
-console.log("Date/Time => " + decodedResponse.datetime);
+console.log("Date/Time => " + decodedResponse.timestamp);
 console.log("Data[myNumber] => " + decodedResponse.data.myNumber);
 console.log("Data[myBoolean] => " + decodedResponse.data.myBoolean);
 

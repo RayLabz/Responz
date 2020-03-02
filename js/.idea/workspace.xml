@@ -2,30 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="074d8f15-2b49-45dc-b199-133e05d6c619" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Response/Response.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/documentation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/documentation.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/javaGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/javaGuide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/jsGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/jsGuide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../docs/phpGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/phpGuide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/ErrorResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/ErrorResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/InvalidParameterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/InvalidParameterResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/JsonSerializable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/JsonSerializable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/JsonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/JsonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/MissingParameterResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/MissingParameterResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/ResponseDateTimeFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/ResponseDateTimeFormat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/ResponseStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/ResponseStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/SecurityResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/SecurityResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/SuccessResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/SuccessResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../java/src/com/panickapps/response/UnknownFailureResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java/src/com/panickapps/response/UnknownFailureResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Response/Response.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Response/Response.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example/Example.js" beforeDir="false" afterPath="$PROJECT_DIR$/Example/Example.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Responz/Response.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Responz/Response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Responz/Response.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Responz/Response.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media/response.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../media/response.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../php/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../php/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../php/Response/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/../php/Response/Response.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,28 +24,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Response/Response.mjs">
+        <entry file="file://$PROJECT_DIR$/src/Responz/Response.mjs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
+            <state relative-caret-position="2057">
               <caret line="121" column="3" selection-start-line="121" selection-start-column="3" selection-end-line="121" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Response/Response.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Responz/Response.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="731">
+              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Example/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -75,6 +60,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace>RayLabz</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -87,6 +77,7 @@
         <option value="$PROJECT_DIR$/src/Response.mjs" />
         <option value="$PROJECT_DIR$/Example/Example.js" />
         <option value="$PROJECT_DIR$/src/Response/Response.mjs" />
+        <option value="$PROJECT_DIR$/src/Responz/Response.js" />
       </list>
     </option>
   </component>
@@ -106,24 +97,24 @@
         <subPane>
           <expand>
             <path>
-              <item name="Response (JS)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Responz" type="b2602c69:ProjectViewProjectNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Response (JS)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Responz" type="b2602c69:ProjectViewProjectNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="Example" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Response (JS)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Responz" type="b2602c69:ProjectViewProjectNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Response (JS)" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Responz" type="b2602c69:ProjectViewProjectNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Response" type="462c0819:PsiDirectoryNode" />
+              <item name="Responz" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,21 +173,22 @@
       <workItem from="1564577925574" duration="3153000" />
       <workItem from="1564584254047" duration="744000" />
       <workItem from="1564585400711" duration="317000" />
+      <workItem from="1583184548046" duration="560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8392000" />
+    <option name="totallyTimeSpent" value="8952000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11169652" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -204,7 +196,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.31568018" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31527627" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -216,13 +208,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Response.mjs" />
-    <entry file="file://$PROJECT_DIR$/src/Response/Response.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Example/Example.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -233,9 +218,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Response/Response.mjs">
+    <entry file="file://$PROJECT_DIR$/src/Responz/Response.mjs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
+        <state relative-caret-position="2057">
           <caret line="121" column="3" selection-start-line="121" selection-start-column="3" selection-end-line="121" selection-end-column="3" />
         </state>
       </provider>
@@ -243,7 +228,14 @@
     <entry file="file://$PROJECT_DIR$/Example/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Responz/Response.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
         </state>
       </provider>
     </entry>
