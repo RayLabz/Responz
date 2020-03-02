@@ -1,7 +1,7 @@
 # Responz
 A library providing a simple model for HTTP responses in Java, PHP and JS.
 
-<img src="https://raylabz.github.io/Responz/images/responz.png" alt="Responz" width=150 />
+<img src="https://raylabz.github.io/Responz/media/responz.png" alt="Responz" width=150 />
 
 <p class="justify">
                 Responz is a server-side utility library that provides a simplistic model for HTTP responses. It allows software developers
