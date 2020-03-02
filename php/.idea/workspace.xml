@@ -3,15 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="057677d6-4db0-4431-9c2f-6c73d29bcb0b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../js/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../js/.idea/Response (JS).iml" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/Responz.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../js/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../js/Example/Example.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/Example/Example.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../js/src/Response/Response.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/src/Responz/Response.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../js/src/Response/Response.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/../js/src/Responz/Response.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/src/Responz/Response.js" beforeDir="false" afterPath="$PROJECT_DIR$/../js/src/Responz/Response.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../js/src/Responz/Response.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/../js/src/Responz/Response.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../media/response.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../media/response.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Responz/Response.php" beforeDir="false" afterPath="$PROJECT_DIR$/Responz/Response.php" afterDir="false" />
     </list>
@@ -26,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Responz/Response.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+            <state relative-caret-position="187">
+              <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -181,12 +179,12 @@
       <workItem from="1564583388019" duration="1001000" />
       <workItem from="1565335004780" duration="38000" />
       <workItem from="1583184340712" duration="160000" />
-      <workItem from="1583184614724" duration="8000" />
+      <workItem from="1583184614724" duration="297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24085000" />
+    <option name="totallyTimeSpent" value="24374000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -238,8 +236,8 @@
     <entry file="file://$PROJECT_DIR$/JSONMapper/JsonMapper.php" />
     <entry file="file://$PROJECT_DIR$/Responz/Response.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        <state relative-caret-position="187">
+          <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
         </state>
       </provider>
     </entry>

@@ -34,18 +34,18 @@ class Response extends JsonObject {
     const STATUS_TAG = "status";
     const TITLE_TAG = "title";
     const MESSAGE_TAG = "message";
-    const DATETIME_TAG = "datetime";
+    const TIMESTAMP_TAG = "timestamp";
     const DATA_TAG = "data";
 
     private $status;
     private $title;
     private $message;
-    private $date;
+    private $timestamp;
     private $data;
 
     /**
      * Response constructor
-     * @param $status ResponseStatus The status of the response.
+     * @param $status string The status of the response.
      * @param $title string The title of the response.
      * @param $message string The message of the response.
      * @param $data object The data of the response.
@@ -54,7 +54,7 @@ class Response extends JsonObject {
         $this->status = $status;
         $this->title = $title;
         $this->message = $message;
-        $this->date = date("Y-m-d H:i:s");
+        $this->timestamp = round(microtime(true) * 1000);
         $this->data = $data;
     }
 
@@ -103,15 +103,15 @@ class Response extends JsonObject {
     /**
      * @return false|string The date-time of the response.
      */
-    public function getDate() {
-        return $this->date;
+    public function getTimestamp() {
+        return $this->timestamp;
     }
 
     /**
-     * @param false|string $date The date-time of the response.
+     * @param false|string $timestamp The date-time of the response.
      */
-    public function setDate($date) {
-        $this->date = $date;
+    public function setTimestamp($timestamp) {
+        $this->timestamp = $timestamp;
     }
 
     /**
@@ -136,7 +136,7 @@ class Response extends JsonObject {
         $object[self::STATUS_TAG] = $this->status;
         $object[self::TITLE_TAG] = $this->title;
         $object[self::MESSAGE_TAG] = $this->message;
-        $object[self::DATETIME_TAG] = $this->date;
+        $object[self::TIMESTAMP_TAG] = $this->timestamp;
         if ($this->data != null) {
             $object[self::DATA_TAG] = $this->data;
         }
