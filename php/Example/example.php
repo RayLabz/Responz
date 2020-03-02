@@ -1,7 +1,7 @@
 <?php
 
 //Import the file Response.php:
-require_once("Response/Response.php");
+require_once("Responz/Response.php");
 
 //Creating a response without data:
 
