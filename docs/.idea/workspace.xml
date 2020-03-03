@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba26418d-7442-46c0-ba5e-4697eb4118ad" name="Default Changelist" comment="" />
+    <list default="true" id="ba26418d-7442-46c0-ba5e-4697eb4118ad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaGuide.html" beforeDir="false" afterPath="$PROJECT_DIR$/javaGuide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/ErrorResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/InvalidParameterResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/JsonSerializable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/JsonUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/JsonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/MissingParameterResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/ResponseDateTimeFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/ResponseStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/SecurityResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/SuccessResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/UnknownFailureResponse.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -25,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
+            <state relative-caret-position="-969">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -37,29 +53,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javaGuide.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="368" column="50" selection-start-line="368" selection-start-column="50" selection-end-line="368" selection-end-column="50" />
+            <state relative-caret-position="207">
+              <caret line="157" column="132" selection-start-line="157" selection-start-column="132" selection-end-line="157" selection-end-column="132" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#3536#3540#0" expanded="true" />
-                <element signature="e#3550#3554#0" expanded="true" />
-                <element signature="e#3554#3558#0" expanded="true" />
-                <element signature="e#3568#3572#0" expanded="true" />
-                <element signature="e#3577#3581#0" expanded="true" />
-                <element signature="e#3595#3599#0" expanded="true" />
-                <element signature="e#3590#3594#0" expanded="true" />
-                <element signature="e#3630#3634#0" expanded="true" />
-                <element signature="e#3629#3633#0" expanded="true" />
-                <element signature="e#3656#3660#0" expanded="true" />
-                <element signature="e#3648#3652#0" expanded="true" />
-                <element signature="e#3674#3678#0" expanded="true" />
-                <element signature="e#3665#3669#0" expanded="true" />
-                <element signature="e#3695#3699#0" expanded="true" />
-                <element signature="e#3679#3683#0" expanded="true" />
-                <element signature="e#3715#3719#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,7 +68,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/phpGuide.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
+            <state relative-caret-position="1326">
               <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -80,11 +80,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsGuide.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
+            <state relative-caret-position="6341">
               <caret line="373" column="50" selection-start-line="373" selection-start-column="50" selection-end-line="373" selection-end-column="50" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#4462#4466#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,11 +118,15 @@
       <find>panickapps</find>
       <find>response.zip</find>
       <find>response.jar</find>
+      <find>response</find>
+      <find>responz.jar</find>
+      <find>datetime</find>
     </findStrings>
     <replaceStrings>
       <replace>RayLabz</replace>
       <replace>responz.zip</replace>
       <replace>responz.jar</replace>
+      <replace />
     </replaceStrings>
     <dirStrings>
       <dir>/</dir>
@@ -146,9 +149,9 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/documentation.html" />
         <option value="$PROJECT_DIR$/jsGuide.html" />
-        <option value="$PROJECT_DIR$/javaGuide.html" />
         <option value="$PROJECT_DIR$/phpGuide.html" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/javaGuide.html" />
       </list>
     </option>
   </component>
@@ -164,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,6 +193,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,12 +256,13 @@
       <workItem from="1564577906083" duration="6433000" />
       <workItem from="1564586432528" duration="224000" />
       <workItem from="1565267407396" duration="61000" />
-      <workItem from="1583186165108" duration="3121000" />
+      <workItem from="1583186165108" duration="3360000" />
+      <workItem from="1583271068528" duration="68000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35663000" />
+    <option name="totallyTimeSpent" value="35970000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -313,13 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/documentation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -330,46 +327,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jsGuide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="373" column="50" selection-start-line="373" selection-start-column="50" selection-end-line="373" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4462#4466#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/javaGuide.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="368" column="50" selection-start-line="368" selection-start-column="50" selection-end-line="368" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3536#3540#0" expanded="true" />
-            <element signature="e#3550#3554#0" expanded="true" />
-            <element signature="e#3554#3558#0" expanded="true" />
-            <element signature="e#3568#3572#0" expanded="true" />
-            <element signature="e#3577#3581#0" expanded="true" />
-            <element signature="e#3595#3599#0" expanded="true" />
-            <element signature="e#3590#3594#0" expanded="true" />
-            <element signature="e#3630#3634#0" expanded="true" />
-            <element signature="e#3629#3633#0" expanded="true" />
-            <element signature="e#3656#3660#0" expanded="true" />
-            <element signature="e#3648#3652#0" expanded="true" />
-            <element signature="e#3674#3678#0" expanded="true" />
-            <element signature="e#3665#3669#0" expanded="true" />
-            <element signature="e#3695#3699#0" expanded="true" />
-            <element signature="e#3679#3683#0" expanded="true" />
-            <element signature="e#3715#3719#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phpGuide.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="1326">
           <caret line="78" column="31" selection-start-line="78" selection-start-column="31" selection-end-line="78" selection-end-column="31" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -377,10 +337,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/jsGuide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6341">
+          <caret line="373" column="50" selection-start-line="373" selection-start-column="50" selection-end-line="373" selection-end-column="50" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="70" column="23" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
+        <state relative-caret-position="-969">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaGuide.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="157" column="132" selection-start-line="157" selection-start-column="132" selection-end-line="157" selection-end-column="132" />
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#li#0;n#ul#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
