@@ -100,7 +100,7 @@ A library providing a simple model for HTTP responses in Java, PHP and JS.
 <h4>Documentation</h4>
 
 <p>
-    For the documentation please visit our <a href="documentation.html">documentation page</a>.
+    For the documentation please visit our <a href="https://raylabz.github.io/Responz/documentation.html">documentation page</a>.
 </p>
 
 <hr/>
