@@ -58,7 +58,6 @@
             <h4>Contents</h4>
 
             <ol>
-                <li><a href="#prerequisites">Prerequisites</a></li>
                 <li><a href="#download">Download and import</a></li>
                 <li><a href="#components">Attributes of a response</a></li>
                 <li><a href="#predef">Using pre-defined responses</a></li>
@@ -72,28 +71,28 @@
 
             <hr/>
 
-            <h5 id="prerequisites">Prerequisites</h5>
-
-            <ul class="browser-default">
-                <li>Java 8+</li>
-            </ul>
-
             <h5 id="download">Download/import</h5>
 
-            <p class="justify">You can import Responz using Maven:</p>
+            <p>You can automatically import Responz in your project using Maven or Gradle:</p>
 
-            <pre class="prettyprint lang-xml">com.raylabz:responz:1.0.0</pre>
+            <p><b><u>Maven:</u></b></p>
 
-            <p class="justify">Inside pom.xml:</p>
-            <pre class="prettyprint lang-xml">
+            <pre class="prettyprint">
 &lt;dependency&gt;
-    &lt;groupId&gt;com.raylabz&lt;/groupId&gt;
-    &lt;artifactId&gt;responz&lt;/artifactId&gt;
-    &lt;version&gt;1.0.0&lt;/version&gt;
+  &lt;groupId&gt;com.raylabz&lt;/groupId&gt;
+  &lt;artifactId&gt;responz&lt;/artifactId&gt;
+  &lt;version&gt;1.0.0&lt;/version&gt;
 &lt;/dependency&gt;</pre>
 
-            <p class="justify">Alternatively, download and import the Responz library for Java as a .jar file.</p>
-            <a href="https://github.com/RayLabz/Responz/raw/master/java/Download/Responz.jar" class="btn red white-text">Download .JAR</a>
+            <p><b><u>Gradle:</u></b></p>
+
+            <pre class="prettyprint">implementation 'com.raylabz:responz:1.0.0'</pre>
+
+            <p>
+                Alternatively, you can download Responz as a .jar library:
+            </p>
+
+            <a class="btn red darken-2" href="https://github.com/RayLabz/Responz/raw/master/java/Download/Responz.jar">Download .jar</a>
 
             <hr/>
             <h5 id="components">Attributes of a response</h5>
