@@ -135,7 +135,7 @@ public class Response implements JsonSerializable {
         responseJson.addProperty(STATUS_TAG, status.toString());
         responseJson.addProperty(TITLE_TAG, title);
         responseJson.addProperty(MESSAGE_TAG, message);
-        responseJson.addProperty(TIMESTAMP_TAG, ResponseDateTimeFormat.STANDARD.format(timestamp));
+        responseJson.addProperty(TIMESTAMP_TAG, timestamp);
         if (data != null) {
             responseJson.add(DATA_TAG, data);
         }
