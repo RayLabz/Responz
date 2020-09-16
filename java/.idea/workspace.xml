@@ -7,33 +7,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c607f86-d3e3-45c7-9a78-380a4ac83df8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../docs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Responz__Java__jar/Responz (Java).jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Responz__Java__jar/Responz (Java).jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/raylabz/responz/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/raylabz/responz/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/raylabz/responz/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/raylabz/responz/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/allclasses-noframe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/ErrorResponse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/ErrorResponse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/InvalidParameterResponse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/InvalidParameterResponse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/JsonSerializable.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/JsonSerializable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/JsonUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/JsonUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/MissingParameterResponse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/MissingParameterResponse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/Response.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/Response.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/ResponseDateTimeFormat.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/ResponseDateTimeFormat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/ResponseStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/ResponseStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/SecurityResponse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/SecurityResponse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/SuccessResponse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/SuccessResponse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/UnknownFailureResponse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/UnknownFailureResponse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/ErrorResponse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/ErrorResponse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/InvalidParameterResponse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/InvalidParameterResponse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/JsonSerializable.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/JsonSerializable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/JsonUtil.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/JsonUtil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/MissingParameterResponse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/MissingParameterResponse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/Response.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/Response.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/ResponseDateTimeFormat.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/ResponseDateTimeFormat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/ResponseStatus.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/ResponseStatus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/SecurityResponse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/SecurityResponse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/SuccessResponse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/SuccessResponse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/UnknownFailureResponse.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/class-use/UnknownFailureResponse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/package-frame.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/package-frame.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/com/raylabz/responz/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/constant-values.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/constant-values.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/deprecated-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/help-doc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/help-doc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index-all.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index-all.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/apidocs/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/apidocs/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/.index" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/1.0.0/responz-1.0.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/1.0.0/responz-1.0.0-javadoc.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/1.0.0/responz-1.0.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/1.0.0/responz-1.0.0-sources.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/1.0.0/responz-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/1.0.0/responz-1.0.0.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/1.0.0/responz-1.0.0.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/1.0.0/responz-1.0.0.pom.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/1.0.1/responz-1.0.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/1.0.1/responz-1.0.1-javadoc.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/1.0.1/responz-1.0.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/1.0.1/responz-1.0.1-sources.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/1.0.1/responz-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/1.0.1/responz-1.0.1.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/1.0.1/responz-1.0.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/1.0.1/responz-1.0.1.pom.asc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/maven-metadata-nexus.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/nexus-staging/staging/316776b98fcef2/com/raylabz/responz/maven-metadata-nexus.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/responz-1.0.0-javadoc.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/responz-1.0.0-javadoc.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/responz-1.0.0-sources.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/responz-1.0.0-sources.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/responz-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/responz-1.0.0.jar.asc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/responz-1.0.0.pom" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/responz-1.0.0.pom.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/responz-1.0.1-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/responz-1.0.1-javadoc.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/responz-1.0.1-sources.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/responz-1.0.1-sources.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/responz-1.0.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/responz-1.0.1.jar.asc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/responz-1.0.1.pom" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/responz-1.0.1.pom.asc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../php/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../php/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,12 +96,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1156" />
-    <option name="y" value="-8" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
-  </component>
   <component name="ProjectId" id="1c1hD72L3o4s160AOeUVqAT2kNj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -82,6 +108,7 @@
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
@@ -94,6 +121,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -147,12 +175,35 @@
       <workItem from="1565334412465" duration="144000" />
       <workItem from="1583185266082" duration="4360000" />
       <workItem from="1583267993661" duration="97000" />
-      <workItem from="1589701885450" duration="424000" />
+      <workItem from="1589701885450" duration="635000" />
+      <workItem from="1600294275723" duration="377000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="706" y="228" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1589702460713">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="706" y="228" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1589702460713" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1589702520066">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1589702520066" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1589702520065">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1589702520065" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1589702520065">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1589702520065" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1589702520066">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1080@0.0.1920.1040" timestamp="1589702520066" />
   </component>
   <component name="masterDetails">
     <states>

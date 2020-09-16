@@ -91,6 +91,14 @@ public class Response implements JsonSerializable {
     }
 
     /**
+     * Sets the timestamp of the response.
+     * @param timestamp The timestamp to set.
+     */
+    public void setTimestamp(long timestamp) {
+        this.timestamp = timestamp;
+    }
+
+    /**
      * Retrieves the data of the response.
      * @return JsonObject.
      */

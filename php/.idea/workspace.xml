@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="057677d6-4db0-4431-9c2f-6c73d29bcb0b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../js/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../js/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../media/response.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../media/response.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../docs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../docs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../java/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/ErrorResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/InvalidParameterResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/JsonSerializable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/JsonUtil$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/JsonUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/MissingParameterResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/Response.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/ResponseDateTimeFormat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/ResponseStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/SecurityResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/SuccessResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java/target/classes/com/raylabz/responz/UnknownFailureResponse.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +28,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Responz/Response.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="34">
+              <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <folding>
+                <element signature="e#7#309#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -27,7 +40,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Example/example.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
+            <state relative-caret-position="2023">
               <caret line="119" selection-start-line="119" selection-end-line="119" />
             </state>
           </provider>
@@ -184,16 +197,18 @@
       <workItem from="1565335004780" duration="38000" />
       <workItem from="1583184340712" duration="160000" />
       <workItem from="1583184614724" duration="601000" />
+      <workItem from="1584393811028" duration="157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24678000" />
+    <option name="totallyTimeSpent" value="24835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13166311" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -237,24 +252,27 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JSONMapper/JsonMapper.php" />
-    <entry file="file://$PROJECT_DIR$/Example/Person.php">
+    <entry file="file://$PROJECT_DIR$/Responz/Response.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="1" selection-start-line="2" selection-end-line="65" selection-end-column="1" />
+        <state relative-caret-position="34">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding>
+            <element signature="e#7#309#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Example/example.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
+        <state relative-caret-position="2023">
           <caret line="119" selection-start-line="119" selection-end-line="119" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Responz/Response.php">
+    <entry file="file://$PROJECT_DIR$/Example/Person.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="1105">
+          <caret line="65" column="1" selection-start-line="2" selection-end-line="65" selection-end-column="1" />
         </state>
       </provider>
     </entry>
